@@ -31,17 +31,8 @@ f = open('db/cards.json')
 cards_db = json.load(f)
 decks_vectorizer = Vectorizer(cards_db)
 decks_vectorizer.initialize()
+decks_vectorizer.vectorize_from_sample(decks_csv)
 vectorizers = decks_vectorizer.vectorizers
-
-
-for n in decks_csv:
-    craft = n.split(os.sep)[1]
-    craft = craft.split('-')[0]
-    df = pd.read_csv(n, header=None)
-    df_list = df.values.tolist()
-    df_list = df_list[1:]
-    vectorizers[craft].vectorize(df_list)
-
 
 name_out = sys.argv[1] if sys.argv[1] is not None else 'unknown-meta.json'
 output = {}
