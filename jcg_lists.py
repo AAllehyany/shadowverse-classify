@@ -20,20 +20,25 @@ def main(argv):
     try:
         opts, args = getopt(argv, 'c:')
 
+        if not os.path.exists('samples'):
+            os.makedirs('samples')
+
+        for opt, arg in opts:
+            if opt == "-c":
+                jcg_code = arg
+
+        sv_portal = SVPortalParser(format_data={})
+        scraper = JCGScraper(jcg_code, parser=sv_portal)
+        scraper.scrape_entries()
+
+        for idx, deck in enumerate(scraper.deck_cards):
+            write_list(deck, idx)
+
     except GetoptError:
         print('jcg_lists.py -c <jcg-code>')
         sys.exit(2)
 
-    for opt, arg in opts:
-        if opt == "-c":
-            jcg_code = arg
-
-    sv_portal = SVPortalParser(format_data={})
-    scraper = JCGScraper(jcg_code, parser=sv_portal)
-    scraper.scrape_entries()
-
-    for idx, deck in enumerate(scraper.deck_cards):
-        write_list(deck, idx)
+    
 
 if __name__ == "__main__":
     main(sys.argv[1:])

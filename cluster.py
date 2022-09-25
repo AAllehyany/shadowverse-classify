@@ -24,6 +24,10 @@ def decks_by_label(a_label, _labeled):
 
 
 def start_cluster(format_name=""):
+
+    if not os.path.exists('samples'):
+        print('Unable to locate samples folder')
+        sys.exit(2)
     output = {}
 
     decks_csv = glob("samples/*.csv")

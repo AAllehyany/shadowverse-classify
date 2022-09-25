@@ -11,6 +11,9 @@ def analyzer(argv):
 
 
     try:
+        if not os.path.exists('jcg-data'):
+            os.makedirs('jcg-data')
+        
         format = ""
         jcg_code = ""
         opts, args = getopt.getopt(argv, 'c:f:')
