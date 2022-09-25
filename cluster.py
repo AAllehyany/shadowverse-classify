@@ -5,7 +5,7 @@ import random
 import sys
 import pandas as pd
 import numpy as np
-from sklearn.cluster import KMeans
+from sklearn.cluster import KMeans, DBSCAN
 import matplotlib.pyplot as plt
 
 from vectorizer import Vectorizer
@@ -49,6 +49,7 @@ def start_cluster(format_name="", num_clusters=4):
     decks_vectorizer.vectorize_from_sample(decks_csv)
     vectorizers = decks_vectorizer.vectorizers
 
+    
     if(os.path.exists(format_name)):
         f_format = open(format_name)
         output = json.load(f_format)
@@ -65,6 +66,13 @@ def start_cluster(format_name="", num_clusters=4):
         km.fit(vectorizer.vectorized)
         km_labels = km.labels_
         labeled_decks = list(zip(vectorizer.decks, km_labels))
+
+        # db_ = DBSCAN(eps=0.3, min_samples=10)
+        # db_.fit(vectorizer.vectorized)
+        # db_labels = db_.labels_
+        # labeled_decks = list(zip(vectorizer.decks, db_labels))
+        # num_c = len(set(db_labels)) - (1 if -1 in db_labels else 0)
+
         
         for cluster_id in range(num_clusters):
             cluster_decks = decks_by_label(cluster_id, labeled_decks)
