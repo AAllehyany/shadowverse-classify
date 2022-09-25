@@ -66,10 +66,10 @@ def analyzer(argv):
         archetype_df = decks_data_df['archetype'].value_counts()
         craft_df = decks_data_df['craft'].value_counts()
 
-        players_data_df.to_csv(os.path.join(outdir, f'lineups-{jcg_code}.csv'), index=False)
-        decks_data_df.to_csv(os.path.join(outdir, f"classified_decks-{jcg_code}.csv"), index=False)
-        archetype_df.to_csv(os.path.join(outdir, f"archetypes-{jcg_code}.csv"))
-        craft_df.to_csv(os.path.join(outdir, f"crafts-{jcg_code}.csv"))
+        players_data_df.to_csv(os.path.join(outdir, f'{scraper.jcg_date}-lineups.csv'), index=False)
+        decks_data_df.to_csv(os.path.join(outdir, f"{scraper.jcg_date}-classified-decks.csv"), index=False)
+        archetype_df.to_csv(os.path.join(outdir, f"{scraper.jcg_date}-archetypes-data.csv"))
+        craft_df.to_csv(os.path.join(outdir, f"{scraper.jcg_date}-crafts-data.csv"))
     except getopt.GetoptError:
         print('analyzer.py -c <jcg-code> -f <format-file>')
         sys.exit(2)
