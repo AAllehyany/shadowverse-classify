@@ -90,6 +90,10 @@ class SVPortalParser:
         craft : str
             the craft the deck belongs to
         """
+
+        if craft not in self.archetypes:
+            return ""
+        
         craft_archetypes = self.archetypes[craft]
         current_score = 0
         current_archetype = ""
