@@ -1,4 +1,5 @@
 
+from operator import itemgetter
 import pandas as pd
 import time
 from selenium import webdriver
@@ -42,14 +43,26 @@ class JCGScraper:
         for entry in entries:
             decks = entry.find_element(By.CLASS_NAME, 'entry-deck')
             decks = [link.get_attribute('href') for link in decks.find_elements(By.TAG_NAME, 'a')]
-            name = entry.find_element(By.CLASS_NAME, 'name-main').text.strip()
+            user = entry.find_element(By.CLASS_NAME, 'name-main')
+            id = user.get_attribute('href').split('/')[-1]
+            name = user.text.strip()
+
+            parsed_decks = []
+
+            for deck in decks:
+                parsed_deck = SVPortalParser(deck)
+                parsed_deck.parse_deck()
+                parsed_deck.find_archetype()
+                parsed_decks.append(parsed_deck.get_deck_data())
+            
             player_dict = {
                 "name": name,
-                "decks": decks,
-                "top": 0
+                "decks": parsed_decks,
+                "top": 0,
+                "id": id
             }
 
-            self.entry_decks[name] = player_dict
+            self.entry_decks[id] = player_dict
         
 
     def scrape_results(self):
@@ -58,16 +71,11 @@ class JCGScraper:
         entries = driver.find_elements(By.CSS_SELECTOR, '.result-1')
 
         for entry in entries:
-            decks = entry.find_element(By.CLASS_NAME, 'result-deck')
-            decks = [link.get_attribute('href') for link in decks.find_elements(By.TAG_NAME, 'a')]
-            name = entry.find_element(By.CLASS_NAME, 'result-name').text.strip()
-            player_dict = {
-                "name": name,
-                "decks": decks,
-                "top": 0
-            }
-
-            self.entry_decks[name] = player_dict
+            user = entry.find_element(By.CLASS_NAME, 'result-name')
+            id = user.find_element(By.TAG_NAME, 'a').get_attribute('href').split('/')[-1]
+            if id in self.entry_decks:
+                self.entry_decks[id]["top"] += 4
+            
         
         driver.close()
 
@@ -75,15 +83,20 @@ class JCGScraper:
 
 jcg_code = "J1kNoaYPvxQx"
 scraper = JCGScraper(jcg_code)
+scraper.scrape_entries()
 scraper.scrape_results()
 
-for (player, data) in scraper.entry_decks.items():
+jcg_data = scraper.entry_decks.values()
+sorted_data = sorted(jcg_data, key=itemgetter("top"), reverse=True)
 
-    for deck in data["decks"]:
+
+for i in range(0, 10):
+    print(sorted_data[i])
+    # for deck in data["decks"]:
         
-        parsed_deck = SVPortalParser(deck)
-        parsed_deck.parse_deck()
-        parsed_deck.find_archetype()
+    #     parsed_deck = SVPortalParser(deck)
+    #     parsed_deck.parse_deck()
+    #     parsed_deck.find_archetype()
 
 # df = pd.DataFrame.from_dict(scraper.entry_decks, orient='index', columns=['name', 'deck1', 'deck2', 'top'])
 # df.to_csv(f'{jcg_code}-decks.csv', index=False)
