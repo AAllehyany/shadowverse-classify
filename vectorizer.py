@@ -1,5 +1,6 @@
 import numpy as np
-
+import pandas as pd
+import os
 
 class Vectorizer:
 
@@ -26,6 +27,15 @@ class Vectorizer:
             return
         
         self.vectorizers[craft].vectorize(deck)
+
+    def vectorize_from_sample(self, sample_folder):
+        for n in sample_folder:
+            craft = n.split(os.sep)[1]
+            craft = craft.split('-')[0]
+            df = pd.read_csv(n, header=None)
+            df_list = df.values.tolist()
+            df_list = df_list[1:]
+            self.vectorizers[craft].vectorize(df_list)
 
 class ClassVectorizer:
 
