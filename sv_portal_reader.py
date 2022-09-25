@@ -11,6 +11,7 @@ class SVPortalParser:
         self.deck = {}
         self.hash_list = []
         self.craft = ""
+        self.cards = []
 
     def parse_craft(self):
         classes = ['forest', 'sword', 'rune', 'dragon', 'shadow', 'blood', 'haven', 'portal']
@@ -35,7 +36,7 @@ class SVPortalParser:
         deck_df = pd.merge(d, hashes)[['count', 'card_name']]
         deck_df = deck_df.groupby('card_name', as_index = False).agg('sum')
 
-        self.deck["cards"] = deck_df.values.tolist()
+        self.cards = deck_df.values.tolist()
     
     def find_archetype(self):
         f = open('./roar-of-godwyrm.json')
@@ -45,24 +46,27 @@ class SVPortalParser:
         current_score = 0
         current_archetype = ""
 
-        # for each archetype => check score.
-        # if current score is max => make it archetype
-
         for (name, details) in craft_archetypes.items():
             archetype_score = 0
             for card in details["feature_cards"]:
-                for (card_n, copies) in self.deck["cards"]:
+                for (card_n, copies) in self.cards:
                     if card_n == card:
                         archetype_score += copies
 
             if archetype_score > current_score:
                 current_score = archetype_score
                 current_archetype = name  
+
         
-        print('\n--------')
-        print(f'this deck belongs to {current_archetype}.')
-        print(*self.deck["cards"])
-        print('--------\n')
+        self.archetype = current_archetype
+
+
+    def get_deck_data(self):
+        return {
+            "link": self.deck_link,
+            "archetype": self.archetype,
+            "craft": self.craft
+        }
 
             
 
