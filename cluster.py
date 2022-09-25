@@ -10,7 +10,6 @@ import matplotlib.pyplot as plt
 
 from vectorizer import Vectorizer
 
-NUM_CLUSTERS = 4
 NUM_TOP_VERS = 30
 
 
@@ -23,8 +22,17 @@ def decks_by_label(a_label, _labeled):
     return [(deck, label) for (deck, label) in _labeled if label == a_label]
 
 
-def start_cluster(format_name=""):
+def start_cluster(format_name="", num_clusters=4):
+    """Clusters each craft into 4 different decks to identify archetypes.
 
+    This method separates all decks into their proper craft vectorizer,
+    and then iterates over the vectorizers to detect different archetypes.
+
+    If a cluster is named the same as another cluster, they will be merged 
+    together and their cards will form a set. However, you can still end up
+    with four different clusters for each craft, and you can 
+    change n_clusters to how many clusters you want.
+    """
     if not os.path.exists('samples'):
         print('Unable to locate samples folder')
         sys.exit(2)
@@ -53,12 +61,12 @@ def start_cluster(format_name=""):
             archetypes = output[craft]
 
 
-        km = KMeans(n_clusters=NUM_CLUSTERS)
+        km = KMeans(n_clusters=num_clusters)
         km.fit(vectorizer.vectorized)
         km_labels = km.labels_
         labeled_decks = list(zip(vectorizer.decks, km_labels))
         
-        for cluster_id in range(NUM_CLUSTERS):
+        for cluster_id in range(num_clusters):
             cluster_decks = decks_by_label(cluster_id, labeled_decks)
             
             print('\n--- Detected new group')
