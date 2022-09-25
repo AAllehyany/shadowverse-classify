@@ -2,6 +2,7 @@ from glob import glob
 import json
 import os
 import random
+import sys
 from traceback import print_tb
 import pandas as pd
 import numpy as np
@@ -30,7 +31,7 @@ def decks_by_label(a_label, _labeled):
 
 crafts = ['forest', 'sword', 'rune', 'dragon', 'shadow', 'blood', 'haven', 'portal']
 
-decks_csv = glob("jcg-decks/*.csv")
+decks_csv = glob("training/*.csv")
 
 vectorizers = dict((craft, ClassVectorizer(craft)) for craft in crafts)
 
@@ -92,7 +93,7 @@ for (craft, vectorizer) in vectorizers.items():
 
     output[craft] = archetypes
 
-
+name_out = sys.argv[1] if sys.argv[1] is not None else 'roar.json'
 #out put details into a file
-with open('roar-of-godwyrm.json', 'w') as out:
+with open(name_out, 'w') as out:
     json.dump(output, out, indent=4)
