@@ -37,6 +37,7 @@ class SVPortalParser:
         deck_df = deck_df.groupby('card_name', as_index = False).agg('sum')
 
         self.cards = deck_df.values.tolist()
+        self.cards_df = deck_df
     
     def find_archetype(self):
         f = open('./roar-of-godwyrm.json')
