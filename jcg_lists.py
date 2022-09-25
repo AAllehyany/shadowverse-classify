@@ -16,8 +16,6 @@ def write_list(parsed_deck, i):
 def main(argv):
 
     jcg_code = ''
-    outdir = './samples'
-
 
     try:
         opts, args = getopt(argv, 'c:')
@@ -29,10 +27,8 @@ def main(argv):
     for opt, arg in opts:
         if opt == "-c":
             jcg_code = arg
-    
-    f = open('./roar-of-the-godwyrm.json')
-    data = json.load(f)
-    sv_portal = SVPortalParser(format_data=data)
+
+    sv_portal = SVPortalParser(format_data={})
     scraper = JCGScraper(jcg_code, parser=sv_portal)
     scraper.scrape_entries()
 
