@@ -20,6 +20,7 @@ class JCGScraper:
         self.jcg_code = jcg_code
         self.sv_portal_praser = parser
         self.deck_cards = []
+        self.jcg_date = ""
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
 
@@ -45,7 +46,8 @@ class JCGScraper:
                 break
 
         entries = self.driver.find_elements(By.CSS_SELECTOR, '.entry.winner')
-
+        date = self.driver.find_element(By.CLASS_NAME, 'competition-date')
+        self.jcg_date = (date.text.split('\n')[0].replace('.', ''))
         for entry in entries:
             decks = entry.find_element(By.CLASS_NAME, 'entry-deck')
             decks = [link.get_attribute('href') for link in decks.find_elements(By.TAG_NAME, 'a')]
