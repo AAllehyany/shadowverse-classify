@@ -4,6 +4,19 @@ import os
 
 class Vectorizer:
 
+    """
+    A class that holds the vectorizers for all crafts
+
+    Attributes
+    ----------
+
+    all_cards : List
+        a list that holds all the cards in the game
+    
+    vectorizers: Dict of ClassVectorizers
+        a dictionary that maps each craft to its vectorizer
+    """
+
     def __init__(self, all_cards):
         self.all_cards = all_cards
         self.vectorizers = {}
@@ -11,6 +24,8 @@ class Vectorizer:
 
     def initialize(self):
         
+        """Initializes all class vectorizers with teh appropriate card pool
+        """
         
         for craft in self.crafts:
             craft_name = craft + 'craft'
@@ -23,6 +38,18 @@ class Vectorizer:
             self.vectorizers[craft] = ClassVectorizer(craft, sorted)
 
     def vectorize(self, deck, craft):
+
+        """Vectorizes the provided deck using its ClassVectorizer
+        
+        Parameters
+        -----------
+
+        deck: List
+            a list of cards and their copies
+        
+        craft: str
+            the deck craft
+        """
         if craft not in self.crafts:
             return
         
