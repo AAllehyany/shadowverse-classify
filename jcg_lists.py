@@ -1,21 +1,23 @@
 
 from getopt import GetoptError, getopt
+import json
 import os
 import sys
 
 from jcg_scraper import JCGScraper
 from sv_portal_reader import SVPortalParser
 
-def write_list(parsed_deck: SVPortalParser, i):
+def write_list(parsed_deck, i):
     outdir = './samples'
-    file = f'{parsed_deck.craft}-{i}.csv'
-    parsed_deck.cards_df.to_csv(os.path.join(outdir, file),index=False)
+    file = f'{parsed_deck["craft"]}-{i}.csv'
+    parsed_deck["cards_df"].to_csv(os.path.join(outdir, file),index=False)
 
 
 def main(argv):
 
     jcg_code = ''
     outdir = './samples'
+
 
     try:
         opts, args = getopt(argv, 'c:')
@@ -28,13 +30,14 @@ def main(argv):
         if opt == "-c":
             jcg_code = arg
     
-    scraper = JCGScraper(jcg_code)
-    decks = scraper.get_links()
+    f = open('./roar-of-the-godwyrm.json')
+    data = json.load(f)
+    sv_portal = SVPortalParser(format_data=data)
+    scraper = JCGScraper(jcg_code, parser=sv_portal)
+    scraper.scrape_entries()
 
-    for idx, deck in enumerate(decks):
-        parsed1= SVPortalParser(deck)
-        parsed1.parse_deck()
-        write_list(parsed1, idx)
+    for idx, deck in enumerate(scraper.deck_cards):
+        write_list(deck, idx)
 
 if __name__ == "__main__":
     main(sys.argv[1:])
