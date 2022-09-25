@@ -27,6 +27,8 @@ share/python-wheels/
 MANIFEST
 training/
 samples/*
+analysis/*
+jcg-data/*
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
