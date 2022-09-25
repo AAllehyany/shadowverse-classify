@@ -1,6 +1,7 @@
 
 from operator import itemgetter
 import pandas as pd
+import numpy as np
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -16,12 +17,13 @@ class JCGScraper:
         self.entries_link = f'https://sv.j-cg.com/competition/{jcg_code}/entries'
         self.results_link = f'https://sv.j-cg.com/competition/{jcg_code}/results'
         self.entry_decks = {}
+        self.jcg_code = jcg_code
 
     
     def scrape_entries(self):
 
         # Web scrapper for infinite scrolling page 
-        driver.get("https://sv.j-cg.com/competition/J1kNoaYPvxQx/entries")
+        driver.get(self.entries_link)
         time.sleep(2)  # Allow 2 seconds for the web page to open
         scroll_pause_time = 0.2 # You can set your own pause time. My laptop is a bit slow so I use 1 sec
         screen_height = driver.execute_script("return window.screen.height;")   # get the screen height of the web
@@ -50,7 +52,7 @@ class JCGScraper:
             parsed_decks = []
 
             for deck in decks:
-                parsed_deck = SVPortalParser(deck)
+                parsed_deck = SVPortalParser(deck, 'roar-of-godywrm.json')
                 parsed_deck.parse_deck()
                 parsed_deck.find_archetype()
                 parsed_decks.append(parsed_deck.get_deck_data())
@@ -63,6 +65,40 @@ class JCGScraper:
             }
 
             self.entry_decks[id] = player_dict
+    
+    def get_links(self):
+
+        # Web scrapper for infinite scrolling page 
+        driver.get(self.entries_link)
+        time.sleep(2)  # Allow 2 seconds for the web page to open
+        scroll_pause_time = 0.2 # You can set your own pause time. My laptop is a bit slow so I use 1 sec
+        screen_height = driver.execute_script("return window.screen.height;")   # get the screen height of the web
+        i = 1
+        links = []
+
+        while True:
+            # scroll one screen height each time
+            driver.execute_script("window.scrollTo(0, {screen_height}*{i});".format(screen_height=screen_height, i=i))  
+            i += 1
+            time.sleep(scroll_pause_time)
+            # update scroll height each time after scrolled, as the scroll height can change after we scrolled the page
+            scroll_height = driver.execute_script("return document.body.scrollHeight;")  
+            # Break the loop when the height we need to scroll to is larger than the total scroll height
+            if (screen_height) * i > scroll_height:
+                break
+
+        entries = driver.find_elements(By.CSS_SELECTOR, '.entry.winner')
+
+        for entry in entries:
+            decks = entry.find_element(By.CLASS_NAME, 'entry-deck')
+            decks = [link.get_attribute('href') for link in decks.find_elements(By.TAG_NAME, 'a')]
+            links.extend(decks)
+
+        return links
+        # links_df = pd.DataFrame(links)
+        # links_df.to_csv(f'{self.jcg_code}-decks.csv', index=False)
+
+        
         
 
     def scrape_results(self):
@@ -81,22 +117,33 @@ class JCGScraper:
 
 
 
-jcg_code = "J1kNoaYPvxQx"
-scraper = JCGScraper(jcg_code)
-scraper.scrape_entries()
-scraper.scrape_results()
+# jcg_code = "7170grvqK2HI"
+# scraper = JCGScraper(jcg_code)
+# scraper.scrape_entries()
+# scraper.scrape_results()
 
-jcg_data = scraper.entry_decks.values()
-sorted_data = sorted(jcg_data, key=itemgetter("top"), reverse=True)
+# jcg_data = scraper.entry_decks.values()
+# sorted_data = sorted(jcg_data, key=itemgetter("top"), reverse=True)
 
+# jcg_decks_data = []
 
-for i in range(0, 10):
-    print(sorted_data[i])
-    # for deck in data["decks"]:
-        
-    #     parsed_deck = SVPortalParser(deck)
-    #     parsed_deck.parse_deck()
-    #     parsed_deck.find_archetype()
+# for data in jcg_data:
+#     for deck in data["decks"]:
+#         result = (deck["craft"], deck["archetype"], deck["link"], data["top"])
+#         jcg_decks_data.append(result)
 
-# df = pd.DataFrame.from_dict(scraper.entry_decks, orient='index', columns=['name', 'deck1', 'deck2', 'top'])
-# df.to_csv(f'{jcg_code}-decks.csv', index=False)
+# decks_data_df = pd.DataFrame(jcg_decks_data,
+#     columns=[
+#         "craft",
+#         "archetype",
+#         "deck_link",
+#         "score"
+#     ]
+# )
+
+# archetype_df = decks_data_df['archetype'].value_counts()
+# craft_df = decks_data_df['craft'].value_counts()
+
+# decks_data_df.to_csv(f"classified_decks-{jcg_code}.csv", index=False)
+# archetype_df.to_csv(f"archetypes-{jcg_code}.csv")
+# craft_df.to_csv(f"crafts-{jcg_code}.csv")
