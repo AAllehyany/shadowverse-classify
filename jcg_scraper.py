@@ -1,4 +1,5 @@
 
+import json
 from operator import itemgetter
 import pandas as pd
 import numpy as np
@@ -13,11 +14,13 @@ from sv_portal_reader import SVPortalParser
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 class JCGScraper:
 
-    def __init__(self, jcg_code):
+    def __init__(self, jcg_code, parser: SVPortalParser):
         self.entries_link = f'https://sv.j-cg.com/competition/{jcg_code}/entries'
         self.results_link = f'https://sv.j-cg.com/competition/{jcg_code}/results'
         self.entry_decks = {}
         self.jcg_code = jcg_code
+        self.sv_portal_praser = parser
+        self.deck_cards = []
 
     
     def scrape_entries(self):
@@ -50,12 +53,19 @@ class JCGScraper:
             name = user.text.strip()
 
             parsed_decks = []
-
             for deck in decks:
-                parsed_deck = SVPortalParser(deck, 'roar-of-godywrm.json')
-                parsed_deck.parse_deck()
-                parsed_deck.find_archetype()
-                parsed_decks.append(parsed_deck.get_deck_data())
+                parsed = self.sv_portal_praser.parse_deck(deck)
+                # parsed_deck = SVPortalParser(deck, 'roar-of-the-godywrm.json')
+                # parsed_deck.parse_deck()
+                # parsed_deck.find_archetype()
+                deck_data = {
+                    "link": parsed["link"],
+                    "archetype": parsed["archetype"],
+                    "craft": parsed["craft"],
+                }
+                deck_info = {"cards_df": parsed["cards_df"], "craft": parsed["craft"]}
+                parsed_decks.append(deck_data)
+                self.deck_cards.append(deck_info)
             
             player_dict = {
                 "name": name,
@@ -116,9 +126,11 @@ class JCGScraper:
         driver.close()
 
 
-
+# f = open('./roar-of-the-godwyrm.json')
+# data = json.load(f)
+# sv_portal = SVPortalParser(format_data=data)
 # jcg_code = "7170grvqK2HI"
-# scraper = JCGScraper(jcg_code)
+# scraper = JCGScraper(jcg_code, parser=sv_portal)
 # scraper.scrape_entries()
 # scraper.scrape_results()
 
