@@ -9,14 +9,10 @@ import numpy as np
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 
-from vectorizer import ClassVectorizer
+from vectorizer import Vectorizer
 
 NUM_CLUSTERS = 4
 NUM_TOP_VERS = 30
-
-
-def card_names(_deck):
-    return [card[0] for card in _deck]
 
 
 def most_common_cards(_deck, k):
@@ -29,11 +25,13 @@ def decks_by_label(a_label, _labeled):
 
 
 
-crafts = ['forest', 'sword', 'rune', 'dragon', 'shadow', 'blood', 'haven', 'portal']
+decks_csv = glob("samples/*.csv")
 
-decks_csv = glob("training/*.csv")
-
-vectorizers = dict((craft, ClassVectorizer(craft)) for craft in crafts)
+f = open('db/cards.json')
+cards_db = json.load(f)
+decks_vectorizer = Vectorizer(cards_db)
+decks_vectorizer.initialize()
+vectorizers = decks_vectorizer.vectorizers
 
 
 for n in decks_csv:
@@ -44,7 +42,14 @@ for n in decks_csv:
     df_list = df_list[1:]
     vectorizers[craft].vectorize(df_list)
 
+
+name_out = sys.argv[1] if sys.argv[1] is not None else 'unknown-meta.json'
 output = {}
+
+if(os.path.exists(name_out)):
+    f = open(name_out)
+    output = json.load(f)
+
 for (craft, vectorizer) in vectorizers.items():
     all_cards = []
     class_json = {
@@ -52,6 +57,9 @@ for (craft, vectorizer) in vectorizers.items():
     }
 
     archetypes = {}
+
+    if(craft in output):
+        archetypes = output[craft]
 
 
     km = KMeans(n_clusters=NUM_CLUSTERS)
@@ -93,7 +101,14 @@ for (craft, vectorizer) in vectorizers.items():
 
     output[craft] = archetypes
 
-name_out = sys.argv[1] if sys.argv[1] is not None else 'roar.json'
+
 #out put details into a file
 with open(name_out, 'w') as out:
     json.dump(output, out, indent=4)
+
+
+    
+
+
+
+
