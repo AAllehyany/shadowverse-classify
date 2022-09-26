@@ -2,6 +2,7 @@
 from getopt import GetoptError, getopt
 import json
 import os
+import pandas as pd
 import sys
 
 from jcg_scraper import JCGScraper
@@ -10,7 +11,9 @@ from sv_portal_reader import SVPortalParser
 def write_list(parsed_deck, i):
     outdir = './samples'
     file = f'{parsed_deck["craft"]}-{i}.csv'
-    parsed_deck["cards_df"].to_csv(os.path.join(outdir, file),index=False)
+
+    df = pd.DataFrame(parsed_deck["cards_df"], columns=['card_name', 'copies'])
+    df.to_csv(os.path.join(outdir, file),index=False)
 
 
 def main(argv):
