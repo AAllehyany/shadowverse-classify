@@ -1,7 +1,10 @@
+from collections import Counter
 import json
+from typing import Collection
 import pandas as pd
 
-hashes = pd.read_csv("db/codes.csv")
+f = open('db/cards_data.json')
+hashes = json.load(f)
 
 class SVPortalParser:
 
@@ -60,21 +63,25 @@ class SVPortalParser:
         """
         craft = self.parse_craft(deck_link)
         hash_list = self.prase_hashes(deck_link)
+        hash_count = dict(Counter(hash_list))
 
-        d = pd.DataFrame(hash_list)
-        d = d[0].value_counts().reset_index().rename(columns={'index': 'code', 0: 'count'})
-        deck_df = pd.merge(d, hashes)[['count', 'card_name']]
-        deck_df = deck_df.groupby('card_name', as_index = False).agg('sum')
+        deck_list = [(c["card_name"], hash_count[c["card_hash"]]) for c in hashes if c["card_hash"] in hash_list]
 
-        cards = deck_df.values.tolist()
-        cards_df = deck_df
-        archetype = self.find_archetype(cards, craft)
+
+        # d = pd.DataFrame(hash_list)
+        # d = d[0].value_counts().reset_index().rename(columns={'index': 'code', 0: 'count'})
+        # deck_df = pd.merge(d, hashes)[['count', 'card_name']]
+        # deck_df = deck_df.groupby('card_name', as_index = False).agg('sum')
+
+        # cards = deck_df.values.tolist()
+        # cards_df = deck_df
+        archetype = self.find_archetype(deck_list, craft)
 
         deck_data = {
             "link": deck_link,
             "archetype": archetype,
             "craft": craft,
-            "cards_df": cards_df
+            "cards_df": deck_list
         }
 
         return deck_data
