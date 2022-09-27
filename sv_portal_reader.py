@@ -65,7 +65,7 @@ class SVPortalParser:
         hash_list = self.prase_hashes(deck_link)
         hash_count = dict(Counter(hash_list))
 
-        deck_list = [(c["card_name"], hash_count[c["card_hash"]]) for c in hashes if c["card_hash"] in hash_list]
+        deck_list = [(c["card_name"], hash_count[c["card_hash"]], c["card_hash"]) for c in hashes if c["card_hash"] in hash_list]
 
 
         # d = pd.DataFrame(hash_list)
@@ -75,7 +75,7 @@ class SVPortalParser:
 
         # cards = deck_df.values.tolist()
         # cards_df = deck_df
-        archetype = self.find_archetype(deck_list, craft)
+        archetype = self.find_archetype(hash_list, craft)
 
         deck_data = {
             "link": deck_link,
@@ -108,9 +108,10 @@ class SVPortalParser:
         for (name, details) in craft_archetypes.items():
             archetype_score = 0
             for card in details["feature_cards"]:
-                for (card_n, copies) in cards:
-                    if card_n == card:
-                        archetype_score += copies
+                _card = card.split('---')
+                for hash in cards:
+                    if hash == _card[1]:
+                        archetype_score += 1
 
             if archetype_score > current_score:
                 current_score = archetype_score
