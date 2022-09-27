@@ -12,7 +12,7 @@ def write_list(parsed_deck, i):
     outdir = './samples'
     file = f'{parsed_deck["craft"]}-{i}.csv'
 
-    df = pd.DataFrame(parsed_deck["cards_df"], columns=['card_name', 'copies'])
+    df = pd.DataFrame(parsed_deck["cards_df"], columns=['card_name', 'copies', 'hash'])
     df.to_csv(os.path.join(outdir, file),index=False)
 
 
