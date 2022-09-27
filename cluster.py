@@ -12,10 +12,12 @@ from vectorizer import Vectorizer
 
 NUM_TOP_VERS = 30
 
+f = open('db/cards_data.json')
+cards_data = json.load(f)
 
 def most_common_cards(_deck, k):
     _deck.sort(key=lambda _deck: _deck[1], reverse=True)
-    return [card[0] for card in _deck[:k]]
+    return [f'{card[0]}' for card in _deck[:k]]
 
 
 def decks_by_label(a_label, _labeled):
@@ -66,13 +68,6 @@ def start_cluster(format_name="", num_clusters=4):
         km.fit(vectorizer.vectorized)
         km_labels = km.labels_
         labeled_decks = list(zip(vectorizer.decks, km_labels))
-
-        # db_ = DBSCAN(eps=0.3, min_samples=10)
-        # db_.fit(vectorizer.vectorized)
-        # db_labels = db_.labels_
-        # labeled_decks = list(zip(vectorizer.decks, db_labels))
-        # num_c = len(set(db_labels)) - (1 if -1 in db_labels else 0)
-
         
         for cluster_id in range(num_clusters):
             cluster_decks = decks_by_label(cluster_id, labeled_decks)
@@ -94,15 +89,19 @@ def start_cluster(format_name="", num_clusters=4):
 
             
             a_id = name.lower().replace(' ', '_')
+            # Grab all different hashes for each card
+            featured_list = get_list_with_hashes(list(feature_cards))
+            
             archetype = {
                 "name": name,
                 "craft": craft,
-                "feature_cards": list(feature_cards)
+                "feature_cards": featured_list
             }
 
             if a_id in archetypes:
                 cards1 = set(archetypes[a_id]["feature_cards"])
-                cards2 = feature_cards.intersection(cards1)
+                feature2 = set(featured_list)
+                cards2 = feature2.intersection(cards1)
                 archetypes[a_id]["feature_cards"] = list(cards2)
             else:
                 archetypes[a_id] = archetype
@@ -114,6 +113,18 @@ def start_cluster(format_name="", num_clusters=4):
     with open(format_name, 'w') as out:
         json.dump(output, out, indent=4)
 
+
+def get_list_with_hashes(common_cards):
+    result = []
+
+    for card in common_cards:
+        cards_with_hash = [f'{c["card_name"]}---{c["card_hash"]}' for c in cards_data if c["card_name"].lower() == card.lower()]
+        result.extend(cards_with_hash)
+    
+    return result
+
+        
+    
 if __name__ =="__main__":
     format_name = sys.argv[1] if sys.argv[1] is not None else 'unknown-meta.json'
     start_cluster(format_name)
