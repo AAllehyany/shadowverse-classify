@@ -79,7 +79,7 @@ class ClassVectorizer:
         vector = [0]*len(self.card_pool)
 
         for (idx, name) in enumerate(self.card_pool):
-            for [card, copies] in deck:
+            for [card, copies, _] in deck:
                 if card == name:
                     vector[idx] += int(copies)
 
