@@ -1,3 +1,4 @@
+from ast import arg
 from glob import glob
 import json
 import os
@@ -7,6 +8,7 @@ import pandas as pd
 import numpy as np
 from sklearn.cluster import KMeans, DBSCAN
 import matplotlib.pyplot as plt
+import argparse
 
 from vectorizer import Vectorizer
 
@@ -16,12 +18,17 @@ f = open('db/cards_data.json')
 cards_data = json.load(f)
 
 def most_common_cards(_deck, k):
-    _deck.sort(key=lambda _deck: _deck[1], reverse=True)
-    return [f'{card[0]}' for card in _deck[:k]]
+    _deck.sort(key=lambda _deck: _deck["copies"], reverse=True)
+    return [f'{card["card_name"]}' for card in _deck[:k]]
 
 
 def decks_by_label(a_label, _labeled):
     return [(deck, label) for (deck, label) in _labeled if label == a_label]
+
+def process_samples(sample_file):
+
+    s = open(sample_file)
+    return json.load(s)
 
 
 def start_cluster(format_name="", num_clusters=4):
@@ -41,14 +48,11 @@ def start_cluster(format_name="", num_clusters=4):
     output = {}
 
     decks_csv = glob("samples/*.csv")
-
-    cards_db = {}
-    with open('db/cards.json') as f_cards:
-        cards_db = json.load(f_cards)
     
-    decks_vectorizer = Vectorizer(cards_db)
+    decks_vectorizer = Vectorizer(cards_data)
     decks_vectorizer.initialize()
-    decks_vectorizer.vectorize_from_sample(decks_csv)
+    # decks_vectorizer.vectorize_from_sample(decks_csv)
+    decks_vectorizer.vectorize_from_json(process_samples('./deck-samples/jcg-9Wu7HSY91GXk-decks.json'))
     vectorizers = decks_vectorizer.vectorizers
 
     
@@ -72,20 +76,30 @@ def start_cluster(format_name="", num_clusters=4):
         for cluster_id in range(num_clusters):
             cluster_decks = decks_by_label(cluster_id, labeled_decks)
             
-            print('\n--- Detected new group')
-            print(f'There are {len(cluster_decks)} decks in this group. And here is one sample deck.')
-            print(*random.choice(cluster_decks)[0], sep='\n')
-            name = input(f'What would you like to name this cluster?')
-            print(f'--- successfully labeled the group as {name}\n')
-
             # Get feature cards for this group
-            first_deck = decks_by_label(cluster_id, labeled_decks)[0][0] 
+            first_deck = cluster_decks[0][0] 
             feature_cards = set(most_common_cards(first_deck, 30))
 
             for deck, _ in decks_by_label(cluster_id, labeled_decks):
                 feature_cards.intersection(
                     set(most_common_cards(deck, 30))
                 )
+
+            print('\n--- Up to three (3) sample decks from group.')
+            three = random.choices(cluster_decks, k=3)
+
+            for d in three:
+                sorted_deck = sorted(d[0], key=lambda i: i["card_name"])
+                [print(f'{card["copies"]}x {card["card_name"]}') for card in sorted_deck]
+                print('---')
+            
+            print(f'Most common cards: {feature_cards}')
+            name = input(f'[{len(cluster_decks)}] Similar decks. Archetype name: ')
+            # print(f'--- successfully labeled the group as {name}\n')
+
+            
+
+            
 
             
             a_id = name.lower().replace(' ', '_')
@@ -126,5 +140,11 @@ def get_list_with_hashes(common_cards):
         
     
 if __name__ =="__main__":
-    format_name = sys.argv[1] if sys.argv[1] is not None else 'unknown-meta.json'
-    start_cluster(format_name)
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-f', type=str, help="The format file you want to save to.", default="celestial-dragonblade.json")
+    parser.add_argument('-n', type=int, help="How many clusters do you want to separate decks to", default=4)
+
+    parser.add_argument('-c', type=str, help="If you want to work on one class only", default="all")
+    args = parser.parse_args()
+    start_cluster(args.f, args.n)

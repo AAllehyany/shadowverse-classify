@@ -23,6 +23,7 @@ class SVPortalParser:
 
         self.craft = ""
         self.archetypes = format_data
+        self.decks = []
 
     def parse_craft(self, deck_link):
         """Returns the craft the deck belongs to
@@ -67,14 +68,6 @@ class SVPortalParser:
 
         deck_list = [(c["card_name"], hash_count[c["card_hash"]], c["card_hash"]) for c in hashes if c["card_hash"] in hash_list]
 
-
-        # d = pd.DataFrame(hash_list)
-        # d = d[0].value_counts().reset_index().rename(columns={'index': 'code', 0: 'count'})
-        # deck_df = pd.merge(d, hashes)[['count', 'card_name']]
-        # deck_df = deck_df.groupby('card_name', as_index = False).agg('sum')
-
-        # cards = deck_df.values.tolist()
-        # cards_df = deck_df
         archetype = self.find_archetype(hash_list, craft)
 
         deck_data = {
@@ -82,6 +75,37 @@ class SVPortalParser:
             "archetype": archetype,
             "craft": craft,
             "cards_df": deck_list
+        }
+
+        return deck_data
+
+    def parse_deck_json(self, deck_link):
+        """Returns info about the parsed deck
+
+        Parameters
+        -----------
+        deeck_link : str
+            a https://shadowverse-porta.com link to the deck
+        """
+        craft = self.parse_craft(deck_link)
+        hash_list = self.prase_hashes(deck_link)
+        hash_count = dict(Counter(hash_list))
+
+        deck_list = [{
+            "card_name": c["card_name"],
+            "copies": hash_count[c["card_hash"]],
+            "base_id": c["base_id"],
+            "hash": c["card_hash"]
+        } for c in hashes if c["card_hash"] in hash_list]
+
+        self.decks.append({"craft": craft, "deck_list":deck_list})
+
+        archetype = self.find_archetype(hash_list, craft)
+
+        deck_data = {
+            "link": deck_link,
+            "archetype": archetype,
+            "craft": craft,   
         }
 
         return deck_data
@@ -120,6 +144,8 @@ class SVPortalParser:
         
         return current_archetype
 
+    def write_lists(self):
+        pass
             
 
 

@@ -1,0 +1,348 @@
+{
+    "forest": {
+        "ladica_forest": {
+            "name": "ladica forest",
+            "craft": "forest",
+            "feature_cards": [
+                "Ladica, Verdant Claw---7E7SS",
+                "Precocious Felpurr Kitten---7TJ7o",
+                "Carbuncle, Sacred Emerald---7TO0c",
+                "Adherent of Annihilation---7Lgs6",
+                "Erosive Annihilation---7Lk0w",
+                "Verdant Protection---7PVjg",
+                "Fairy Healer---7E07Y",
+                "Metatron---7S_by",
+                "Angel's Blessing---glEiA",
+                "Angel's Blessing---7P7JA"
+            ]
+        }
+    },
+    "sword": {
+        "er_sword": {
+            "name": "er sword",
+            "craft": "sword",
+            "feature_cards": [
+                "Erika, Loyal Swordsavant---7EVt6",
+                "Bumpkin Recruit---7PtPS",
+                "Bumpkin Recruit---gl-oS",
+                "Monochrome Endgame---7IKkg",
+                "Frenzied Corpsmaster---7ETQY",
+                "Metatron---7S_by",
+                "Steeled Luminous Knight---7Tj-i",
+                "Badb Catha, Trine Goddess---7S_c6",
+                "Taketsumi, Aconite Paladin---7PyHo",
+                "Wayfaring Goblin---7SuH2",
+                "Musketeers' Vow---7M8tg",
+                "Guiding Bellringer Angel---7HWki",
+                "Royal Summons---7IDPw",
+                "Victorious Blader---7IJ_o"
+            ]
+        }
+    },
+    "rune": {
+        "dirt_rune": {
+            "name": "dirt rune",
+            "craft": "rune",
+            "feature_cards": [
+                "Covetous Witch---7MU72",
+                "Riley, Astral Shaman---7QKic",
+                "Levi, Sapience Supreme---7U3yo",
+                "Earthen Fist---7QE6a",
+                "Juno, Atelier Alchemist---7U6P2",
+                "Frost Golem---7IdXy",
+                "Broom Witch---7MRgo",
+                "Arctic Chimera---7QKiS",
+                "Stone Bullet---7IbqQ",
+                "Magical Reserves---7QE6Q",
+                "Acid Golem---7MU7C",
+                "Acid Golem---gmPf2",
+                "Ruler of Rubble---7QFpy",
+                "Forbidden Archives Warden---7Ib5Y",
+                "Superior Contractor---7IiQc"
+            ]
+        },
+        "sb_rune": {
+            "name": "sb rune",
+            "craft": "rune",
+            "feature_cards": [
+                "Stone Bullet---7IbqQ",
+                "Insight---5-gkQ",
+                "Witching Moggy---7If-2",
+                "Isabelle, Intrepid Mage---7EuHc",
+                "Sacred Bird of Wisdom---7MWZS",
+                "Angel's Blessing---7P7JA",
+                "Counter Magic---7IeGg",
+                "Ice Storm---7MPza",
+                "Angel's Blessing---glEiA",
+                "Chakram Wizard---7QDNi",
+                "Story of a Lifetime---7QI-w",
+                "Kuon, Wuxing Master---7MWZI",
+                "Frost Golem---7IdXy",
+                "Insight---g2ZpQ"
+            ]
+        },
+        "yukishima_rune": {
+            "name": "yukishima rune",
+            "craft": "rune",
+            "feature_cards": [
+                "Counter Magic---7IeGg",
+                "Meandering Bolt---7MPzQ",
+                "Meandering Bolt---gejDa",
+                "Orchestral Mage---7QFpo",
+                "Goblin Assault---7LJAA",
+                "Insight---5-gkQ",
+                "Insight---g2ZpQ",
+                "Stone Bullet---7IbqQ",
+                "Story of a Lifetime---7QI-w",
+                "Dream Come True---7QGYg",
+                "Dream Come True---gmNxq",
+                "Secrets of Onmyodo---7MSPg",
+                "Secrets of Onmyodo---gelfg",
+                "Enchanting Spell---7U2Fa",
+                "Yukishima, Master Biographer---7QKiI",
+                "Angel's Blessing---7P7JA",
+                "Angel's Blessing---glEiA",
+                "Dreams of Adventure---7Su_w",
+                "Superior Contractor---7IiQc",
+                "Stay in Paradise---7P9lQ"
+            ]
+        }
+    },
+    "dragon": {
+        "burn_dragon": {
+            "name": "burn dragon",
+            "craft": "dragon",
+            "feature_cards": [
+                "Si Long, Draconic God-Queen---7Qj6o",
+                "Flame Lizard's Breath---7UVYQ",
+                "Dragon Oracle---gXTM4",
+                "Dragon Oracle---g2yDw",
+                "Filene, Blizzardous Heart---7Muzo",
+                "Metatron---7S_by",
+                "Dragon Oracle---5_38w",
+                "Ethica, Firebrand Claw---7UUpi"
+            ]
+        }
+    },
+    "shadow": {
+        "fg_shadow": {
+            "name": "fg shadow",
+            "craft": "shadow",
+            "feature_cards": [
+                "Suzy, Hexcaster---7JQpC",
+                "Corral Souls---7UrWg",
+                "Cernunnos---7JTFc",
+                "Cernunnos---gr13I",
+                "Krampus---7NA3s",
+                "Spirit Invasion---7NAoQ",
+                "Spirit Invasion---gn6KQ",
+                "Luna, Soul Keeper---7Ff6c",
+                "Flame and Glass, Duality---7PBSo",
+                "Inn Ghosthound---7Q-CY",
+                "Gilnelise, Ravenous Craving---7LNJy",
+                "Rulenye, Screaming Silence---7NHOc",
+                "Angel's Blessing---7P7JA",
+                "Angel's Blessing---glEiA",
+                "Wayfaring Goblin---7SuH2",
+                "Skeleton Raider---7JTFI",
+                "Guiding Bellringer Angel---7HWki",
+                "Call of the Great Arm---7R3pw"
+            ]
+        },
+        "gta_shadow": {
+            "name": "gta shadow",
+            "craft": "shadow",
+            "feature_cards": [
+                "Solemn Gravekeeper---7JOMy",
+                "Corral Souls---7UrWg",
+                "Suzy, Hexcaster---7JQpC",
+                "Cernunnos---7JTFc",
+                "Cernunnos---gr13I",
+                "Krampus---7NA3s",
+                "Spirit Invasion---7NAoQ",
+                "Spirit Invasion---gn6KQ",
+                "Steeled Hopes---7FdOw",
+                "Ghost Town Apparition---7R35C",
+                "Inn Ghosthound---7Q-CY",
+                "Gilnelise, Ravenous Craving---7LNJy",
+                "Angel's Blessing---7P7JA",
+                "Angel's Blessing---glEiA",
+                "Skeleton Raider---7JTFI",
+                "Luna, Soul Keeper---7Ff6c",
+                "Call of the Great Arm---7R3pw"
+            ]
+        },
+        "lw_shadow": {
+            "name": "lw shadow",
+            "craft": "shadow",
+            "feature_cards": [
+                "Corral Souls---7UrWg",
+                "Krampus---7NA3s",
+                "Cerberus, Infernal Hound---7UvgS",
+                "Luna, Soul Keeper---7Ff6c"
+            ]
+        }
+    },
+    "blood": {
+        "h0_blood": {
+            "name": "h0 blood",
+            "craft": "blood",
+            "feature_cards": [
+                "Bat Usher---7RMd2",
+                "Demonbrand Vampire---7VFei",
+                "Adherent of Desire---7Nawc",
+                "Legendary Tome---7HUnY",
+                "Eternal Contract---7RSEQ",
+                "Eternal Contract---gnZdQ",
+                "Vania, Crimson Majesty---7VI4y",
+                "Room Service Demon---7RP3I",
+                "Sanguine Slash---7VDxA",
+                "Briared Vampire---7NawI",
+                "Full Moon Leap---7RPoA",
+                "Full Moon Leap---gnXBA",
+                "Parkour Werewolf---7RMdM",
+                "Razory Claw---5_p-4",
+                "Razory Claw---g3j34",
+                "Silvernail Blaster---7RMdC",
+                "Paracelise, Demon of Greed---7RTxy",
+                "Scorpion of the Depths---7RP3S"
+            ]
+        },
+        "mono_blood": {
+            "name": "mono blood",
+            "craft": "blood",
+            "feature_cards": [
+                "Mono, Immortal Garnet---7G1Wo",
+                "Vania, Crimson Majesty---7VI4y",
+                "Scarlet Vampire---7JpDY",
+                "Rejuvenate the Spark---7F_pQ",
+                "Demonbrand Vampire---7VFei",
+                "Crimson Virtue---7NbfA",
+                "Doomlord of the Abyss---7VI4o",
+                "Waltz, Moonlight Wolf-King---7VI56",
+                "Metatron---7S_by",
+                "Corrupt Conveyance---gfsSw",
+                "Corrupt Conveyance---7NZCw",
+                "Briared Vampire---7NawI",
+                "Angel's Blessing---glEiA",
+                "Aiolon's Remains---7DgeY",
+                "Deceptive Shapeshifter---7RRVY",
+                "Angel's Blessing---7P7JA"
+            ]
+        },
+        "evo_blood": {
+            "name": "evo blood",
+            "craft": "blood",
+            "feature_cards": [
+                "Itsurugi, Eager Admirer---7RTxo",
+                "Doomlord of the Abyss---7VI4o",
+                "Dancing Mini Soul Devil---7VDCI",
+                "Waltz, Moonlight Wolf-King---7VI56",
+                "Bloodlust Demon---7Jrg6",
+                "Vania, Crimson Majesty---7VI4y",
+                "Crimson Virtue---7NbfA",
+                "Room Service Demon---7RP3I",
+                "Briared Vampire---7NawI",
+                "Urias, Final Vampire---7G1X6",
+                "Kali---7NdMY",
+                "Gilnelise, Ravenous Craving---7LNJy",
+                "Lone Promise---7FwhI",
+                "Yuzuki, Bloodlord---7Nfoo",
+                "Stay in Paradise---7P9lQ",
+                "Scorpion of the Depths---7RP3S"
+            ]
+        }
+    },
+    "haven": {
+        "heal_haven": {
+            "name": "heal haven",
+            "craft": "haven",
+            "feature_cards": [
+                "Jeanne, Salvation's Maiden---7VgVS",
+                "Guide of the Virtuous---7Ve3C",
+                "Perpetual Despair---7O0GI",
+                "Bellerophon---7O2DS",
+                "Sacred Ice-Crusher---7NzKy",
+                "Ultimate Bahamut---7S_bo",
+                "Gilnelise, Ravenous Craving---7LNJy",
+                "Holy Saber---7KE4S",
+                "Zlatorog---7VZAs",
+                "Imperial Saint---7VgVI"
+            ]
+        },
+        "c_haven": {
+            "name": "c haven",
+            "craft": "haven",
+            "feature_cards": [
+                "Jeanne, Salvation's Maiden---7VgVS",
+                "Metatron---7S_by",
+                "Glistering Angel---7P90i"
+            ]
+        }
+    },
+    "portal": {
+        "r_portal": {
+            "name": "r portal",
+            "craft": "portal",
+            "feature_cards": [
+                "Ambitious Goblin Mage---7SwjI",
+                "Yuwan, Dimensional Avenger---7GoM6",
+                "Summon Divine Treasure---7W3eg",
+                "Rosa, Unfettered Maiden---7V-1I",
+                "Robopup---goErC",
+                "Robopup---7VxbM",
+                "Cultivate Life---7VyJw",
+                "Automachina Maiden---7Glvi",
+                "Cassim, the Courageous---7V-1S",
+                "Norn, Arbiter of Worlds---7W0Ti",
+                "Birth of the Ravenous---7LLca",
+                "Guiding Bellringer Angel---7HWki"
+            ]
+        },
+        "rp_portal": {
+            "name": "rp portal",
+            "craft": "portal",
+            "feature_cards": [
+                "Robopup---7VxbM",
+                "Robopup---goErC",
+                "Rosa, Unfettered Maiden---7V-1I",
+                "Cassim, the Courageous---7V-1S",
+                "Blossoming Flower Doll---7Vxb2",
+                "Wielder of the Cosmos---7OQdy",
+                "Lishenna, Melodious Destruction---7OQe6",
+                "Orchis, the Limitless---7W2vo",
+                "Dual Swords of Longing---7GkCA",
+                "Ambitious Goblin Mage---7SwjI",
+                "Craftsman's Pride---7S8Aw",
+                "Yuwan, Dimensional Avenger---7GoM6",
+                "Summon Divine Treasure---7W3eg",
+                "Jetpack Gunner---7OOBi",
+                "Young Threadmaster---7KVAC",
+                "Young Threadmaster---goEr2",
+                "Guiding Bellringer Angel---7HWki"
+            ]
+        },
+        "machina_portal": {
+            "name": "machina portal",
+            "craft": "portal",
+            "feature_cards": [
+                "Gullias, King of Beasts---7W2vy",
+                "Glistering Angel---7P90i",
+                "Metatron---7S_by",
+                "Enforcer---7GjTS",
+                "Cassim, the Courageous---7V-1S",
+                "Nefarious Invasion---7GmeQ",
+                "Aiolon's Remains---7DgeY",
+                "Terra Finis---7SzPA",
+                "Gilnelise, Ravenous Craving---7LNJy",
+                "Belphomet, Ultimate Creator---7GoLy",
+                "Belphomet, Ultimate Creator---gcvky",
+                "Summon Divine Treasure---7W3eg",
+                "Ultimate Bahamut---7S_bo",
+                "Mega Enforcer---7GlvY",
+                "Calamity's Genesis---7KdDg",
+                "Shion, Immortal Aegis---7SEn6"
+            ]
+        }
+    }
+}

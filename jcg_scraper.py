@@ -19,7 +19,6 @@ class JCGScraper:
         self.entry_decks = {}
         self.jcg_code = jcg_code
         self.sv_portal_praser = parser
-        self.deck_cards = []
         self.jcg_date = ""
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
@@ -64,9 +63,57 @@ class JCGScraper:
                     "archetype": parsed["archetype"],
                     "craft": parsed["craft"],
                 }
-                deck_info = {"cards_df": parsed["cards_df"], "craft": parsed["craft"]}
                 parsed_decks.append(deck_data)
-                self.deck_cards.append(deck_info)
+            
+            player_dict = {
+                "name": name,
+                "decks": parsed_decks,
+                "top": 0,
+                "id": id
+            }
+
+            self.entry_decks[id] = player_dict
+
+    def scrape_entries_json(self):
+
+        # Web scrapper for infinite scrolling page 
+        self.driver.get(self.entries_link)
+        time.sleep(2)  # Allow 2 seconds for the web page to open
+        scroll_pause_time = 0.2 # You can set your own pause time. My laptop is a bit slow so I use 1 sec
+        screen_height = self.driver.execute_script("return window.screen.height;")   # get the screen height of the web
+        i = 1
+
+        while True:
+            # scroll one screen height each time
+            self.driver.execute_script("window.scrollTo(0, {screen_height}*{i});".format(screen_height=screen_height, i=i))  
+            i += 1
+            time.sleep(scroll_pause_time)
+            # update scroll height each time after scrolled, as the scroll height can change after we scrolled the page
+            scroll_height = self.driver.execute_script("return document.body.scrollHeight;")  
+            # Break the loop when the height we need to scroll to is larger than the total scroll height
+            if (screen_height) * i > scroll_height:
+                break
+
+        entries = self.driver.find_elements(By.CSS_SELECTOR, '.entry.winner')
+        date = self.driver.find_element(By.CLASS_NAME, 'competition-date')
+        self.jcg_date = (date.text.split('\n')[0].replace('.', ''))
+        for entry in entries:
+            decks = entry.find_element(By.CLASS_NAME, 'entry-deck')
+            decks = [link.get_attribute('href') for link in decks.find_elements(By.TAG_NAME, 'a')]
+            user = entry.find_element(By.CLASS_NAME, 'name-main')
+            id = user.get_attribute('href').split('/')[-1]
+            name = user.text.strip()
+
+            parsed_decks = []
+            for deck in decks:
+                parsed = self.sv_portal_praser.parse_deck_json(deck)
+
+                deck_data = {
+                    "link": parsed["link"],
+                    "archetype": parsed["archetype"],
+                    "craft": parsed["craft"],
+                }
+                parsed_decks.append(deck_data)
             
             player_dict = {
                 "name": name,

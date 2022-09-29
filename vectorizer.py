@@ -30,9 +30,22 @@ class Vectorizer:
         for craft in self.crafts:
             craft_name = craft + 'craft'
             scope = (craft_name, 'netural')
-            ignored = ("promo", "token")
-            filtered = [card["name_"] for card in self.all_cards.values() if card["craft_"].lower() in scope and card["expansion_"].lower() not in ignored]
+            filtered = [card["card_name"] for card in self.all_cards if card["craft"].lower() in scope]
 
+            unique = set(filtered)
+            sorted = np.sort(list(unique))
+            self.vectorizers[craft] = ClassVectorizer(craft, sorted)
+
+    def initialize_by_ids(self):
+        """Initializes all class vectorizers with teh appropriate card pool
+        """
+        
+        for craft in self.crafts:
+            craft_name = craft + 'craft'
+            target = (craft_name, 'netural')
+            filtered = [card["base_id"] for card in self.db if card["craft"].lower() in target]
+
+            ## filter out duplicate IDs because of promo cards
             unique = set(filtered)
             sorted = np.sort(list(unique))
             self.vectorizers[craft] = ClassVectorizer(craft, sorted)
@@ -64,6 +77,11 @@ class Vectorizer:
             df_list = df_list[1:]
             self.vectorizers[craft].vectorize(df_list)
 
+    def vectorize_from_json(self, decks):
+
+        for deck in decks:
+            self.vectorizers[deck["craft"]].vectorize_json_deck(deck["deck_list"])
+
 class ClassVectorizer:
 
     def __init__(self, craft, card_pool):
@@ -71,9 +89,6 @@ class ClassVectorizer:
         self.card_pool = card_pool
         self.vectorized = []
         self.decks = []
-
-    # def initialize(self):
-    #     self.card_pool = get_craft_vector(self.craft)
 
     def vectorize(self, deck):
         vector = [0]*len(self.card_pool)
@@ -85,3 +100,18 @@ class ClassVectorizer:
 
         self.vectorized.append(vector)
         self.decks.append(deck)
+
+    def vectorize_json_deck(self, deck):
+
+        vector = [0]*len(self.card_pool)
+
+        for (idx, card) in enumerate(self.card_pool):
+
+            for deck_card in deck:
+
+                if deck_card["card_name"] == card:
+                    vector[idx] += deck_card["copies"]
+        
+        self.vectorized.append(vector)
+        self.decks.append(deck)
+
