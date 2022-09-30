@@ -1,4 +1,5 @@
 from ast import arg
+import collections
 from glob import glob
 import json
 import os
@@ -12,14 +13,14 @@ import argparse
 
 from vectorizer import Vectorizer
 
-NUM_TOP_VERS = 30
+NUM_TOP_VERS = 40
 
 f = open('db/cards_data.json')
 cards_data = json.load(f)
 
 def most_common_cards(_deck, k):
     _deck.sort(key=lambda _deck: _deck["copies"], reverse=True)
-    return [f'{card["card_name"]}' for card in _deck[:k]]
+    return [f'{card["card_name"]}' for card in _deck[:NUM_TOP_VERS]]
 
 
 def decks_by_label(a_label, _labeled):
@@ -31,7 +32,7 @@ def process_samples(sample_file):
     return json.load(s)
 
 
-def start_cluster(format_name="", num_clusters=4):
+def start_cluster(format_name="", num_clusters=4, target_craft="all"):
     """Clusters each craft into 4 different decks to identify archetypes.
 
     This method separates all decks into their proper craft vectorizer,
@@ -62,7 +63,11 @@ def start_cluster(format_name="", num_clusters=4):
 
     for (craft, vectorizer) in vectorizers.items():
 
+        if target_craft != "all" and craft != target_craft:
+            continue
+        
         archetypes = {}
+        generics = set()
 
         if(craft in output):
             archetypes = output[craft]
@@ -78,15 +83,14 @@ def start_cluster(format_name="", num_clusters=4):
             
             # Get feature cards for this group
             first_deck = cluster_decks[0][0] 
-            feature_cards = set(most_common_cards(first_deck, 30))
+            feature_cards = set(most_common_cards(first_deck, 15))
 
             for deck, _ in decks_by_label(cluster_id, labeled_decks):
-                feature_cards.intersection(
-                    set(most_common_cards(deck, 30))
-                )
+                new_features = set(most_common_cards(deck, 15))
+                feature_cards = feature_cards.intersection(new_features)
 
             print('\n--- Up to three (3) sample decks from group.')
-            three = random.choices(cluster_decks, k=3)
+            three = random.choices(cluster_decks, k=4)
 
             for d in three:
                 sorted_deck = sorted(d[0], key=lambda i: i["card_name"])
@@ -95,16 +99,11 @@ def start_cluster(format_name="", num_clusters=4):
             
             print(f'Most common cards: {feature_cards}')
             name = input(f'[{len(cluster_decks)}] Similar decks. Archetype name: ')
-            # print(f'--- successfully labeled the group as {name}\n')
 
-            
 
-            
-
-            
             a_id = name.lower().replace(' ', '_')
             # Grab all different hashes for each card
-            featured_list = get_list_with_hashes(list(feature_cards))
+            featured_list = list(feature_cards)
             
             archetype = {
                 "name": name,
@@ -113,9 +112,9 @@ def start_cluster(format_name="", num_clusters=4):
             }
 
             if a_id in archetypes:
-                cards1 = set(archetypes[a_id]["feature_cards"])
-                feature2 = set(featured_list)
-                cards2 = feature2.intersection(cards1)
+                cards1 = archetypes[a_id]["feature_cards"]
+                featured_list.extend(cards1)
+                cards2 = set(featured_list)
                 archetypes[a_id]["feature_cards"] = list(cards2)
             else:
                 archetypes[a_id] = archetype
@@ -137,7 +136,9 @@ def get_list_with_hashes(common_cards):
     
     return result
 
-        
+    
+    
+
     
 if __name__ =="__main__":
 
@@ -147,4 +148,4 @@ if __name__ =="__main__":
 
     parser.add_argument('-c', type=str, help="If you want to work on one class only", default="all")
     args = parser.parse_args()
-    start_cluster(args.f, args.n)
+    start_cluster(args.f, args.n, args.c)
