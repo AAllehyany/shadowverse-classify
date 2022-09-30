@@ -1,0 +1,386 @@
+{
+    "forest": {
+        "control_forest": {
+            "name": "control forest",
+            "craft": "forest",
+            "feature_cards": [
+                "Gerbera Bear",
+                "Silence Suzuka",
+                "Cosmos Fang",
+                "Carbuncle, Sacred Emerald",
+                "Rejuvenating Resurrection",
+                "Erosive Annihilation",
+                "Metatron",
+                "Phantombloom Predator",
+                "Piercye, Queen of Frost",
+                "Precocious Felpurr Kitten",
+                "Autumn Leaf Man",
+                "Adherent of Annihilation",
+                "Angel's Blessing"
+            ]
+        },
+        "fairy_forest": {
+            "name": "fairy forest",
+            "craft": "forest",
+            "feature_cards": [
+                "Phantombloom Predator",
+                "Blast Fairy",
+                "Nobilis, Sable-Lily Queen",
+                "Aqua Fairy"
+            ]
+        }
+    },
+    "sword": {
+        "evolve_rally_sword": {
+            "name": "evolve rally sword",
+            "craft": "sword",
+            "feature_cards": [
+                "Royal Summons",
+                "Bumpkin Recruit",
+                "Steeled Luminous Knight",
+                "Monochrome Endgame",
+                "Kagemitsu, Lost Samurai",
+                "Victorious Blader",
+                "Octrice, Hollow Usurpation",
+                "Badb Catha, Trine Goddess",
+                "Spellscourger",
+                "Musketeers' Vow",
+                "Taketsumi, Aconite Paladin",
+                "Metatron"
+            ]
+        },
+        "hero_sword": {
+            "name": "hero sword",
+            "craft": "sword",
+            "feature_cards": [
+                "Flame Soldier",
+                "Bumpkin Recruit",
+                "Royal Summons",
+                "Morgenstern Maid",
+                "Victorious Blader",
+                "Amerro, Spear Knight",
+                "Heroic Entry",
+                "Musketeers' Vow",
+                "Taketsumi, Aconite Paladin",
+                "Metatron"
+            ]
+        },
+        "coin_sword": {
+            "name": "coin sword",
+            "craft": "sword",
+            "feature_cards": [
+                "Monochrome Endgame",
+                "Legendary Sword Commander",
+                "Front Desk Frog",
+                "Suave Bandit",
+                "Angel's Blessing",
+                "Jiemon, Thief Lord",
+                "Night on the Town",
+                "Gilnelise, Ravenous Craving",
+                "Opulent Strategist",
+                "Jupiter",
+                "Metatron",
+                "Noble Shieldmaiden",
+                "Stay in Paradise",
+                "Masterful Musician"
+            ]
+        }
+    },
+    "rune": {
+        "earth_rite_rune": {
+            "name": "earth rite rune",
+            "craft": "rune",
+            "feature_cards": [
+                "Superior Contractor",
+                "Levi, Sapience Supreme",
+                "Juno, Atelier Alchemist",
+                "Forbidden Archives Warden",
+                "Acid Golem",
+                "Stone Bullet",
+                "Covetous Witch",
+                "Riley, Astral Shaman",
+                "Broom Witch",
+                "Magical Reserves",
+                "Frost Golem",
+                "Ruler of Rubble"
+            ]
+        },
+        "spellboost_rune": {
+            "name": "spellboost rune",
+            "craft": "rune",
+            "feature_cards": [
+                "Story of a Lifetime",
+                "Sacred Bird of Wisdom",
+                "Secrets of Onmyodo",
+                "Meltina, Miracle Sorceress",
+                "Chakram Wizard",
+                "Insight",
+                "Angel's Blessing"
+            ]
+        },
+        "chess_rune": {
+            "name": "chess rune",
+            "craft": "rune",
+            "feature_cards": [
+                "Cardseer",
+                "Magical Strategy",
+                "Imagination Realized",
+                "Story of a Lifetime",
+                "Sacred Bird of Wisdom",
+                "Mystic King",
+                "Blazing Bomb",
+                "Mari, Card Conjurer",
+                "Magical Rook",
+                "Magical Knight",
+                "Aqueous Sphere",
+                "Chakram Wizard",
+                "Counter Magic",
+                "Enchanting Spell",
+                "Angel's Blessing",
+                "Milady, Mystic Queen"
+            ]
+        },
+        "seven_rune": {
+            "name": "seven rune",
+            "craft": "rune",
+            "feature_cards": [
+                "Story of a Lifetime",
+                "Magical Strategy",
+                "Advent of Peace",
+                "Sorcerer of Seven Forces",
+                "Magic Missile",
+                "Stone Bullet",
+                "Blazing Bomb",
+                "Secrets of Onmyodo",
+                "Meltina, Miracle Sorceress",
+                "Aqueous Sphere",
+                "Greater Will",
+                "Insight",
+                "Metatron",
+                "Counter Magic",
+                "Enchanting Spell",
+                "Angel's Blessing"
+            ]
+        }
+    },
+    "dragon": {
+        "ramp_dragon": {
+            "name": "ramp dragon",
+            "craft": "dragon",
+            "feature_cards": [
+                "Terra Finis",
+                "Si Long, Draconic God-Queen",
+                "Captain Dragewood",
+                "Dragon Oracle",
+                "Ignis Dragon",
+                "Ethica, Firebrand Claw",
+                "Gilnelise, Ravenous Craving",
+                "Ultimate Bahamut",
+                "Angel's Blessing"
+            ]
+        },
+        "burn_dragon": {
+            "name": "burn dragon",
+            "craft": "dragon",
+            "feature_cards": [
+                "Si Long, Draconic God-Queen",
+                "Lance Lizard",
+                "Forte, Darkwing Ruler",
+                "Hammer Dragonewt",
+                "Filene, Blizzardous Heart",
+                "Adherent of Ardor",
+                "L\u00e6vateinn Dragon",
+                "Guiding Bellringer Angel",
+                "Angel's Blessing",
+                "Garuel, Seraphic Leo",
+                "Dragon Breeder",
+                "Draconic Armor",
+                "Badb Catha, Trine Goddess",
+                "Fudoh, Seasoned Pyrotech",
+                "Brutal Dragonewt",
+                "Draconir, Knuckle Dragon",
+                "Twindrake Guide",
+                "Ironscale Serpent Drake",
+                "Dungeon Pathfinder"
+            ]
+        }
+    },
+    "shadow": {
+        "flame_and_glass_shadow": {
+            "name": "flame and glass shadow",
+            "craft": "shadow",
+            "feature_cards": [
+                "Rulenye, Screaming Silence",
+                "Call of the Great Arm",
+                "Inn Ghosthound",
+                "Corral Souls",
+                "Cernunnos"
+            ]
+        },
+        "last_words_shadow": {
+            "name": "last words shadow",
+            "craft": "shadow",
+            "feature_cards": [
+                "Guiding Bellringer Angel",
+                "Krampus",
+                "Reaper of Madness",
+                "Huginn & Muninn",
+                "Suzy, Hexcaster",
+                "Cerberus, Infernal Hound",
+                "Corral Souls",
+                "Skeleton Raider",
+                "Spirit Invasion",
+                "Baccherus, Peppy Ghostie",
+                "Cernunnos"
+            ]
+        },
+        "ghost_shadow": {
+            "name": "ghost shadow",
+            "craft": "shadow",
+            "feature_cards": [
+                "Underworld Harvester",
+                "Krampus",
+                "Spirit Invasion",
+                "Masquerade Ghost",
+                "Beguiling Specter",
+                "Trick Dullahan",
+                "Corral Souls",
+                "Inn Ghosthound",
+                "Haunted Swordsman",
+                "Baccherus, Peppy Ghostie",
+                "Necrocarnival",
+                "Ship of Mourning Souls",
+                "Cernunnos",
+                "Stay in Paradise"
+            ]
+        }
+    },
+    "blood": {
+        "handless_blood": {
+            "name": "handless blood",
+            "craft": "blood",
+            "feature_cards": [
+                "Razory Claw",
+                "Vania, Crimson Majesty",
+                "Briared Vampire",
+                "Full Moon Leap",
+                "Bat Usher",
+                "Room Service Demon",
+                "Paracelise, Demon of Greed"
+            ]
+        },
+        "evolve_blood": {
+            "name": "evolve blood",
+            "craft": "blood",
+            "feature_cards": [
+                "Yuzuki, Bloodlord",
+                "Crimson Virtue",
+                "Kali",
+                "Itsurugi, Eager Admirer",
+                "Dancing Mini Soul Devil",
+                "Bloodlust Demon",
+                "Tevali, Demonic Cat"
+            ]
+        },
+        "wrath_blood": {
+            "name": "wrath blood",
+            "craft": "blood",
+            "feature_cards": [
+                "Vampire Queen's Castle",
+                "Demonium, Punk Devil",
+                "Vania, Crimson Majesty",
+                "Devious Spiderweb Imp",
+                "Sanguine Necklace",
+                "Dark Contract"
+            ]
+        },
+        "vengeance_blood": {
+            "name": "vengeance blood",
+            "craft": "blood",
+            "feature_cards": [
+                "Doomlord of the Abyss",
+                "Briared Vampire",
+                "Deceptive Shapeshifter",
+                "Full Moon Leap",
+                "Room Service Demon",
+                "Guiding Bellringer Angel",
+                "Metatron",
+                "Waltz, Moonlight Wolf-King",
+                "Angel's Blessing"
+            ]
+        }
+    },
+    "haven": {
+        "control_haven": {
+            "name": "control haven",
+            "craft": "haven",
+            "feature_cards": [
+                "Perpetual Despair",
+                "Holy Saber",
+                "Emerald Maiden"
+            ]
+        },
+        "amulet_haven": {
+            "name": "amulet haven",
+            "craft": "haven",
+            "feature_cards": [
+                "Skullfane, the Defiled",
+                "Emerald Maiden",
+                "Holy Lightning Bird",
+                "Meus Jester",
+                "Agent of the Gods"
+            ]
+        },
+        "heal_haven": {
+            "name": "heal haven",
+            "craft": "haven",
+            "feature_cards": [
+                "Holy Saber",
+                "Bellerophon",
+                "Perpetual Despair",
+                "Sacred Ice-Crusher"
+            ]
+        },
+        "ward_haven": {
+            "name": "ward haven",
+            "craft": "haven",
+            "feature_cards": [
+                "Temple Healer",
+                "Zlatorog",
+                "Teena, Sacred Sister",
+                "Holy Saber",
+                "Jeanne, Salvation's Maiden",
+                "Wilbert, Luminous Paladin"
+            ]
+        }
+    },
+    "portal": {
+        "puppet_portal": {
+            "name": "puppet portal",
+            "craft": "portal",
+            "feature_cards": [
+                "Inauspicious Puppeteer",
+                "Orchis, the Limitless",
+                "Blossoming Flower Doll",
+                "Young Threadmaster",
+                "Lishenna, Melodious Destruction",
+                "Cassim, the Courageous",
+                "Absolute Chastity",
+                "Craftsman's Pride"
+            ]
+        },
+        "artifact_portal": {
+            "name": "artifact portal",
+            "craft": "portal",
+            "feature_cards": [
+                "Robopup",
+                "Ralmia, Astrowing",
+                "Genesis Artifact",
+                "Vyrmedea, Synthetic Voice",
+                "Full Blast Gunner",
+                "Celestial Artifact",
+                "Supersonic Breakthrough"
+            ]
+        }
+    }
+}
