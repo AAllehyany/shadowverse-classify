@@ -19,8 +19,15 @@ def main(jcg_code):
     scraper = JCGScraper(jcg_code, parser=sv_portal)
     scraper.scrape_entries_json()
 
-    with open (os.path.join('deck-samples', f'jcg-{jcg_code}-decks.json'), 'w') as out:
-        json.dump(sv_portal.decks, out, indent=4)
+    samples = []
+    if os.path.exists(os.path.join('deck-samples', 'samples.json')):
+        with open(os.path.join('deck-samples', 'samples.json')) as ff:
+            samples = json.load(ff)
+    
+    samples.extend(sv_portal.decks)
+
+    with open (os.path.join('deck-samples', f'samples.json'), 'w') as out:
+        json.dump(samples, out, indent=4)
 
     
 

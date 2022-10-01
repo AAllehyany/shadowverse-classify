@@ -53,7 +53,7 @@ def start_cluster(format_name="", num_clusters=4, target_craft="all"):
     decks_vectorizer = Vectorizer(cards_data)
     decks_vectorizer.initialize()
     # decks_vectorizer.vectorize_from_sample(decks_csv)
-    decks_vectorizer.vectorize_from_json(process_samples('./deck-samples/jcg-9Wu7HSY91GXk-decks.json'))
+    decks_vectorizer.vectorize_from_json(process_samples('./deck-samples/samples.json'))
     vectorizers = decks_vectorizer.vectorizers
 
     
