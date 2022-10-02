@@ -1,6 +1,8 @@
 import json
 import math
 import requests
+import pandas as pd
+
 
 # Credit to Finalysis for this conversion table
 base64 = {0: '0', 1: '1', 2: '2', 3: '3', 4: '4', 5: '5', 6: '6', 7: '7', 8: '8', 9: '9',
@@ -39,6 +41,8 @@ def map_card_fields(card):
         "card_id": card["card_id"]
     }
 
+def map_to_db(card):
+    return [card['card_id'], card['cost'], card['card_name'], card['clan']]
 
 api = "https://shadowverse-portal.com/api/v1/cards"
 
@@ -46,9 +50,16 @@ result = requests.get(api, {"format": "json", "lang": "en"})
 
 json_result = result.json()
 
-cards = json_result["data"]["cards"]
-cards = [map_card_fields(card) for card in cards if card["card_set_id"] < 90000]
+cards_list = json_result["data"]["cards"]
+cards = [map_card_fields(card) for card in cards_list if card["card_set_id"] < 90000]
+csv_cards = [map_to_db(card) for card in cards_list if card["card_set_id"] < 90000]
 
-with open('cards_data.json', 'w') as f:
-    json.dump(cards, f, indent=4)
+
+
+# with open('cards_data.json', 'w') as f:
+#     json.dump(cards, f, indent=4)
+
+df = pd.DataFrame(csv_cards, columns=['id', 'cost', 'card_name', 'craft_id'])
+
+df.to_csv('./db/cards-master.csv', index=False)
 
