@@ -162,12 +162,27 @@ class JCGScraper:
         self.driver.get(self.results_link)
         time.sleep(2)  # Allow 2 seconds for the web page to open
         entries = self.driver.find_elements(By.CSS_SELECTOR, '.result-1')
+        second_places = self.driver.find_elements(By.CSS_SELECTOR, '.result-2')
+        third_fourth = self.driver.find_elements(By.CSS_SELECTOR, '.result-3')
 
         for entry in entries:
             user = entry.find_element(By.CLASS_NAME, 'result-name')
             id = user.find_element(By.TAG_NAME, 'a').get_attribute('href').split('/')[-1]
             if id in self.entry_decks:
-                self.entry_decks[id]["top"] += 4
+                self.entry_decks[id]["top"] += 2
+
+        for entry in second_places:
+            user = entry.find_element(By.CLASS_NAME, 'result-name')
+            id = user.find_element(By.TAG_NAME, 'a').get_attribute('href').split('/')[-1]
+            if id in self.entry_decks:
+                self.entry_decks[id]["top"] += 1
+
+        for entry in third_fourth:
+            user = entry.find_element(By.CLASS_NAME, 'result-name')
+            id = user.find_element(By.TAG_NAME, 'a').get_attribute('href').split('/')[-1]
+            if id in self.entry_decks:
+                self.entry_decks[id]["top"] += 0.5
+        
             
         
         self.driver.close()
