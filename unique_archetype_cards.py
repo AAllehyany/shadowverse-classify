@@ -2,7 +2,7 @@ import collections
 import json
 
 
-f = open('shadowverse-master.json')
+f = open('celestial-dragonblade-meta.json')
 data = json.load(f)
 
 def filter_repeated_cards(craft):
@@ -24,5 +24,5 @@ for (craft, archetypes) in data.items():
 
     filter_repeated_cards(archetypes)
 
-with open('shadow-master-unique.json', 'w') as u:
+with open('unique-celestial-meta.json', 'w') as u:
     json.dump(data, u, indent=4)
