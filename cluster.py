@@ -7,7 +7,7 @@ import random
 import sys
 import pandas as pd
 import numpy as np
-from sklearn.cluster import KMeans, DBSCAN
+from sklearn.cluster import KMeans, DBSCAN, OPTICS
 import matplotlib.pyplot as plt
 import argparse
 
@@ -43,9 +43,9 @@ def start_cluster(format_name="", num_clusters=4, target_craft="all"):
     with four different clusters for each craft, and you can 
     change n_clusters to how many clusters you want.
     """
-    if not os.path.exists('samples'):
-        print('Unable to locate samples folder')
-        sys.exit(2)
+    # if not os.path.exists('samples'):
+    #     print('Unable to locate samples folder')
+    #     sys.exit(2)
     output = {}
 
     decks_csv = glob("samples/*.csv")
@@ -77,7 +77,16 @@ def start_cluster(format_name="", num_clusters=4, target_craft="all"):
         km.fit(vectorizer.vectorized)
         km_labels = km.labels_
         labeled_decks = list(zip(vectorizer.decks, km_labels))
-        
+
+        # km = OPTICS(min_samples=12)
+        # km.fit(vectorizer.vectorized)
+        # km_labels = km.labels_
+        # labeled_decks = list(zip(vectorizer.decks, km_labels))
+        # num_clusters = len(set(km_labels)) - (1 if -1 in km_labels else 0)
+        # noise = list(km_labels).count(-1)
+
+        # print(f'We got {num_clusters} clusters. And {noise} noisy samples')
+
         for cluster_id in range(num_clusters):
             cluster_decks = decks_by_label(cluster_id, labeled_decks)
             
