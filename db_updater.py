@@ -42,7 +42,7 @@ def map_card_fields(card):
     }
 
 def map_to_db(card):
-    return [card['card_id'], card['cost'], card['card_name'], card['clan']]
+    return [card['card_id'], card['cost'], card['card_name'], card['clan'], card['base_card_id']]
 
 api = "https://shadowverse-portal.com/api/v1/cards"
 

@@ -1,0 +1,3449 @@
+id,cost,card_name,craft_id
+110124010,0,Mark of the Unkilling,1
+113242010,0,Everlasting Castle,2
+116322010,0,Spellbinder's Preparation,3
+108634010,0,Gift for Bloodkin,6
+109623010,0,Restless Parish,6
+118821010,0,Capsule Homunculus,8
+107834020,0,Biofabrication,8
+110824010,0,Mechanization,8
+115814010,0,Focus,8
+713814010,0,Focus,8
+118834010,0,Elemental Brink,8
+122814010,0,Revised Experiment,8
+123824010,0,Supersonic Breakthrough,8
+715824010,0,Supersonic Breakthrough,8
+100011010,1,Goblin,0
+104011030,1,Wise Merman,0
+110011020,1,Steadfast Angel,0
+118011010,1,Rivaylian Bandit,0
+124021010,1,Brave Goblin,0
+125011010,1,Wayfaring Goblin,0
+126031010,1,"Garuel, Seraphic Leo",0
+101024010,1,Angelic Snipe,0
+105024010,1,Into the Looking Glass,0
+106024010,1,Mystic Ring,0
+107024010,1,Treasure Map,0
+115024010,1,Clash of Heroes,0
+120014010,1,Retracing the Past,0
+715014010,1,Retracing the Past,0
+121034010,1,Naterra's Future,0
+122014010,1,Angel's Grace,0
+108013010,1,Fount of Angels,0
+115013010,1,Sentry Gate,0
+121023010,1,Aiolon's Remains,0
+122023010,1,Legendary Tome,0
+122033010,1,Brand of the Morning Star,0
+100111010,1,Water Fairy,1
+101111010,1,Elf Child May,1
+101111020,1,Fairy Champion,1
+103111050,1,Felpurr Kitten,1
+110141020,1,"Tia, Crystalian Noble",1
+111111030,1,"Lila, Arborist",1
+112111030,1,Robotic Bagworm,1
+113131010,1,Whirlwind Rhinoceroach,1
+113131030,1,"May, Eager Elf",1
+115111020,1,Crossbow Sniper,1
+115141030,1,Phantasmal Fairy Dragon,1
+116111030,1,Ironback Beetle,1
+117121020,1,Lumbering Carapace,1
+118111030,1,Cactus Cowboy,1
+118141010,1,"Shamu & Shama, Posh Felines",1
+119121010,1,"Walder, Forest Ranger",1
+120141020,1,"Sekka, Fatebound Fox",1
+716141010,1,"Sekka, Fatebound Fox",1
+122131010,1,Flower Fox,1
+122131020,1,Blast Fairy,1
+125111010,1,Autumn Leaf Man,1
+125121010,1,Precocious Felpurr Kitten,1
+125131010,1,Aqua Fairy,1
+126131020,1,Gerbera Bear,1
+101114010,1,Nature's Guidance,1
+112114010,1,Nature's Guidance,1
+709114010,1,Nature's Guidance,1
+101114050,1,Fairy Circle,1
+110114010,1,Fairy Circle,1
+103114020,1,Entangling Vines,1
+106114010,1,Airbound Barrage,1
+114114010,1,Airbound Barrage,1
+702114010,1,Airbound Barrage,1
+107134010,1,Fairy Torrent,1
+114124010,1,Fertile Aether,1
+114134010,1,Divine Smithing,1
+115114010,1,Synchronized Slash,1
+115124010,1,Spiritshine,1
+713124010,1,Spiritshine,1
+121114010,1,Lonely Beginnings,1
+121134010,1,Heroic Resolve,1
+122134010,1,Miracle Harvest,1
+123124010,1,Rejuvenating Resurrection,1
+123134010,1,Erosive Annihilation,1
+124124010,1,Verdant Protection,1
+125134010,1,Whirlwind Assault,1
+126114010,1,Floral Breeze,1
+717114010,1,Floral Breeze,1
+101122020,1,Woodland Refuge,1
+106133010,1,Spring-Green Protection,1
+107113010,1,Firesprite Grove,1
+109113010,1,Fairy Refuge,1
+100211010,1,Quickblader,2
+702211010,1,"Ta-G, Katana Unsheathed",2
+101211010,1,Ninja Trainee,2
+101211120,1,Vanguard,2
+106231020,1,Perseus,2
+107211030,1,Wolf Fang Swordsman,2
+108211010,1,Axe Princess,2
+109221020,1,Sellsword Lucius,2
+110231010,1,Rapier Master,2
+113211010,1,"Lounes, Levin Apprentice",2
+115241010,1,"Kagemitsu, Matchless Blade",2
+117221020,1,"Ernesta, Weapons Hawker",2
+118211030,1,Shinobi Tanuki,2
+118231020,1,Radical Gunslinger,2
+120221020,1,Homebound Infantryman,2
+715221010,1,Homebound Infantryman,2
+122231020,1,Axe Pirate,2
+123211030,1,Penguin Guardian,2
+123221030,1,Adherent of Hollowness,2
+124221020,1,Bumpkin Recruit,2
+717221020,1,Bumpkin Recruit,2
+125211030,1,Kitty Sergeant,2
+125221010,1,Brave Vanguard,2
+126211030,1,Morgenstern Maid,2
+126221020,1,Suave Bandit,2
+126231010,1,"Amerro, Spear Knight",2
+717231020,1,"Amerro, Spear Knight",2
+100214010,1,Unbridled Fury,2
+705214010,1,Unbridled Fury,2
+102214040,1,Mentor's Teachings,2
+107224010,1,Accolade,2
+108234010,1,Chromatic Duel,2
+109214010,1,Grand Auction,2
+113224010,1,King's Welcome,2
+709224020,1,King's Welcome,2
+113234010,1,Meet the Levin Sisters!,2
+114224010,1,Tempered Aether,2
+114234020,1,Levin Justice,2
+115224010,1,Grand Acquisition,2
+117214010,1,Pompous Summons,2
+117234010,1,Decisive Strike,2
+713234010,1,Decisive Strike,2
+118224010,1,Dramatic Retreat,2
+121214010,1,Brothers United,2
+121234010,1,Sunny Day Encounter,2
+122214010,1,Royal Summons,2
+123224010,1,Serration Wave,2
+123234010,1,Ultimate Hollow,2
+124224010,1,Return from the Brink,2
+124234010,1,Night on the Town,2
+101232020,1,Front Lines,2
+104213010,1,Spring Cleaning,2
+113331010,1,"Melvie, Princess Witch",3
+115311010,1,Talisman Disciple,3
+117321010,1,Juggling Moggy,3
+118341010,1,"Maiser, Neighborhood Hero",3
+119321020,1,"Alistair, Tiny Magus",3
+121321010,1,"Marie, Flowery Magician",3
+122341030,1,Superior Contractor,3
+126311020,1,Cardseer,3
+100314010,1,Insight,3
+705314010,1,Insight,3
+101324030,1,Commence Experiment,3
+107324010,1,Mysterian Knowledge,3
+114324010,1,Arcane Aether,3
+117314010,1,Magical Augmentation,3
+118334010,1,Pursuit of Truth,3
+119314010,1,Impalement Arts,3
+715314010,1,Impalement Arts,3
+120324010,1,Riven Earth,3
+121334010,1,Guild Assembly,3
+122314010,1,Stone Bullet,3
+123324010,1,Secrets of Onmyodo,3
+715324010,1,Secrets of Onmyodo,3
+125314020,1,Enchanting Spell,3
+102312040,1,Scrap Iron Smelter,3
+110312010,1,Scrap Iron Smelter,3
+105312010,1,Witch's Cauldron,3
+113312010,1,Witch's Cauldron,3
+106312010,1,Starseer's Telescope,3
+109332010,1,Mystic Rune,3
+101411010,1,Ivory Dragon,4
+110421020,1,"Giselle, Mermaid Healer",4
+110421030,1,Disciple of Disdain,4
+112431010,1,Soaring Dragonewt,4
+114431020,1,"Marion, Elegant Dragonewt",4
+117411020,1,Dragonclad Lancer,4
+118411020,1,Wyrmfire Engineer,4
+122421010,1,Ocean Spirit,4
+122431010,1,Bejeweled Dragon,4
+123421030,1,Adherent of Ardor,4
+124411030,1,Dragon Breeder,4
+126421020,1,Mermaid Songstress,4
+126431020,1,Hammer Dragonewt,4
+100414020,1,Blazing Breath,4
+107414010,1,Stormborne Wings,4
+107424010,1,Dragon Horde,4
+110434010,1,Disdainful Rending,4
+114424010,1,Feral Aether,4
+115414010,1,Flamewinged Might,4
+713414010,1,Flamewinged Might,4
+116424010,1,Scalebound Plight,4
+119424010,1,Dragon Rearing,4
+715424010,1,Dragon Rearing,4
+120434010,1,Prime Conflagration,4
+121424010,1,Newfound Allies,4
+122414010,1,Dragon's Awakening,4
+123414010,1,Dragon Hunt,4
+715414010,1,Dragon Hunt,4
+123434010,1,Ardent Torch,4
+125414010,1,Mermaid Song,4
+717414010,1,Mermaid Song,4
+126424010,1,Draconic Armor,4
+717424010,1,Draconic Armor,4
+102442010,1,Dragonsong Flute,4
+104412010,1,Dragon's Nest,4
+113433010,1,Dragon's Hoard,4
+101511120,1,Skull Beast,5
+101521010,1,Skeleton Fighter,5
+104511020,1,Deadmoon Disciple,5
+108511030,1,Mischievous Spirit,5
+109541030,1,Gremory,5
+113511010,1,"Mino, Crafty Reaper",5
+114521020,1,Night of the Living Dog,5
+115531010,1,"Miyako, Pudding Poltergeist",5
+711531010,1,"Miyako, Pudding Poltergeist",5
+118511020,1,Bone Fanatic,5
+119521010,1,"Shao, Shady Apothecary",5
+121541030,1,"Luna, Soul Keeper",5
+123521020,1,Skull Fanatic,5
+124511010,1,Inn Ghosthound,5
+125521010,1,"Mino, Daydreaming Reaper",5
+126521010,1,Mischievous Zombie,5
+101514010,1,Soul Conversion,5
+109514010,1,Soul Conversion,5
+103524010,1,Ghostly Grasp,5
+107524010,1,Grave Invitation,5
+110514010,1,Silent Purge,5
+111534010,1,Sonata of Silence,5
+112534010,1,Deathguard,5
+114524010,1,Necromantic Aether,5
+115514010,1,Demonic Procession,5
+119524010,1,Undead Parade,5
+121534010,1,Steeled Hopes,5
+123514010,1,Spirit Invasion,5
+717514010,1,Spirit Invasion,5
+123534010,1,Spiteful Screams,5
+715534010,1,Spiteful Screams,5
+124514010,1,Entanglement,5
+124534010,1,Call of the Great Arm,5
+101522010,1,Burial Grounds,5
+101532010,1,Ghouls' Banquet,5
+105513010,1,Haunted House,5
+118513010,1,Cursed Coin,5
+101611040,1,Ambling Wraith,6
+101621060,1,Cursebrand Vampire,6
+108621010,1,"Buller, Blood Maiden",6
+110621020,1,Disciple of Lust,6
+115621030,1,"Lucius, Vampire Slayer",6
+117611020,1,Silverbolt Hunter,6
+119611010,1,Rouge Vampire,6
+123621010,1,Briared Vampire,6
+123621030,1,Adherent of Desire,6
+124611010,1,Bat Usher,6
+124621020,1,Scorpion of the Depths,6
+125631020,1,Demonbrand Vampire,6
+102624030,1,Precious Bloodfangs,6
+103614010,1,Executioner's Axe,6
+105624010,1,Furtive Fangs,6
+108624010,1,Red Talonstrike,6
+111624010,1,Kiss of Lust,6
+114624010,1,Lunatic Aether,6
+115634010,1,Creeping Madness,6
+117634010,1,Nightscreech,6
+118624010,1,Bloodfall,6
+713624020,1,Bloodfall,6
+120614010,1,Silverbolt Hail,6
+121634010,1,Rejuvenate the Spark,6
+123634010,1,Loathing Desire,6
+124614010,1,Murderous Application,6
+124634010,1,Eternal Contract,6
+717634010,1,Eternal Contract,6
+125614010,1,Creeping Malice,6
+717614010,1,Creeping Malice,6
+126614010,1,Infernal Orchestration,6
+717614020,1,Infernal Orchestration,6
+101623010,1,Bloodfed Flowerbed,6
+121613010,1,Lone Promise,6
+122613010,1,Sanguine Necklace,6
+109721010,1,Father Punishment,7
+109731020,1,"Petra, Ether of the Wind",7
+111711010,1,Temple Windbear,7
+111741030,1,Elysian Saint-Hares,7
+113711010,1,Tender Rabbit Healer,7
+113741030,1,Destiny Wing Knight,7
+114721010,1,"Pyne, Holy Police",7
+118711010,1,Sacred Stone Apostle,7
+119721010,1,"Will, Underworld Priest",7
+121731020,1,Empyreal Unicorn,7
+121741020,1,"Meowskers, Fluffy Consul",7
+122731010,1,Cursed Maiden,7
+124711010,1,Fox of Fortune,7
+125711010,1,Reverend Punishment,7
+113724010,1,Passing of Lore,7
+114724010,1,Virtuous Aether,7
+117724010,1,Jeweled Brilliance,7
+713724010,1,Jeweled Brilliance,7
+121714010,1,Mark Unleashed,7
+121724010,1,Unlikely Fellowship,7
+124724010,1,Spiritual Blow,7
+100713020,1,Summon Pegasus,7
+101713010,1,Pinion Prayer,7
+101713020,1,Sacred Plea,7
+101733010,1,Hare of Illusions,7
+106733010,1,Globe of the Starways,7
+107713020,1,Featherfall Hourglass,7
+107732010,1,Summit Temple,7
+119732010,1,Summit Temple,7
+109713010,1,Sealed Tome,7
+113733010,1,Golden Bell,7
+713733010,1,Golden Bell,7
+114713010,1,Snnneak Attack!,7
+117733010,1,Temple of Heresy,7
+119713010,1,Unicorn Altar,7
+122733010,1,Holy Lion Sanctum,7
+125713010,1,Sublime Talisman,7
+125723010,1,Hierophant's Implements,7
+126732010,1,Bejeweled Shrine,7
+717732010,1,Bejeweled Shrine,7
+110821010,1,Inspired Inventor,8
+112821010,1,Mechagun Wielder,8
+115811010,1,Sure-Sighted Lancer,8
+115821010,1,Barrage Brawler,8
+116821020,1,Technomancer,8
+117811020,1,Robotic Engineer,8
+118811020,1,Stringmaster,8
+120811030,1,Micro Assault Bot,8
+121811010,1,Iron Hero,8
+122811020,1,Young Threadmaster,8
+717811010,1,Young Threadmaster,8
+123841020,1,Wielder of the Cosmos,8
+124821010,1,Tinkering Shopkeeper,8
+125811030,1,Robopup,8
+717811020,1,Robopup,8
+126811010,1,Mech Wing Attendant,8
+126821010,1,Sweeper Doll,8
+107824020,1,Metaproduction,8
+111814010,1,Joy of Destruction,8
+708814010,1,Joy of Destruction,8
+112834010,1,Augmentation Bestowal,8
+709834010,1,Augmentation Bestowal,8
+113824010,1,Metadivision,8
+713824010,1,Metadivision,8
+114814010,1,Doll Operation,8
+114824010,1,Enigmatic Aether,8
+116814010,1,Syntonization,8
+117824010,1,Artifact Scan,8
+713824020,1,Artifact Scan,8
+118814010,1,Mechanical Designs,8
+120824010,1,Planar Breach,8
+120834010,1,Quicksilver Aegis,8
+121824010,1,Dual Swords of Longing,8
+122844010,1,Calamity's Genesis,8
+123834010,1,Melody's Return,8
+124814010,1,Craftsman's Pride,8
+125814010,1,Cultivate Life,8
+125834010,1,Cyclical Fate,8
+717834010,1,Cyclical Fate,8
+107813030,1,Acceleratium,8
+107823010,1,Ancient Amplifier,8
+107833010,1,Nilpotent Entity,8
+109813010,1,Ancient Apparatus,8
+111843010,1,Orb of Desecration,8
+100011020,2,Fighter,0
+101011010,2,Minotaur,0
+101021010,2,Bellringer Angel,0
+102021020,2,Unicorn Dancer Unica,0
+102031030,2,Demonic Simulacrum,0
+103011040,2,Sektor,0
+103011060,2,Hamsa,0
+103021030,2,"Lyrial, Celestial Archer",0
+104011040,2,Owlcat,0
+104021030,2,Wandering Bard Elta,0
+105021010,2,Actress Feria,0
+106021010,2,Evelisia the Fallen,0
+107011030,2,Happy Pig,0
+108011020,2,Tart Man,0
+108021010,2,Valkyrie of Order,0
+108031020,2,Paradise Vanguard,0
+707031010,2,Paradise Vanguard,0
+109031010,2,"Lyria, Azure Maiden",0
+109041020,2,Legendary Fighter,0
+110011030,2,Goblin Fighter,0
+111011030,2,"Reize, Spice Cherub",0
+111031010,2,"Ephemera, Sword Angel",0
+112011020,2,"Hnikar, Warring Thunder",0
+112011030,2,Robogoblin,0
+113011010,2,Hoverboard Mercenary,0
+113021010,2,"Unica, Unicorn Maiden",0
+113021020,2,Apollo,0
+114011020,2,Sweet-Tooth Sleuth,0
+114021010,2,Extreme Carrot,0
+114031010,2,Desert Pathfinder,0
+712031010,2,Desert Pathfinder,0
+114031020,2,Dawn's Splendor,0
+115011020,2,Bazooka Goblins,0
+116011020,2,Wayfaring Illustrator,0
+116031010,2,Changewing Cherub,0
+117021010,2,Cloud Gigas,0
+118011020,2,Quixotic Adventurer,0
+715011010,2,Quixotic Adventurer,0
+118031010,2,Wandering Chef,0
+118041020,2,Ramiel,0
+119011020,2,Master Sleuth,0
+119021020,2,"Io, Journeymage",0
+119031010,2,"Vyrn, Li'l Red Dragon",0
+119031020,2,Archangel of Remembrance,0
+120011020,2,Armored Goblin,0
+121011020,2,Dungeon Minotaur,0
+121031020,2,Master Chef,0
+122011020,2,Froggy Maestro,0
+122031020,2,Guiding Bellringer Angel,0
+123011010,2,Nomadic Conductor,0
+123031010,2,Arael,0
+123041020,2,"Gilnelise, Ravenous Craving",0
+124031020,2,Glistering Angel,0
+125011020,2,Angel of Boons,0
+125021010,2,Ambitious Goblin Mage,0
+125041020,2,Metatron,0
+126011010,2,Angel of Adjudication,0
+126021010,2,Tellurian Painter,0
+101014010,2,Keen Enchantment,0
+101024040,2,Trail of Light,0
+101034010,2,Altered Fate,0
+109014010,2,Investigation,0
+109034010,2,Seraphic Blade,0
+707034010,2,Seraphic Blade,0
+114014010,2,Travelers' Respite,0
+712014010,2,Travelers' Respite,0
+117014010,2,Sudden Showers,0
+119014010,2,Angelic Melody,0
+120044010,2,Planetary Fracture,0
+123014010,2,Perilous Setback,0
+123034010,2,Second Advent of the Omens,0
+123034020,2,Birth of the Ravenous,0
+124014010,2,Burst Tackle,0
+124034010,2,Stay in Paradise,0
+125014010,2,Dreams of Adventure,0
+126034010,2,Greater Will,0
+100012010,2,Well of Destiny,0
+103012020,2,Valkyrie's Spear,0
+106033010,2,Staircase to Paradise,0
+109023010,2,Genesis of Legend,0
+113013010,2,Strategic Assembly,0
+100111020,2,Fairy Whisperer,1
+100111040,2,Elf Guard,1
+100121020,2,Elf Metallurgist,1
+101111030,2,Dungeoncrawl Fairy,1
+101111040,2,Fairy Bringer,1
+101111070,2,Wandering Elf Mage,1
+101111090,2,Elf Wanderer,1
+101121020,2,Blessed Fairy Dancer,1
+101131020,2,Rhinoceroach,1
+102111010,2,Dwarf Perfumer,1
+102111020,2,Elf Bard,1
+102131030,2,Elf Girl Liza,1
+103121030,2,Crystalia Lily,1
+104111020,2,Dryad,1
+104121020,2,"Sukuna, Brave and Small",1
+105111020,2,"Tweedle Dum, Tweedle Dee",1
+105121010,2,Abby the Axe Girl,1
+105141020,2,Fairy Dragon,1
+106111010,2,Fita the Gentle Elf,1
+106121010,2,Elf Singer Harmony,1
+107111030,2,Leaf Man,1
+107121020,2,Furious Elder Weedman,1
+107131010,2,"Rayne, Elf Smith",1
+107141020,2,Insect Lord,1
+108111020,2,Servant of the Spellgrove,1
+108131010,2,"Paula, Icy Warmth",1
+108131030,2,Storied Falconer,1
+109111010,2,Devil Flower,1
+109111020,2,Utopian Fairy,1
+110111020,2,Servant of Unkilling,1
+110131030,2,"Lily, Crystalian Conductor",1
+111111010,2,Zealot of Unkilling,1
+111121020,2,"Michelle, the Mind Reader",1
+112111010,2,Daisybow Archer,1
+112141020,2,"Cleft, Dual Fencer",1
+113121010,2,Wellspring Elf Princess,1
+113131020,2,Guard of the Machinatree,1
+114111030,2,Ghastly Treant,1
+114121020,2,Blossom Spirit,1
+114131020,2,Avatar of Fruition,1
+115111010,2,Greenwood Guardian,1
+115121010,2,Woodland Cleaver,1
+115131020,2,"Rino, Cleansweep Archer",1
+115131030,2,Greenbrier Elf,1
+115141020,2,"Kokkoro, Faithful Guide",1
+116111020,2,Springleaf Sprite,1
+116121010,2,Mechaboomerang Elf,1
+117111020,2,Blossoming Archer,1
+118111020,2,Forest Patroller,1
+118131020,2,"Sukuna, Mighty Malleteer",1
+119111010,2,Elf Sorcerer,1
+119121020,2,"Mimlemel, Freewheeling Lass",1
+119131030,2,"Sen, Stormclaw Cat",1
+120111020,2,Edgy Elf,1
+120121020,2,Feybolt Archer,1
+121111010,2,Fairy Healer,1
+121121010,2,Beastfolk Harvester,1
+121141030,2,"Arisa, Evergreen Arrow",1
+122111030,2,Lazy Sloth,1
+122121030,2,Phantombloom Predator,1
+715121010,2,Phantombloom Predator,1
+122141020,2,Noxious Elf,1
+123111020,2,Bouquet Fairy,1
+123121030,2,Adherent of Annihilation,1
+123131010,2,Blossoming Lunerian,1
+123141010,2,"Amataz, Reverse Blader",1
+124111020,2,"Calyx, Botanical Doctor",1
+124121010,2,Elven Waitress,1
+124131020,2,Fairytale Prince,1
+124141030,2,"Yggdrasil, Root of Life",1
+125111020,2,Machete Elf,1
+125141020,2,"Rayne, Divine Smith",1
+717141020,2,"Rayne, Divine Smith",1
+126111010,2,Free-Spirited Elf,1
+126111030,2,Flying Mistletoe Squirrel,1
+126121030,2,Forest Merchant,1
+126131010,2,"Slade, Blossoming Wolf",1
+100114010,2,Sylvan Justice,1
+705114010,2,Sylvan Justice,1
+713114010,2,Sylvan Justice,1
+101114020,2,Pixie Mischief,1
+101114040,2,Woodkin Curse,1
+102114050,2,Glimmering Wings,1
+105134010,2,Elf Twins' Assault,1
+106124010,2,Elf Song,1
+111124010,2,Predatory Might,1
+708124010,2,Predatory Might,1
+112134010,2,Aria's Whirlwind,1
+116114010,2,Take to the Canopies,1
+116134010,2,Intertwined Resolve,1
+117124010,2,Soothing Spell,1
+713124020,2,Soothing Spell,1
+118124010,2,Corrosive Thorns,1
+118134010,2,Fairy Flowering,1
+120134010,2,Elemental Slash,1
+715134010,2,Elemental Slash,1
+121124010,2,Friendly Embrace,1
+715124010,2,Friendly Embrace,1
+123114010,2,Seed Barrage,1
+715114010,2,Seed Barrage,1
+124114010,2,Elven Craftsmanship,1
+101113010,2,Forest of Dreams,1
+105123010,2,Wood of Brambles,1
+108113010,2,Flower of Fairies,1
+110113010,2,Whispering Woods,1
+120123010,2,Tree of Wonders,1
+100211020,2,Oathless Knight,2
+100211060,2,Kunoichi Trainee,2
+101211020,2,Fervid Soldier,2
+101211030,2,Palace Fencer,2
+101211040,2,Cyclone Soldier,2
+101211050,2,Centaur Vanguard,2
+101211110,2,Veteran Lancer,2
+101221010,2,Maid Leader,2
+101221020,2,Assassin,2
+101221080,2,Luminous Knight,2
+101221090,2,Princess Vanguard,2
+102211020,2,Fearless Banneret,2
+102221010,2,Gunner Maid Seria,2
+103211050,2,Samurai,2
+103221030,2,"Gelt, Vice Captain",2
+104211020,2,Naval Guard Simone,2
+105221030,2,Bladed Hedgehog,2
+105231010,2,"Maisy, Red Riding Hood",2
+106221010,2,Cuhullin,2
+702221010,2,Lancer,2
+106231010,2,"Lux, Solar Lancer",2
+107221020,2,Homebound Mercenary,2
+107231020,2,Noble Chancellor,2
+108211030,2,Holy Bear Knight,2
+108221020,2,Savage Swordsman,2
+108231010,2,Innocent Princess Prim,2
+108231020,2,"Dario, Demon Count",2
+108241010,2,Sky Commander Celia,2
+109211030,2,Tycoon,2
+110211030,2,Servant of Usurpation,2
+111211030,2,"Ernesta, Magic Dealer",2
+111231010,2,"Leod, the Crescent Blade",2
+112211010,2,Cybercannoneer,2
+112211020,2,Dauntless Commander,2
+113211020,2,Levin Archer,2
+113221010,2,Splendid Fencer,2
+113221020,2,"Jeno, Levin Stalwart",2
+114211030,2,Lupine Axeman,2
+114221020,2,"Valse, Champion Deadeye",2
+115211020,2,Samurai Outlaw,2
+115221020,2,Twinsword Master,2
+115231010,2,Steadfast Samurai,2
+116211010,2,Gizmo Courier,2
+116221020,2,Panther Scout,2
+116221030,2,Levin Beastmaster,2
+116231020,2,Pompous Prince,2
+117211030,2,Honorable Thief,2
+117231020,2,"Ilmisuna, Discord Hawker",2
+118211020,2,Naht's Henchman,2
+119221010,2,"Arthur, Slumbering Dragon",2
+119221020,2,"Mordred, Slumbering Lion",2
+119231010,2,"Mirin, Samurai Dreamer",2
+120211010,2,Ballroom Assassin,2
+120221010,2,Fortress Strategist,2
+120231020,2,Cat Admiral,2
+121211010,2,Countersolari Survivor,2
+121211030,2,Flying Messenger Squirrel,2
+121221020,2,Bladerights Lieutenant,2
+122211020,2,Cavalry Trooper,2
+122231010,2,Assault Knight,2
+123211020,2,Chivalrous Bandit,2
+123231020,2,Arsène Lupin,2
+124211010,2,Front Desk Frog,2
+124241010,2,"Taketsumi, Aconite Paladin",2
+125211010,2,Illustrious Thief,2
+125211020,2,"Lyrala, Luminous Cleric",2
+125221030,2,Luminous Lancer,2
+125231010,2,Swiftspeed Quickblader,2
+125231020,2,Steeled Luminous Knight,2
+126211010,2,Flame Soldier,2
+126211020,2,Resplendent Knight,2
+126221030,2,Spellscourger,2
+101224010,2,Conscription,2
+102224040,2,Whole-Souled Swing,2
+105224010,2,Shield of Flame,2
+106224010,2,Armor of the Stars,2
+110214010,2,Usurping Spineblade,2
+111214010,2,Godsent Stride,2
+708214010,2,Godsent Stride,2
+112224010,2,Ivory Sword Dance,2
+709224010,2,Ivory Sword Dance,2
+114214010,2,Mirror Image,2
+114234010,2,Elegance in Action,2
+709234010,2,Elegance in Action,2
+117224010,2,Shield Phalanx,2
+119224010,2,Proven Methodology,2
+120224010,2,Auction the Spoils,2
+121224010,2,Shadowed Memories,2
+124214010,2,Haggler's Gambit,2
+717214010,2,Haggler's Gambit,2
+125214010,2,Shuriken Jutsu,2
+101222010,2,Ironwrought Fortress,2
+109223010,2,Ageworn Weaponry,2
+100311010,2,"Sammy, Wizard's Apprentice",3
+101311010,2,Penguin Wizard,3
+101311020,2,Crafty Warlock,3
+101311060,2,Apprentice Alchemist,3
+101321040,2,Scholarly Witch,3
+102331010,2,Timeworn Mage Levi,3
+103311030,2,"Craig, Wizard of Mysteria",3
+103321030,2,Dwarf Alchemist,3
+104321020,2,Freshman Lou,3
+104321030,2,Magic Illusionist,3
+105311010,2,Witch of Sweets,3
+105311030,2,Carbuncle of Mysteria,3
+106311030,2,Magic Owl,3
+106341010,2,Star Reader Stella,3
+107311020,2,"Mr. Bertrand, Magic Mentor",3
+108311010,2,Witch of Foresight,3
+108311030,2,Beastfaced Mage,3
+108321020,2,Mysterian Wyrmist,3
+109311010,2,Black Witch Anna,3
+110311010,2,"Owen, Knight of Mysteria",3
+110331020,2,Apostle of Truth,3
+111311010,2,Rabbit Mage,3
+111341030,2,"Geos, Runehammer",3
+112311030,2,"Shirati, Mysterian Mogul",3
+112321020,2,Mechanized Lifeform,3
+112341030,2,"Solomon, Lord of Magic",3
+113311010,2,Jetbroom Witch,3
+113311030,2,Electrokitty,3
+114311010,2,Geoelementist,3
+114311030,2,Gigahand Golem,3
+115311020,2,Aeroelementalist,3
+115311030,2,Charming Gentlemouse,3
+116311010,2,Device Diviner,3
+116321010,2,Earth Sorceress,3
+116321020,2,Vergewalker Magician,3
+116341030,2,"Uhlein, Grand Magus",3
+117311010,2,Creative Conjurer,3
+117341010,2,"0. Lhynkal, The Fool",3
+117341030,2,"Runie, Resolute Diviner",3
+716341010,2,"Runie, Resolute Diviner",3
+118311010,2,Rivaylian Deputy,3
+118341030,2,Transcendent Simulacrum,3
+119321010,2,"Elmott, Pyrestarter",3
+119331020,2,Astral Dancer,3
+120311030,2,Magical Squirrel,3
+120341030,2,"Mileka, Celestial Seer",3
+121311020,2,Awakened Robot,3
+121331020,2,Parasol Witch,3
+121341020,2,"Eleanor, Glorious Flower",3
+715341010,2,"Eleanor, Glorious Flower",3
+122311020,2,Clay Sorceress,3
+122311030,2,Mysterian Chandelian,3
+123321010,2,Broom Witch,3
+123331010,2,Covetous Witch,3
+123341020,2,Sacred Bird of Wisdom,3
+124311010,2,Owl Receptionist,3
+124341030,2,"Riley, Astral Shaman",3
+125311010,2,Wise Owl,3
+125321010,2,"Levi, Sapience Supreme",3
+125321020,2,"Hanna, Mysterian Maid",3
+126331010,2,"Milady, Mystic Queen",3
+100314020,2,Magic Missile,3
+709314030,2,Magic Missile,3
+100314030,2,Conjure Golem,3
+713314020,2,Conjure Golem,3
+100314040,2,Wind Blast,3
+709314020,2,Wind Blast,3
+101314010,2,Kaleidoscopic Glow,3
+105334010,2,Golem Assault,3
+106334010,2,Chain of Calling,3
+109314010,2,Grand Spire,3
+111314010,2,Witch Snap,3
+708314010,2,Witch Snap,3
+112334010,2,Presto Chango,3
+113334010,2,The Mysterian Project,3
+114314010,2,Mysterian Wisdom,3
+115314010,2,Shikigami Summons,3
+116334010,2,Sorcery in Solidarity,3
+117324010,2,Authoring Tomorrow,3
+117334010,2,Madcap Conjuration,3
+118324010,2,Scorching Blast,3
+119324010,2,Elixir Mixer,3
+119334010,2,Force Barrier,3
+120314010,2,Arcane Duplication,3
+122324010,2,Counter Magic,3
+124314020,2,Earthen Fist,3
+124334010,2,Story of a Lifetime,3
+126314010,2,Aqueous Sphere,3
+126334010,2,Magical Strategy,3
+717334020,2,Magical Strategy,3
+101312010,2,Teachings of Creation,3
+102312050,2,Red-Hot Ritual,3
+104313010,2,Enchanted Library,3
+107322010,2,Silent Laboratory,3
+114322010,2,Silent Laboratory,3
+115332010,2,Mirror of Truth,3
+100411010,2,Dragonrider,4
+101411020,2,Maelstrom Dragon,4
+101411060,2,Sandstorm Dragon,4
+101411110,2,Fire Lizard,4
+101431010,2,Dragonewt Scholar,4
+101431040,2,Shapeshifting Mage,4
+102411020,2,Mushussu,4
+102411040,2,Wildfang Dragonewt,4
+103411050,2,Dragontamer,4
+103411060,2,Luxfang Kit,4
+103431030,2,Date Masamune,4
+105411010,2,Dragon Summoner,4
+106411010,2,Dragonrearer Matilda,4
+107421010,2,"Marion, Fierce Dragonewt",4
+107431010,2,"Aiela, Dragon Sword",4
+108411040,2,Somniferous Whitewyrm,4
+108421010,2,Heroic Dragonslayer,4
+108441030,2,Whitefrost Dragonewt Filene,4
+706441010,2,Whitefrost Dragonewt Filene,4
+109411010,2,Dragon Huntress,4
+109421020,2,Hatchling,4
+110411030,2,Servant of Disdain,4
+110441030,2,"Masamune, Raging Dragon",4
+111411020,2,Zealot of Disdain,4
+112411010,2,Doting Dragoneer,4
+112411030,2,Boomfish,4
+112421010,2,Assault Dragoon,4
+112441020,2,"Byron, Fullmetal Dragoon",4
+113411010,2,Gadget Mermaid,4
+114411030,2,Lightning Velociraptor,4
+114421010,2,Bubbleborne Mermaid,4
+115411010,2,Swordwhip Dragoon,4
+115421030,2,Ice Dancing Dragonewt,4
+115431020,2,"Inori, Timid Dragonmaiden",4
+115441010,2,"Garyu, Supreme Dragonkin",4
+116411030,2,Rockback Ankylosaurus,4
+116431020,2,Steelcap Pachycephalosaurus,4
+116441010,2,"Rola, Inferno Dragoon",4
+714441020,2,"Rola, Inferno Dragoon",4
+117411010,2,Springwell Dragon Keeper,4
+117411030,2,Tropical Grouper,4
+117421020,2,Wavecrest Angler,4
+118421020,2,Dragonfolk Artificer,4
+118431010,2,Resplendent Phoenix,4
+716431010,2,Resplendent Phoenix,4
+119411030,2,Shark Warrior,4
+119411040,2,Mermaid Archer,4
+120411010,2,Margarite Mermaid,4
+120421020,2,Coral Shark,4
+121421010,2,Forestclaw Sentinel,4
+122411010,2,Blazing Dragonewt,4
+122411020,2,Debonair Dragoon,4
+122441020,2,Celestial Dragoon,4
+123411010,2,Hermit of Disdain,4
+123421010,2,Windswept Dragonewt,4
+123421020,2,Tiniest Dragon,4
+123441010,2,"Filene, Blizzardous Heart",4
+124411020,2,Loyal Sea Serpent,4
+124421010,2,Dragonfolk Stoker,4
+124421020,2,Tropical Mermaid,4
+717421010,2,Special Week,4
+125411020,2,Dragonewt Martial Artist,4
+125421030,2,Katakura Kojuro,4
+125441030,2,"Masamune, One-Eyed Dragon",4
+126411020,2,Dragonbane Blader,4
+126431010,2,"Draconir, Knuckle Dragon",4
+100414010,2,Dragon Oracle,4
+705414010,2,Dragon Oracle,4
+713414020,2,Dragon Oracle,4
+101414010,2,Dragon Wings,4
+101414040,2,Wild Hunt,4
+101424010,2,Dragon Emissary,4
+102424030,2,Dragonewt Fist,4
+103434010,2,Breath of the Salamander,4
+106414010,2,Dragon's Foresight,4
+108424010,2,Waters of the Orca,4
+111414010,2,Sneer of Disdain,4
+111434010,2,Powerforge,4
+708434010,2,Powerforge,4
+113414010,2,Orca Run,4
+117434010,2,Draconic Call,4
+713434010,2,Draconic Call,4
+118414010,2,Thunderous Roar,4
+118424010,2,Draconic Counsel,4
+713424010,2,Draconic Counsel,4
+120414010,2,Beating of the Dragonwings,4
+121414010,2,Touching Thoughts,4
+121434010,2,Verdant Rebirth,4
+122434010,2,Piercing Roar,4
+125434010,2,Flame Lizard's Breath,4
+126414010,2,Dragonewt's Might,4
+101422010,2,Golden Dragon's Den,4
+100511010,2,Spartoi Sergeant,5
+100511020,2,Spectre,5
+101511010,2,Skeleton Viper,5
+101511020,2,Skullcradle Widow,5
+101511060,2,Wight,5
+101511110,2,Lesser Mummy,5
+101521020,2,Deadly Widow,5
+102511010,2,Dark Conjurer,5
+103511030,2,Ghosthound Sexton,5
+103521030,2,Lurching Corpse,5
+103531030,2,Shadow Reaper,5
+104531020,2,Little Soulsquasher,5
+105511010,2,Demon Eater,5
+105511030,2,Skeleton Ogre,5
+105521010,2,Usher of Styx,5
+106511030,2,Belenus,5
+106531020,2,Andrealphus,5
+107511010,2,Gloomy Necromancer,5
+107511030,2,Bone Bug,5
+108511010,2,Orator of the Bones,5
+108531030,2,Lord Deathskull,5
+109511020,2,"Sarunan, Cursebound Lover",5
+109521020,2,"Lady Grey, Deathweaver",5
+109531020,2,"Danua, Grim Puppetmaster",5
+109541010,2,"Ferry, Spirit Maiden",5
+110511030,2,Servant of Silence,5
+111511010,2,Buffalo Bones,5
+111521010,2,Wight Knight,5
+111531010,2,"Nicola, Forbidden Strength",5
+112511010,2,Ghostwriter,5
+112511020,2,Ghoul,5
+112521010,2,Deadly Dreamer,5
+113511030,2,Greater Lesser Mummy,5
+113521020,2,Irongear Corpsman,5
+113531020,2,"Sora, Arcane Fist",5
+114511030,2,Revenant Ram,5
+114541020,2,Thoth,5
+114541030,2,Legendary Skeleton,5
+115511020,2,Bone Crane,5
+115521010,2,Yuki-Onna,5
+115531030,2,Grudge Knight,5
+116521020,2,Triscythe Reaper,5
+116531010,2,Jackshovel Gravedigger,5
+116541010,2,"Gremory, Death Teller",5
+117521020,2,Ghostly Maid,5
+117531020,2,Bonenanza Necromancer,5
+118511030,2,Skeleton Dreamer,5
+118541010,2,Gold Rush Ghost,5
+119511030,2,Winged Zombie,5
+119511040,2,Psychopomp Tour Guide,5
+716511010,2,"Amy, Psychopomp Guide",5
+119541010,2,"Niyon, Mystic Musician",5
+120511010,2,Bubbly Reaper,5
+120521010,2,Forlorn Necromancer,5
+120521020,2,Noble Phantom,5
+120541020,2,"Kagero, Swordbound Soul",5
+121511020,2,Soul Commander,5
+121521010,2,Spitebound Cursebinder,5
+121541010,2,"Nicola, Enduring Steward",5
+122511020,2,Haunted Swordsman,5
+122511030,2,Skull Bandit,5
+122521020,2,Solemn Gravekeeper,5
+122531010,2,Dog of the Dead,5
+122541030,2,Cernunnos,5
+718541010,2,Cernunnos,5
+123531010,2,Deathcat Reaper,5
+124511030,2,Headless Warfiend,5
+124541030,2,Sin Hunter,5
+125511020,2,Beguiling Specter,5
+125541020,2,"Cerberus, Infernal Hound",5
+126511020,2,Bonebreaker Bladesman,5
+126531010,2,"Baccherus, Peppy Ghostie",5
+100514010,2,Undying Resentment,5
+705514010,2,Undying Resentment,5
+713514010,2,Undying Resentment,5
+101514020,2,Highway to Hell,5
+101524020,2,Ethereal Form,5
+102524030,2,Rise of the Dead,5
+104514010,2,Zombie Party,5
+105534010,2,Poisoned Apple of Rebirth,5
+106524010,2,Troth's Curse,5
+108514010,2,Regenerate Spirit,5
+111514010,2,Manifest Malice,5
+708514010,2,Manifest Malice,5
+116514010,2,Ghastly Assault,5
+117514010,2,Savoring Slash,5
+117534010,2,Forced Resurrection,5
+120514010,2,Soul Surprise,5
+120534010,2,Wicked Rebirth,5
+121514010,2,Inherited Balance,5
+124524010,2,Astral Projection,5
+717524010,2,Astral Projection,5
+125514010,2,Lifespan Calculation,5
+125524010,2,Corral Souls,5
+126514010,2,Necrocarnival,5
+717514020,2,Necrocarnival,5
+104522010,2,Grave Desecration,5
+105522010,2,Siren's Tears,5
+106512010,2,Gloaming Tombs,5
+109512010,2,Golden Casket ,5
+117523010,2,Coffin of the Unknown Soul,5
+118533010,2,Death of the Party,5
+100611010,2,Nightmare,6
+100611020,2,Sweetfang Vampire,6
+101611010,2,Lilith,6
+101611020,2,Venomous Cobra,6
+101611030,2,Rain Devil,6
+101611050,2,Blood Wolf,6
+101621020,2,Mormo,6
+101621070,2,Dark Summoner,6
+102611010,2,Demonic Hedonist,6
+102611040,2,Serpent Charmer,6
+102631030,2,"Vania, Vampire Princess",6
+103611030,2,"Yurius, Levin Duke",6
+104611020,2,Spiderweb Imp,6
+104621020,2,Baphomet,6
+104631030,2,"Galretto, Devil of Love",6
+105611030,2,Tove,6
+105621020,2,Boy Who Cried Wolf,6
+106611030,2,Scorpius,6
+106621030,2,Demonic Ram,6
+107611010,2,Glassbrand Demon,6
+107611030,2,Cursed Scarecrow,6
+108621020,2,Silverchain Disciple,6
+108631020,2,"Raven, Eventide Vampire",6
+109611010,2,Bewitching Succubus,6
+109621010,2,Alexandrite Demon,6
+109641010,2,"Vira, Knight Fanatic ",6
+110611020,2,Bloodthirsty Hamster,6
+110611030,2,Servant of Lust,6
+111611040,2,Devil Raider,6
+111631010,2,"Vuella, One-Winged Demon",6
+111631020,2,Lykos Berserker,6
+112611010,2,"Liberté, Werewolf Pup",6
+112621010,2,Hellblaze Demon,6
+112631020,2,"Doublame, Duke and Dame",6
+112641020,2,"Mono, Garnet Rebel",6
+711641010,2,"Mono, Garnet Rebel",6
+113611010,2,Gearsnake Tamer,6
+113611030,2,Swarming Wraith,6
+113621010,2,"Nightmare, Dreameater",6
+114611010,2,Leraje,6
+114611030,2,Corrupted Bat,6
+115611010,2,Rookie Succubus,6
+115611020,2,Antelope Pelt Warrior,6
+115621020,2,Boar Pelt Warrior,6
+115631020,2,"Io, Enchanting Educator",6
+116611010,2,Vampiric Bloodbinder,6
+116621020,2,Hellspear Warrior,6
+117611010,2,Moonrise Werewolf,6
+117621020,2,Whiplash Imp,6
+117631020,2,Contemptuous Demon,6
+118611010,2,Scrappy Werewolf,6
+118621010,2,Craps Devil,6
+118631010,2,Showdown Demon,6
+119611030,2,Wicked Wolf,6
+119621020,2,"Skull, Freedom Raider",6
+120621010,2,Jeweled Axe Devil,6
+120631010,2,"Liberté, Unchained Wolf",6
+120641020,2,"Aluzard, Timeworn Vampire",6
+120641030,2,"Lieselotte, Lady Scarlet",6
+121611010,2,Bloodstained Pixie,6
+121621010,2,Harvest Imp,6
+715621010,2,Harvest Imp,6
+121641010,2,"Mono, Immortal Garnet",6
+122611020,2,Demonic Soldier,6
+123611010,2,Hermit of Lust,6
+123631010,2,Kali,6
+124611020,2,Silvernail Blaster,6
+124641010,2,"Itsurugi, Eager Admirer",6
+125611010,2,Devious Spiderweb Imp,6
+125621010,2,Dancing Mini Soul Devil,6
+125641020,2,"Vania, Crimson Majesty",6
+126611020,2,Ferocious Harpy,6
+126621010,2,Trombone Devil,6
+126631020,2,Demon Maestro,6
+126641020,2,"Tevali, Demonic Cat",6
+100614010,2,Blood Pact,6
+713614010,2,Blood Pact,6
+100614020,2,Razory Claw,6
+705614020,2,Razory Claw,6
+101614010,2,Limil's Way,6
+101614020,2,Summon Bloodkin,6
+108614010,2,Summon Bloodkin,6
+102614050,2,Vampiric Kiss,6
+102624040,2,Medusa's Gaze,6
+103624010,2,Hungering Horde,6
+106624010,2,Snarling Chains,6
+702624010,2,Snarling Chains,6
+110624010,2,Wings of Lust,6
+113614010,2,Entrancing Blow,6
+709614010,2,Entrancing Blow,6
+114614010,2,Deal with the Devil,6
+116624010,2,Wicked Pact,6
+116634010,2,Garnet Waltz,6
+117614010,2,Dark Summons,6
+120624010,2,Demonic Assault,6
+121624010,2,Midnight Gossip,6
+122634010,2,Dark Contract,6
+123614010,2,Corrupt Conveyance,6
+715614010,2,Corrupt Conveyance,6
+123624010,2,Crimson Virtue,6
+124624010,2,Full Moon Leap,6
+717624010,2,Full Moon Leap,6
+102632020,2,Vampiric Fortress,6
+104623010,2,Mask of the Black Death,6
+115613010,2,Berserker's Pelt,6
+125633010,2,Vampire Queen's Castle,6
+100711010,2,Snake Priestess,7
+101711010,2,Rabbit Healer,7
+101711020,2,Ardent Nun,7
+101711090,2,Mainyu,7
+101721060,2,Protectoress,7
+102711010,2,Heavenly Hound,7
+103711050,2,Frog Cleric,7
+103721030,2,Luxwing Reno,7
+104711030,2,Mist Shaman,7
+104721030,2,Holy Bowman Kel,7
+105731020,2,"Naoise, Red Branch Knight",7
+105741010,2,Princess Snow White,7
+106711030,2,Star Bishop,7
+106731010,2,Andromeda,7
+107711010,2,Sister of the Sword,7
+108711020,2,Deathscythe Nun,7
+108731010,2,Jeweled Priestess,7
+109711020,2,"Hazen, Priest of the Wind",7
+109731010,2,Holy Priest Lorena,7
+110711010,2,Sister Falconer,7
+110721010,2,Unicorn Knight,7
+110721020,2,Disciple of Repose,7
+111711030,2,Malevolent Al-mi'raj,7
+111721020,2,"Colette, Holy Gunner",7
+112711030,2,White Hart,7
+112721010,2,"Marcotte, Heretical Sister",7
+112721020,2,Robofalcon,7
+113711030,2,Fervid Heavenly Hound,7
+113721010,2,Robowing Precant,7
+113731020,2,"Laelia, Saint of Peace",7
+113741020,2,"Elana, Purest Prayer",7
+714741010,2,"Elana, Purest Prayer",7
+114711030,2,Saintly Squeaks,7
+114721020,2,Featherfolk Punisher,7
+115711010,2,Winged Staff Priestess,7
+116711010,2,Sol Sister,7
+116731010,2,Sweetwing Seraph,7
+116731020,2,Robowhip Reverend,7
+117711020,2,Stalwart Featherfolk,7
+117711030,2,Prismaplume Bird,7
+118731020,2,Paladin of Clemency,7
+119711010,2,Belfry Sister,7
+119741010,2,"Anre, the Enlightened One",7
+120731010,2,"Pyne, Twisted Justice",7
+121711020,2,Khonsu,7
+122711010,2,Shining Sister,7
+122721020,2,Yurlung,7
+122731020,2,"Carmia, Miracle Optimist",7
+123711010,2,Hermit of Repose,7
+123711020,2,Temple Healer,7
+123721030,2,Adherent of Despair,7
+123741010,2,"Wilbert, Luminous Paladin",7
+124711030,2,Twinblade Featherfolk,7
+124721010,2,Winged Gatekeeper,7
+124741020,2,Nekhbet,7
+125711020,2,Masked Abbess,7
+125721010,2,"Teena, Sacred Sister",7
+125731010,2,Ascended Prism Priestess,7
+126711030,2,Holy Armored Cheetah,7
+126721010,2,Sapphire Priestess,7
+126731010,2,"Wingy, Chirpy Gemstone",7
+717731020,2,"Wingy, Chirpy Gemstone",7
+126741010,2,Diamond Master,7
+100714010,2,Hallowed Dogma,7
+705714010,2,Hallowed Dogma,7
+100714020,2,Blackened Scripture,7
+713714010,2,Blackened Scripture,7
+713714020,2,Blackened Scripture,7
+101734020,2,Love's Gospel,7
+102714040,2,Monastic Holy Water,7
+108714010,2,Holy Lion Crystal,7
+115714010,2,Holy Counterattack,7
+116714010,2,Blind Justice,7
+118724010,2,Pure Metamorphosis,7
+120724010,2,Gods' Loving Smite,7
+122714010,2,Indomitable Prayer,7
+715714010,2,Indomitable Prayer,7
+100713010,2,Beastly Vow,7
+101713030,2,Heretical Inquiry,7
+101722010,2,Guardian Sun,7
+101723010,2,Noble Fangs,7
+101733020,2,Holy Sentinel,7
+101733040,2,Devourer of Heavens,7
+102713010,2,Godsteel Wings,7
+102723010,2,Beastcall Aria,7
+105713010,2,Temple of the Inquisition,7
+105732010,2,Alice's Adventure,7
+106713010,2,Red-Hot Boots,7
+107713010,2,Gemstone Carapace,7
+107723010,2,Godscale's Banquet,7
+108713010,2,Moriae Encomium,7
+108722010,2,Temple of the Holy Lion,7
+110713010,2,Realm of Repose,7
+113713010,2,Pinion Lake,7
+116723010,2,Pilgrims' Path,7
+121733010,2,Muskfruit,7
+122723010,2,Heavenly Help,7
+123723010,2,"Zeno, Paradoxical Shield",7
+124733010,2,Chamber of Cleansing,7
+125733010,2,Crusader's Rallying Cry,7
+717733010,2,Crusader's Rallying Cry,7
+100811020,2,Puppeteer,8
+100811060,2,Mechanized Servant,8
+100811070,2,Magisteel Lion,8
+100821010,2,Magisteel Puppet,8
+107811020,2,Bear Puppeteer,8
+107811090,2,Hamelin,8
+107811100,2,Mech Wing Swordsman,8
+107811130,2,Demon's Epitaph,8
+107821010,2,"Rosa, Mech Wing Maiden",8
+107821020,2,Flower Doll,8
+107821030,2,Icarus,8
+107821070,2,"Machine Artisan, Geno",8
+108811010,2,Knower of History,8
+108821010,2,"Miriam, Synthetic Being",8
+109811020,2,Ancient War Machine,8
+109831010,2,Paracelsus,8
+109841020,2,"Lococo, Little Puppeteer",8
+110811010,2,Hydro Alchemist,8
+110821020,2,Disciple of Destruction,8
+110831020,2,Rukina of the Resistance,8
+111821010,2,Marionette Lad,8
+112811010,2,"Mia, Angelic Doll",8
+112811030,2,Prototype Warrior,8
+112831010,2,"Shin, Lawful Light",8
+113811010,2,Cat Gunner,8
+113821010,2,"Licht, the Gearturner",8
+113831030,2,"Vier, Doll Slayer",8
+114811020,2,Doll Meister,8
+114811030,2,Drill Hedgehog,8
+114831020,2,"Mugnier, Purifying Light",8
+115811030,2,Begoggled Mole,8
+115831010,2,Phantom Blade Wielder,8
+115831030,2,"Ameth, Dream Emissary",8
+116811010,2,Android Artisan,8
+116841010,2,"Ralmia, Sonic Racer",8
+714841010,2,"Ralmia, Sonic Racer",8
+117811010,2,Marionette Expert,8
+117821010,2,Cat Tuner,8
+117831020,2,"Lazuli, Gateway Homunculus",8
+118821020,2,Railmender Coyote,8
+118841010,2,"Illganeau, Horror Astray",8
+119811010,2,Mechanized Soldier,8
+119821010,2,"Catherine, Nightsmoke",8
+119821020,2,"Spinnah, Spin Artist",8
+119831010,2,"Lunalu, Fangirl A",8
+119841020,2,"Feower, Double Blade Flash",8
+120811010,2,Energy Supplier,8
+120821020,2,Gizmo Enthusiast,8
+715821010,2,Hao,8
+121821010,2,Threadsnipper Puppet,8
+121821020,2,Enforcer,8
+121841010,2,"Maisha, Purgation's Vessel",8
+121841030,2,"Yuwan, Dimensional Avenger",8
+122821010,2,False Puppeteer,8
+122821020,2,Ironwing Explorer,8
+122821030,2,Multiarmed Artifact,8
+122831020,2,"Kololu, Guide to Freedom",8
+123811020,2,Doll Lady,8
+123821010,2,Dwarf Engineer,8
+123821030,2,Adherent of Melody,8
+123831010,2,Inauspicious Puppeteer,8
+123841010,2,"Ralmia, Astrowing",8
+124811010,2,Karakuri Servant,8
+124811020,2,Mobile Researcher,8
+124821020,2,Gunslinger Automaton,8
+125811010,2,Blossoming Flower Doll,8
+125821010,2,"Rosa, Unfettered Maiden",8
+125821020,2,"Cassim, the Courageous",8
+125831010,2,"Tylle, Dimension Observer",8
+100814010,2,Dimension Cut,8
+705814010,2,Dimension Cut,8
+108814010,2,Rocket Knuckles,8
+110814010,2,Windup,8
+114834010,2,Artifact Call,8
+709834020,2,Artifact Call,8
+114844010,2,Awakened Ragna,8
+118824010,2,Scavenge,8
+121814010,2,Unnamed Determination,8
+122834010,2,Artifact Impulse,8
+123814010,2,Inner Discovery,8
+717814010,2,Inner Discovery,8
+126814010,2,"Puppets, Assemble!",8
+126832010,2,Arc,8
+100011030,3,Mercenary Drifter,0
+100031010,3,Harnessed Flame,0
+100031020,3,Harnessed Glass,0
+101011030,3,Shield Angel,0
+101011040,3,Healing Angel,0
+101021020,3,Lizardman,0
+103011030,3,Goblin Mage,0
+103011050,3,Angel of the Word,0
+103021040,3,Gourmet Emperor Khaiza,0
+104011020,3,Axe Fighter,0
+104031020,3,"Grimnir, War Cyclone",0
+105011020,3,Angelic Knight,0
+105031010,3,Rapunzel,0
+106011010,3,Nyx,0
+106021020,3,Purehearted Singer,0
+107011010,3,Dungeon Explorer Chloe,0
+107011020,3,Burly Axewielder,0
+107021020,3,Goblinmount Ogre,0
+107031020,3,Goblin Emperor,0
+107041020,3,Badb Catha,0
+108011010,3,Valkyrie of Chaos,0
+109011020,3,Lowain of the Brofamily,0
+109031020,3,"Khaiza, Radical Gourmand",0
+111011010,3,Barkeep,0
+112021020,3,"Jafnhar, Warring Flame",0
+112031020,3,"Grimnir, Warring Tempest",0
+113031020,3,"Hamsa, Hallowed Fowl",0
+114011010,3,Alchemical Confectioner,0
+115031020,3,Princess Knight,0
+116011010,3,Plucky Treasure Hunter,0
+116021010,3,Romantic Chanteuse,0
+116041010,3,"Gabriel, Heavenly Voice",0
+118021010,3,Vagabond Lizard,0
+118031020,3,Goblin Queen,0
+119011010,3,Fluffy Angel,0
+119031030,3,Combustion Demon,0
+715031010,3,Combustion Demon,0
+120021020,3,Dogged Detective,0
+121021010,3,Wild Merman,0
+124011010,3,Torchbearing Guide,0
+125021020,3,Archangel of the Word,0
+125031020,3,"Feena, Super Cute Hunter",0
+125041030,3,"Badb Catha, Trine Goddess",0
+126021020,3,Dungeon Pathfinder,0
+126041010,3,Uranus,0
+101014020,3,Cloud Chorus,0
+101024020,3,Angelic Barrage,0
+102024010,3,Surefire Bullet,0
+107014010,3,Pitfall,0
+108044010,3,Moon and Sun,0
+110024010,3,Craving's Splendor,0
+114034010,3,Gourmet Emperor's Kitchen,0
+116024010,3,Goblin Warpack,0
+118014010,3,Spice Shower,0
+122044010,3,Advent of Peace,0
+124024010,3,Angel's Blessing,0
+717024010,3,Angel's Blessing,0
+126014010,3,Skewering Snare,0
+104013010,3,Test of Strength,0
+104022010,3,Frozen Mammoth,0
+106013010,3,Night's Way,0
+115032010,3,Colosseum on High,0
+100111060,3,Dark Elf Faure,1
+101111050,3,Archer,1
+101111060,3,Fen Sprite,1
+101121010,3,Waltzing Fairy,1
+101121030,3,Tam Lin,1
+101121040,3,Carnivorous Flower,1
+101141020,3,Ancient Elf,1
+701141010,3,Ancient Elf,1
+102111030,3,Elf Healer,1
+103111040,3,Forest Spirit,1
+104111030,3,Cybele,1
+104111040,3,Beetle Warrior,1
+105111030,3,Kindly Treant,1
+105131010,3,"Magical Fairy, Lilac",1
+106111020,3,Starry Elf,1
+106131020,3,Demon Child Zain,1
+107111010,3,Adept Archer,1
+107121010,3,Crimsonbow Elf,1
+108111030,3,Grasshopper Conductor,1
+108121020,3,Owl Man,1
+109111030,3,Myconid,1
+109131010,3,"Shamu & Shama, Noblekin",1
+110141030,3,"Liza, Queen of the Forest",1
+711141010,3,"Liza, Queen of the Forest",1
+111111020,3,Insane Dark Elf,1
+112111020,3,Forest Hermit,1
+112131020,3,"Milolo, Li'l Mountain Lass",1
+113111030,3,Mechaclaw Elf,1
+113121020,3,"Meliai, Wing Shredder",1
+113141020,3,"Tista, Wings of Mercy",1
+114131010,3,"Irene, Harvest Defender",1
+114141010,3,"Amataz, Fairy Blader",1
+115111030,3,Mallet Monkey,1
+115121020,3,Assault Jaguar,1
+116141030,3,Elf Queen of Abundant Life,1
+117141010,3,"XII. Wolfraud, Hanged Man",1
+716141020,3,"XII. Wolfraud, Hanged Man",1
+117141030,3,"Aerin, Forever Brilliant",1
+118111010,3,Lookout Elf,1
+119141030,3,"Alberta, the Autumnblade",1
+120111010,3,Dwarf of the Blooms,1
+120111040,3,Fairy Slugger,1
+120131010,3,"Nelcha, Fashion Hazard",1
+121111020,3,Sköll Lookout,1
+121131010,3,Feyfolk Sage,1
+121131020,3,Racoon Enchanter,1
+122121020,3,Breezy Elf,1
+123111030,3,Horned Beastie,1
+123141030,3,"Izudia, Unkilling Annihilation",1
+124111010,3,Fairylight Guide,1
+124111030,3,Windswept Lancer,1
+124131010,3,Spirit of the Spring,1
+717131010,3,Spirit of the Spring,1
+124141010,3,"Hozumi, Enchanting Hostess",1
+717141010,3,"Hozumi, Enchanting Hostess",1
+125111030,3,Hornet Whisperer,1
+125121020,3,Brightplume Owl Man,1
+125131020,3,"Tam Lin, Fey Knight",1
+101114060,3,Elemental Lance,1
+102124020,3,Elven Archery,1
+103124010,3,Swords to Woodlands,1
+103134010,3,Selwyn's Command,1
+104114010,3,Ivy Spellbomb,1
+107124010,3,Instincts Unleashed,1
+113114010,3,Harvest Season,1
+709114020,3,Harvest Season,1
+113144010,3,Miracle of Love,1
+117134010,3,Life Banquet,1
+118114010,3,Hornet Strike,1
+124134010,3,Illusions of Comfort,1
+717134010,3,Illusions of Comfort,1
+125114010,3,Forest Remedies,1
+101112010,3,Pixie Paradise,1
+104123010,3,Man-Eating Mangrove,1
+105112010,3,Woodland Band,1
+111113010,3,Ward of Unkilling,1
+112122010,3,Arboreal Core,1
+709122010,3,Arboreal Core,1
+100211030,3,Ascetic Knight,2
+101211060,3,Fencer,2
+101211090,3,Novice Trooper,2
+101211100,3,Snippy Gardener,2
+101221050,3,Navy Lieutenant,2
+101221070,3,Pompous Princess,2
+101231030,3,Gemstaff Commander,2
+102211010,3,Swift Infiltrator,2
+102221020,3,Ruthless Assassin,2
+102231010,3,White Paladin,2
+103211030,3,Blitz Lancer,2
+103211060,3,Thief,2
+104231020,3,Captain Lecia,2
+105211030,3,Rabbit Ear Attendant,2
+105221010,3,Young Ogrehunter Momo,2
+105221020,3,Old Man and Old Woman,2
+105241010,3,Cinderella,2
+106211010,3,Flail Knight,2
+106221020,3,Princess Juliet,2
+106221030,3,Lord General Romeo,2
+106241010,3,"Mars, Silent Flame General",2
+107211020,3,Merchantette,2
+107231010,3,Lancer of the Tempest,2
+108211020,3,Master Samurai,2
+108221010,3,"Nonja, Silent Maid",2
+108221030,3,"Valse, Magical Marksman",2
+109211010,3,"Tanya, Shadow Enforcer",2
+109221010,3,"Charlotta, Tiny Justice",2
+110211020,3,Weathered Vanguard,2
+110221020,3,High-Seas Hero,2
+110221030,3,Disciple of Usurpation,2
+110241010,3,"Octrice, Omen of Usurpation",2
+111211010,3,Wardog,2
+111221020,3,"Ilmisuna, Arms Dealer",2
+111241020,3,Aether of the Warrior Wing,2
+112211030,3,Phantom Assassin,2
+112231020,3,"Troya, Thunder of Hagelberg",2
+113211030,3,Veteran Vagabond Frog,2
+113231010,3,Autoblade Patroller,2
+114211010,3,Adept Thief,2
+114241030,3,Tsubaki of the Demon Blade,2
+714241010,3,Tsubaki of the Demon Blade,2
+115211030,3,Fox Lancer,2
+115241020,3,"Pecorine, Peckish Princess",2
+116211020,3,Nightclad Assassin,2
+116221010,3,"Gelt, Resolute Knight",2
+116231010,3,Lady of the Lance,2
+117221010,3,Empress of Serenity,2
+117241010,3,"VII. Oluon, The Chariot",2
+118211010,3,Frontline Instructor,2
+118221010,3,Outlaw Gunner,2
+119211020,3,Sword-Swinging Bandit,2
+119231030,3,Armed Butler,2
+120241020,3,"Sera, Maiden of the Dawn",2
+121221010,3,Valhorean Dealer,2
+715221020,3,Yoh Asakura,2
+121241020,3,"Leod, Moonlit Executioner",2
+121241030,3,"Erika, Loyal Swordsavant",2
+122221020,3,Dandy Fencer,2
+122241020,3,Golden Warrior,2
+123211010,3,Hermit of Usurpation,2
+123241010,3,"Kagemitsu, Lost Samurai",2
+123241020,3,"Octrice, Hollow Usurpation",2
+124221010,3,Masterful Musician,2
+717221010,3,Masterful Musician,2
+124241030,3,"Mars, Belligerent Flame",2
+125221020,3,Radiant Luminous Mage,2
+126241020,3,Opulent Strategist,2
+100214020,3,Forge Weaponry,2
+713214020,3,Forge Weaponry,2
+101214030,3,Giant Slayer,2
+103214020,3,Art of the Ninja,2
+105214010,3,Kiss of the Princess,2
+107214010,3,Assassination Jutsu,2
+115234010,3,Courtly Dance,2
+116214010,3,Wee Merchant's Appraisal,2
+116234010,3,Stroke of Conviction,2
+118214010,3,Bandit Raid,2
+118234010,3,Graceful Maneuver,2
+120214010,3,Scrupulous Preparation,2
+715214010,3,Scrupulous Preparation,2
+122244010,3,Monochrome Endgame,2
+102232020,3,Rogue's Creed,2
+103233010,3,Castle in the Sky,2
+104222010,3,Luminous Standard,2
+112222010,3,Glorious Core,2
+709222010,3,Glorious Core,2
+101311040,3,Runic Guardian,3
+101311050,3,Gauntleted Healer,3
+101321020,3,Spectral Wizard,3
+102311050,3,Witchette Emmylou,3
+103321040,3,"Clarke, Arcane Scholar",3
+104311020,3,Dazzling Healer,3
+104311030,3,Mage of Nightfall,3
+105321030,3,Mysterian Grimoire,3
+105341020,3,Abomination Awakened,3
+106321020,3,Magic Gun Hunter,3
+106321030,3,"Karl, Pious Instructor",3
+106331010,3,Europa,3
+107311010,3,Mysterian Summoner Vayle,3
+108321010,3,"Elusa, Magic Wunderkind",3
+109321020,3,"Clarisse, Unpolished Mage",3
+110321010,3,Disciple of Truth,3
+110331030,3,"Grea, Mysterian Dragoness",3
+111311030,3,"Tico, Mysterian Spellnerd",3
+111331010,3,"Eleanor, Cosmic Flower",3
+111341010,3,Slumbering Calamity,3
+112331010,3,Magitech Golem,3
+112341010,3,"Magisa, Ruinfist Witch",3
+113321010,3,"Emmylou, Smilemancer",3
+114311020,3,Passionate Potioneer,3
+114321010,3,Pyromancer,3
+114341020,3,Wish Wielder,3
+115331010,3,"Kyoka, Prize Pupil",3
+711331010,3,"Kyoka, Prize Pupil",3
+116331010,3,Stormelementalist,3
+116331020,3,Formbender,3
+117311020,3,Arcane Auteur,3
+118311030,3,Crystal Fencer,3
+118331010,3,Magical Gunslinger,3
+119311010,3,Academic Archmage,3
+119341010,3,"Fif, Prodigious Sorcerer",3
+120331010,3,"Grea, Scorching Fury",3
+120331020,3,Pyrotechnic Witch,3
+120341010,3,"Anne, Mysterian Imperatrix",3
+121311010,3,Panacea Alchemist,3
+121321020,3,Covenant Mage,3
+121341010,3,"Tetra, Serene Sapphire",3
+121341030,3,"Isabelle, Intrepid Mage",3
+122321010,3,Jubilance Witch,3
+123321030,3,Adherent of Elimination,3
+123331020,3,Acid Golem,3
+717331010,3,Acid Golem,3
+124321010,3,Orchestral Mage,3
+124331020,3,"Bergent, Layered Sorceress",3
+125341020,3,"Mysteria, Magic Originator",3
+126311010,3,Magical Rook,3
+126341020,3,"Meltina, Miracle Sorceress",3
+100314050,3,Summon Snow,3
+101324040,3,Sorcery Cache,3
+101324050,3,Petrification,3
+101334030,3,First Curse,3
+102314010,3,Witchbolt,3
+102324040,3,Summon Iceform,3
+103314010,3,Rite of Exorcism,3
+103334010,3,Secrets of Erasmus,3
+106324010,3,Concentration,3
+702324010,3,Concentration,3
+108334010,3,Absolute Zeroblade,3
+110314010,3,Astral Divination,3
+110324020,3,Sleep Incantation,3
+111324010,3,Veridic Discovery,3
+113344010,3,Golem Squad,3
+116314010,3,Mystic Absorption,3
+121324010,3,Fruits of Wisdom,3
+123314010,3,Meandering Bolt,3
+715314020,3,Meandering Bolt,3
+124314010,3,Magical Reserves,3
+101312030,3,Elementary Alchemy,3
+101322010,3,Price of Magic,3
+105322010,3,Gingerbread House,3
+112322010,3,Sagacious Core,3
+709322010,3,Sagacious Core,3
+709322020,3,Sagacious Core,3
+100411050,3,Firstborn Dragon,4
+101411030,3,"Aiela, Dragon Knight",4
+101411040,3,Twin-Headed Dragon,4
+101411100,3,Roc,4
+101411120,3,Trinity Dragon,4
+101421010,3,Dragonewt Princess,4
+101421030,3,Sky Dragon Ethica,4
+101421080,3,Imprisoned Dragon,4
+101421090,3,Ace Dragoon,4
+102411010,3,Ironscale Dragonfolk,4
+103411040,3,Griffon Knight,4
+103421020,3,"Eyfa, Wyvern Rider",4
+104411020,3,Aqua Nereid,4
+104411030,3,Dragoon Scyther,4
+105421020,3,Master of Draconic Arts,4
+105431010,3,Dramatic Dragonblader,4
+105431020,3,Red Ragewyrm,4
+106411030,3,Estrella Beast,4
+106421020,3,Beowulf,4
+106431020,3,Star Phoenix,4
+106441010,3,Prime Dragon Keeper,4
+107411010,3,Dragon Aficionado,4
+108411030,3,Dragonclad Blademaster,4
+108431010,3,Dragoncleaver Roy,4
+109411030,3,Venomtail Salamander,4
+109421010,3,"Aliza, Pugilist Princess",4
+110411010,3,Serpent Drake,4
+111411030,3,Righteous Dragoon,4
+111421030,3,Dragonsoul Princess,4
+111431020,3,Annerose,4
+113411030,3,Splendorous Roc,4
+113421020,3,Steelclaw Wyrm Bruiser,4
+113431010,3,Wise Dragonewt Scholar,4
+114411020,3,Dragon Chef,4
+114421020,3,Whirlwind Pteranodon,4
+115421020,3,Aquascale Stalwart,4
+115441030,3,Darkprison Dragon,4
+116431010,3,Steelstorm Dragonewt,4
+117421010,3,Heliodragon,4
+117431010,3,Slaughtering Dragonewt,4
+117441020,3,Turncoat Dragon Summoner,4
+117441030,3,"Filene, Absolute Zero",4
+118411010,3,Mermaid Guide,4
+118431020,3,Balefire Wrenchsmith,4
+118441020,3,"Reggie, Peerless Artisan",4
+120411020,3,Earthen Dragonewt,4
+120441030,3,Godfire Phoenix,4
+121411010,3,Mánagarmr Scout,4
+121411020,3,Whimsical Mermaid,4
+121431010,3,"Djeana, the Stouthearted",4
+121441030,3,"Rowen, Dragon Lance",4
+123411020,3,Beginner Dragoon,4
+124411010,3,Dragon-Drawn Carriage,4
+124431020,3,Dragonskull Bludgeoner,4
+124441010,3,"Si Long, Draconic God-Queen",4
+125421010,3,Twindrake Guide,4
+125421020,3,Ironscale Serpent Drake,4
+125431020,3,"Ethica, Firebrand Claw",4
+126421010,3,Lance Lizard,4
+101414020,3,Dragon Cry,4
+106434010,3,Avowed Strike,4
+702434010,3,Avowed Strike,4
+108434010,3,Force of the Dragonewt,4
+110414010,3,Mesozoic Era,4
+116414010,3,Dragonfolk's Wail,4
+116434010,3,Cursed Furor,4
+117414010,3,Dragon Spawning,4
+118434010,3,Encounter from the Deep,4
+123424010,3,Whitefrost Blizzard,4
+102432030,3,Dracomancer's Rites,4
+109423010,3,Dragon Sanctum,4
+112422010,3,Draconic Core,4
+709422010,3,Draconic Core,4
+120423010,3,Firewyrm Volcano,4
+100511030,3,Apprentice Necromancer,5
+101511030,3,Tenacious Ghost,5
+101511040,3,Rabbit Necromancer,5
+101511050,3,Skeleton Knight,5
+101511090,3,Spartoi,5
+101521030,3,Necroelementist,5
+101521050,3,Goetia Mage,5
+101531020,3,Madame Lich,5
+102511020,3,Deathchaser,5
+102511060,3,Spartoi Soldier,5
+102521040,3,Bone Chimera,5
+103511040,3,Feathered Patroller,5
+103511050,3,Attendant of Night,5
+103511060,3,Zombie Buccaneer,5
+104511040,3,Goblin Zombie,5
+104541010,3,Minthe of the Underworld,5
+106521010,3,"Sora, Martial Artist",5
+107521010,3,Soulcaller,5
+108521010,3,Big Soul Hunter,5
+108531020,3,Everdark Strix,5
+109521010,3,"Fran, Monster Girl",5
+109531010,3,Fiendish Wraithknight,5
+110521020,3,Disciple of Silence,5
+110541020,3,"Rulenye, Omen of Silence",5
+111521020,3,Chris Pumpkinhead,5
+113511020,3,Mechasaw Deathbringer,5
+113531010,3,"Khawy, Underworld Heir",5
+114511020,3,Vengeful Possession,5
+114531010,3,"Helio, Sacrosanct Spirit",5
+114531030,3,Fighting Jiangshi,5
+115511010,3,Zashiki-Warashi,5
+115511030,3,Mummy Chef,5
+115521020,3,Kasha,5
+116511020,3,Spectral Servant,5
+116521010,3,Beastly Medium,5
+116531020,3,Sarcophagus Wraith,5
+117511020,3,Spirit Curator,5
+118511010,3,Grudge Teller,5
+119511020,3,Skullfish,5
+119531020,3,Tri-Head Hound,5
+120511030,3,Four-Armed Corpseknight,5
+120531020,3,Otherworld Gatekeeper,5
+120541010,3,"Ceres, Bride of the Night",5
+121511010,3,Linkstaff Necromancer,5
+121541020,3,"Aenea, Creative Amethyst",5
+122511010,3,Palespine Faithful,5
+122541020,3,Reaper of Madness,5
+123511010,3,Hermit of Silence,5
+123541030,3,"Rulenye, Screaming Silence",5
+124521010,3,Underworld Harvester,5
+124541010,3,"Anisage, Lost Forsaken",5
+125511030,3,Corpse Peddler,5
+125521020,3,Wandering Plaguebearer,5
+125531020,3,"Orthrus, Infernal Fang",5
+126511010,3,Stygian Pizzaiola,5
+126521020,3,Huginn & Muninn,5
+126531020,3,Trick Dullahan,5
+101514030,3,Soul Hunt,5
+101514040,3,Impious Resurrection,5
+101534020,3,Foul Tempest,5
+102514050,3,Deathbrand,5
+103514020,3,Voices of Resentment,5
+103534010,3,Pact with the Nethergod,5
+108524010,3,Poltergeist,5
+112514010,3,Soulsteal,5
+122514010,3,Undead Stampede,5
+715514010,3,Undead Stampede,5
+123524010,3,A Hellish Banquet,5
+102533010,3,Spirit Cycle,5
+102533020,3,Midnight Haunt,5
+112522010,3,Phantasmal Core,5
+709522010,3,Phantasmal Core,5
+100611030,3,Crazed Executioner,6
+101611060,3,Metal Gargoyle,6
+101611070,3,Killer Devil,6
+101611110,3,Demonhand Assassin,6
+101611130,3,Demonic Sniper,6
+101611140,3,Succubus,6
+101621010,3,Devil of Vengeance,6
+101621030,3,Midnight Vampire,6
+101621080,3,Vampire Lykos,6
+101621090,3,Masked Butcher,6
+101631020,3,Demon Commander Laura,6
+102611020,3,Mini Soul Devil,6
+103611050,3,Alpha Wolfman,6
+103621020,3,"Veight, Vampire Noble",6
+104611040,3,Frogbat,6
+105611010,3,Disagreeable Demon,6
+106611020,3,Fanged Serpent,6
+107611020,3,Savage Wolf,6
+107621010,3,Vassago,6
+107621020,3,Pazuzu,6
+107631010,3,Endearing Succubus Lilith,6
+108611010,3,Nightmare Devil,6
+108641030,3,"Waltz, King of Wolves",6
+109611020,3,"Zehek, the Cursebranded",6
+109631030,3,Girtablilu,6
+110641010,3,"Valnareik, Omen of Lust",6
+111611010,3,Furfur,6
+112611030,3,Armored Bat,6
+113611020,3,"Nefilio, Dour Demon",6
+113641020,3,"Yurius, Traitorous Duke",6
+114611020,3,Ogre Champion,6
+114621020,3,Frenzied Werewolf,6
+114641030,3,Kudlak,6
+115621010,3,Cougar Pelt Warrior,6
+115631010,3,Bear Pelt Warrior,6
+115641020,3,"Illya, Queen of Night",6
+116631010,3,Mechashot Devil,6
+116631020,3,Ravening Corruption,6
+117621010,3,Tyrant of Mayhem,6
+117641030,3,Baal,6
+118621020,3,Redcap,6
+118641020,3,"Vuella, Unblemished Wings",6
+119621010,3,"Hallessena, Calamity's Saw",6
+119631030,3,"Ayer, Ashen Brawler",6
+120611010,3,Silversteel Blader,6
+715611010,3,Silversteel Blader,6
+120611030,3,Netherworld Executioner,6
+121611020,3,Madclaw Devil,6
+121641030,3,"Urias, Final Vampire",6
+122611010,3,Covetous Demon Tamer,6
+122621030,3,Dancing Beast Girl,6
+122641020,3,Bloodsucker of the Night,6
+123641010,3,"Yuzuki, Bloodlord",6
+123641030,3,"Valnareik, Lustful Desire",6
+124611030,3,Parkour Werewolf,6
+124631010,3,Deceptive Shapeshifter,6
+125611020,3,Seasoned Devil Hunter,6
+125621020,3,Baleful Venomous Cobra,6
+126611030,3,Demonblade Fiend,6
+126631010,3,"Demonium, Punk Devil",6
+101614030,3,Blood Rage,6
+103634010,3,Sadistic Night,6
+105634010,3,Lethal Blade,6
+106614010,3,Venomous Bite,6
+106634010,3,Trial of the Gorgons,6
+107614010,3,Blood Drinker's Brand,6
+109614010,3,Crimson Desire,6
+111634010,3,Relinquish Reason,6
+708634010,3,Relinquish Reason,6
+112614010,3,Viper Lash,6
+112634010,3,Unleash the Nightmare,6
+116614010,3,Cursebrand Strike,6
+118614010,3,Spiderweb Array,6
+119624010,3,Corrupting Bloodlust,6
+101633010,3,Dire Bond,6
+104633010,3,Blood Moon,6
+105613010,3,Demon Key,6
+110613010,3,Throne of Solitude,6
+112622010,3,Sanguine Core,6
+709622010,3,Sanguine Core,6
+113623010,3,Prison of Pain,6
+101711030,3,Sister Initiate,7
+101711040,3,Dark Priest,7
+101721010,3,Temple Defender,7
+101721020,3,Prism Priestess,7
+101721070,3,Radiant Shaman,7
+101721080,3,Holy Mage,7
+102711020,3,Sky Sprite,7
+102721010,3,Sledgehammer Exorcist,7
+103711030,3,Master Sage,7
+103721040,3,"Damus, Oracle of Iniquity",7
+104731020,3,"Zoe, Queen of Goldenia",7
+105711030,3,White Tiger,7
+106711010,3,Sister of Punishment,7
+106721020,3,Aegina,7
+107741010,3,"Jeanne, Beacon of Salvation",7
+108721010,3,Peaceweaver,7
+109711010,3,Bashful Al-mi'raj,7
+109721020,3,"Sophia, Pious Pilgrim",7
+110711030,3,Servant of Repose,7
+111731010,3,"Marlone, Light of Balance",7
+111731020,3,Sekhmet,7
+112711010,3,Ironknuckle Nun,7
+112741010,3,"Zoe, Queen of Hope",7
+115711030,3,Saintly Griffon,7
+115731010,3,Saintly Leader,7
+115731020,3,"Yukari, Holy Guardian",7
+116711030,3,Fortune Fowl,7
+116721020,3,Radiant Meus,7
+117721010,3,Four-Pillar Tortoise,7
+117731020,3,"Lorena, Iron-Willed Priest",7
+117741020,3,"Sarissa, Luxflash Spear",7
+118711020,3,Enchanted Knight,7
+118731010,3,Vengeful Sniper,7
+119731010,3,"Zahlhamelina, Sun Priestess",7
+120711010,3,Prismawing Featherfolk,7
+120711020,3,Priest of the Flail,7
+120721010,3,Charitable Al-mi'raj,7
+120741010,3,"Jeanne, Despair's Maiden",7
+120741030,3,Abdiel,7
+121711010,3,Eschamali Adviser,7
+121741010,3,"Marlone, Peace Advocate",7
+122741020,3,Holy Saber,7
+123721010,3,Hardplume Warrior,7
+125711030,3,Zlatorog,7
+125741020,3,"Jeanne, Salvation's Maiden",7
+716741010,3,"Jeanne, Despair's Salvation",7
+101714010,3,Power of Protection,7
+101714020,3,Healing Prayer,7
+106724010,3,Star Torrent,7
+109724010,3,Prism Swing,7
+110724010,3,Feather Rush,7
+116734010,3,Major Prayers,7
+120714010,3,Projectile Anointment,7
+100713030,3,Featherwyrm's Descent,7
+101713050,3,Divine Birdsong,7
+102723020,3,Forbidden Ritual,7
+102732020,3,Elana's Prayer,7
+103723010,3,Pegasus Sculpture,7
+104712010,3,Candelabra of Prayers,7
+108733010,3,Whitefang Temple,7
+110732010,3,City of Gold,7
+112722010,3,Saintly Core,7
+709722010,3,Saintly Core,7
+114733010,3,Hallowed Cave Shrine,7
+115723010,3,Feather Sanctuary,7
+123713010,3,Sacred Gavel,7
+123733010,3,Perpetual Despair,7
+126713010,3,Prayer Urn,7
+126723010,3,Grace of Taurus,7
+100811010,3,Toy Soldier,8
+100811030,3,Automaton Knight,8
+107811050,3,Cat Cannoneer,8
+107811060,3,Steel Demolitionist,8
+107811070,3,Iron Staff Mechanic,8
+107811140,3,Cursed Stone,8
+107821040,3,Fervent Machine Soldier,8
+108811030,3,Junk,8
+108831020,3,Devil of the Gaps,8
+109811010,3,"Jessica, Cheerful Cannoneer",8
+109831020,3,"Cucouroux, Green Gunsmith",8
+109841030,3,Malocchio,8
+110811030,3,Servant of Destruction,8
+111811030,3,"Viola, Duchess of Dolls ",8
+111821020,3,Angel of the Iron Steed,8
+111831030,3,"Maisha, Hero of Purgation",8
+112811020,3,Creeping Slime,8
+112831020,3,Puppet Troupemaster,8
+114821020,3,"Ines, Maiden of Clouds",8
+115811020,3,Gravity Grappler,8
+115821020,3,Boost Kicker,8
+115841010,3,"Karula, Arts Master",8
+116811020,3,Magic Gunsmith,8
+116811030,3,Ironclad Armadillo,8
+117811030,3,Steelslash Tiger,8
+117841010,3,"X. Slaus, Wheel of Fortune",8
+118811010,3,Yo-Yo Beam Girl,8
+119811020,3,Surveillance System,8
+119811040,3,Courageous Puppeteer,8
+119841010,3,"Tien, Treacherous Trigger",8
+120821010,3,Puppeteer Duelist,8
+121831010,3,Mega Enforcer,8
+122811010,3,Insightful Homunculus,8
+122831010,3,"Licht, the Gear Magus",8
+124831010,3,Trigger-Happy Puppeteer,8
+124841020,3,Full Blast Gunner,8
+125811020,3,Hydrogunner,8
+126841010,3,"Vyrmedea, Synthetic Voice",8
+107824010,3,Substitution,8
+113814010,3,Puppet Shock,8
+117834010,3,Inverted Manipulation,8
+119824010,3,Kitty-Cat Arsenal,8
+120814010,3,Miscalculation,8
+121834010,3,Nefarious Invasion,8
+124824010,3,Merciless Voiding,8
+125844010,3,Summon Divine Treasure,8
+107813010,3,Tranquil Cog,8
+107813020,3,Puppet Room,8
+112822010,3,Alpha Core,8
+709822010,3,Alpha Core,8
+115823010,3,Box of Puppets,8
+100011040,4,Goliath,0
+101011020,4,Desert Rider,0
+101031010,4,Urd,0
+102021030,4,Humpty Dumpty,0
+103031010,4,Uriel,0
+103031020,4,Goblinbreaker Teena,0
+104021040,4,Impartial Strix,0
+105011030,4,Goblin Leader,0
+105041010,4,"Alice, Wonderland Explorer",0
+107031010,4,Shining Bellringer Angel,0
+108031030,4,Oceanus,0
+109011010,4,"Rackam, Airship Pilot",0
+110031010,4,"Feena, Dynamite Daredevil",0
+110031030,4,"Lyrial, Archer Throne",0
+111011020,4,High Enchantress,0
+112011010,4,"Aldis, Trendsetting Seraph",0
+113011020,4,Great Goliath,0
+115011010,4,Sheep Rider,0
+117011020,4,Winged Courier,0
+117041020,4,"Fieran, Havensent Wind God",0
+119021010,4,"Eugen, Stalwart Skyfarer",0
+120021010,4,Managrocer,0
+121011010,4,Angel of the Gospel,0
+122011010,4,Angel of Cleansing Fire,0
+122021010,4,"Mavela, Budding Pyrotech",0
+124011020,4,Infernal Titan,0
+101014030,4,Demonic Strike,0
+107034010,4,Fall from Grace,0
+113034010,4,Angelic Smite,0
+710034010,4,Angelic Smite,0
+117034010,4,Resolve of the Fallen,0
+713034010,4,Resolve of the Fallen,0
+118034010,4,Embodiment of Cocytus,0
+120034010,4,Frostfire,0
+123024010,4,Goblin Assault,0
+101032010,4,Path to Purgatory,0
+111023010,4,Fortune's Font,0
+100111030,4,Okami,1
+100121030,4,Rose Gardener,1
+101121080,4,Elven Princess Mage,1
+101121090,4,Mana Elk,1
+101131010,4,Petal Fencer,1
+102111040,4,Underbrush Beast Girl,1
+102121010,4,Yuel the Ancient,1
+103111030,4,Fairy Knight,1
+104121030,4,"Vist, Elf Butler",1
+105111010,4,Flower Princess,1
+105121020,4,Snowfield Warrior,1
+105131020,4,Fairy Driver,1
+106121020,4,"Ariana, Natural Tutor",1
+107111020,4,Weald Philosopher,1
+107141010,4,"Aria, Guiding Fairy",1
+704141010,4,"Aria, Guiding Fairy",1
+108111010,4,Elf General,1
+108121010,4,Fashionista Nelcha,1
+109121010,4,Sutera of the Sacred Bow,1
+109131020,4,"Metera, Peerless Shot",1
+110111010,4,Furious Mountain Deity,1
+110121020,4,Disciple of Unkilling,1
+111131020,4,"Lycoris, Poisoner Princess",1
+111131030,4,"Lina & Lena, Twin Souls",1
+111141010,4,"Carbuncle, Immortal Jewel",1
+112121010,4,Ironbow Sniper,1
+113111010,4,Heroic Fairy Champion,1
+114111010,4,Wily Puck,1
+114121010,4,Elven Pikeman,1
+115131010,4,Wildwood Matriarch,1
+116131020,4,Ironglider Elf,1
+117111010,4,Reclusive Ponderer,1
+117131010,4,Chipper Skipper,1
+118121020,4,Varmint Hunter,1
+119111030,4,Blossom Treant,1
+119131020,4,Astoreth,1
+119141010,4,"Tweyen, Dark Huntress",1
+120141010,4,"Aria, Miasma Fairy",1
+121111030,4,Great Tree Elk,1
+121121020,4,Cryptid Keeper,1
+121141020,4,"Ladica, Verdant Claw",1
+122111010,4,Fairy Pathfinder,1
+122141010,4,Brilliant Fairy,1
+715141010,4,Brilliant Fairy,1
+123121020,4,Banesbow Elf,1
+123141020,4,"Piercye, Queen of Frost",1
+124141020,4,Bastion of Seasons,1
+126121010,4,Rose Deer,1
+126121020,4,Strix of the Wayward Wood,1
+126141020,4,"Nobilis, Sable-Lily Queen",1
+101114030,4,Way of the Outlaw,1
+108124010,4,Forest Whispers,1
+109134010,4,Burst Shot,1
+113124010,4,Nature Corroded,1
+117114010,4,Fairy Assault,1
+101122010,4,Harvest Festival,1
+104132010,4,Fairy Cage,1
+116123010,4,Fairy Menhir,1
+100211040,4,White General,2
+100221010,4,Floral Fencer,2
+101211070,4,Courageous Knight,2
+101221030,4,Cursed General,2
+101221100,4,Swordsman,2
+101231010,4,Shadowed Assassin,2
+101231050,4,"Latham, Vanguard Captain",2
+102211060,4,Mirage Defender,2
+103221040,4,"Jeno, Levin Vanguard",2
+103231020,4,"Amelia, Silver Paladin",2
+104211040,4,Vagabond Frog,2
+104221040,4,Shrouded Assassin,2
+104241020,4,Gawain of the Round Table,2
+107221010,4,Frontline Cavalier,2
+109211020,4,Princess Teena,2
+109231010,4,"Dei, Secret Agent ",2
+110211010,4,Battlefield Beauty,2
+110221010,4,Aloadae,2
+111211020,4,Zealot of Usurpation,2
+112221020,4,Mechablade Soldier,2
+112231010,4,Stampeding Fortress,2
+112241010,4,"Lecia, Sky Saber",2
+114241020,4,"Bayleon, Sovereign Light",2
+115231020,4,"Shizuru, Sisterly Sabreur",2
+117231010,4,Prudent General,2
+117241030,4,"Alyaska, War Hawker",2
+118241020,4,"Nahtnaught, Cursed Queen",2
+715241010,4,"Nahtnaught, Cursed Queen",2
+118241030,4,"Walfrid, Sky Captain",2
+119211040,4,Stone Merchant,2
+119241020,4,"Seofon, Star Sword Sovereign",2
+120211020,4,Strikeprone Guardian,2
+120231010,4,"Jeno, Fanged Tyrant ",2
+121211020,4,Brave Buccaneer,2
+121231020,4,Tempest Slayer,2
+122211010,4,Flowing Lancer,2
+122221010,4,Starfall Princess,2
+122221030,4,Dualblade Knight,2
+124231010,4,Leopard Grappler,2
+126221010,4,Mach Knight,2
+126241010,4,Valiant Fencer,2
+101214010,4,Rousing Step,2
+101234010,4,Stratagem,2
+107234010,4,Confront Adversity,2
+113214010,4,Brave Intervention,2
+115214010,4,Breakneck Draw,2
+713214010,4,Breakneck Draw,2
+123214010,4,Cannon Volley,2
+100222010,4,Royal Banner,2
+108213010,4,Frontline Ramparts,2
+100321020,4,Demonflame Mage,3
+101311030,4,Crest Wizard,3
+101311100,4,Veteran Alchemist,3
+101321050,4,Queen Medb,3
+101321070,4,Rune Blade Summoner,3
+101341020,4,Merlin,3
+701341010,4,Merlin,3
+102311020,4,Crystal Bombarder,3
+102321010,4,"Remi & Rami, Witchy Duo",3
+103311040,4,Timeless Witch,3
+104311040,4,Halo Golem,3
+105311020,4,Apprentice Swordmage,3
+106311010,4,Lightning Lancer,3
+106321010,4,"Lorea, Dancer of the Sun",3
+107321010,4,Joycrafter Sammy,3
+108311020,4,Moonshade Mage,3
+108341010,4,"Runie, Destiny's Bard",3
+109331020,4,"Cagliostro, Adorable Genius",3
+109341030,4,"Vesper, Witchhunter",3
+111321020,4,"Palla, Student Teacher",3
+111331020,4,Lovely-Heart Monika,3
+112311020,4,Mechastaff Sorcerer,3
+112341020,4,"Tetra, Sapphire Rebel",3
+113331020,4,"Levi, Accomplished Mage",3
+117311030,4,Piquant Potioneer,3
+117331010,4,Imperator of Magic,3
+118311020,4,Mirror Witch,3
+118331020,4,"Faust, Overzealous Observer",3
+118341020,4,"Vincent, the Peacekeeper",3
+120311020,4,Art Society Magus,3
+121331010,4,Chimera Meister,3
+122311010,4,Forbidden Archives Warden,3
+122331010,4,Witching Moggy,3
+123321020,4,Scroll Wizard,3
+124341010,4,"Yukishima, Master Biographer",3
+125331010,4,"Juno, Atelier Alchemist",3
+126311030,4,Cardslinger,3
+126321020,4,"Mari, Card Conjurer",3
+100314060,4,Conjure Twosome,3
+101314030,4,Fissure Bomb,3
+101334040,4,Fire Chain,3
+103324010,4,Piercing Rune,3
+107334010,4,Nova Flare,3
+109324010,4,Burgeoning Genius,3
+118314010,4,Terra Nova,3
+126324010,4,Mirrored Summoning,3
+101312020,4,Alchemist's Workshop,3
+108323010,4,Summoning Drills,3
+100411030,4,Death Dragon,4
+100421010,4,Dragon Warrior,4
+101411050,4,Glint Dragon,4
+101421020,4,Grim Reaper,4
+101421040,4,Leviathan,4
+101431070,4,Deathmist Dragon,4
+102421020,4,Siegfried,4
+102421040,4,Noxious Dragon,4
+103421030,4,Pyroxene Dragon,4
+104421030,4,Wind Reader Zell,4
+104431030,4,Rahab,4
+105411020,4,Elder Tortoise,4
+107411020,4,Basilisk Rider,4
+107421020,4,Tower Warden Adelle,4
+109431020,4,Pyrewyrm Commander,4
+110411020,4,Draconic Sniper,4
+110421010,4,Griffonback Guard,4
+110431010,4,Apostle of Disdain,4
+110431020,4,Pure-Voiced Dragoon,4
+111411010,4,Geovore,4
+111441010,4,Hastewing Dragonewt,4
+111441030,4,Tlaloc,4
+112411020,4,Mechafin Diver,4
+113421010,4,"Eyfa, Windrider",4
+113431020,4,"Ian, Dragon Buster",4
+114441020,4,"Valdain, Cursed Shadow",4
+714441010,4,"Valdain, Cursed Shadow",4
+115431030,4,Raremetal Dragon,4
+116411010,4,Dragoon Medic,4
+116421010,4,Draconitron,4
+118441030,4,Georgius,4
+119411010,4,Hypersonic Dragonewt,4
+119411020,4,Giant Basilisk,4
+119431010,4,"Razia, Vengeful Cannonlancer",4
+119441010,4,"Threo, Divine Havoc",4
+119441030,4,Tiamat Omega,4
+120421010,4,Flame Pillar Dragonewt,4
+121411030,4,Frost Lizard,4
+121441020,4,"Romelia, Lightning Striker",4
+122441030,4,Brutal Dragonewt,4
+123411030,4,Tentacled Seadevil,4
+125411010,4,Lethal Dragoon Scyther,4
+125431010,4,"Leviathan, the Furious",4
+126411010,4,Lizardback Cavalier,4
+100414030,4,Serpent Wrath,4
+101414030,4,Serpent Force,4
+101424020,4,Draconification,4
+102414030,4,Dragon Counsel,4
+104434010,4,Dragonslayer's Price,4
+107434010,4,Dragonrend Quake,4
+112414010,4,Overwhelming Crush,4
+709414010,4,Overwhelming Crush,4
+117424010,4,Dragon Impact,4
+124414010,4,Dragon Dive,4
+124434010,4,March of the Dragonspring,4
+105412010,4,Dragon Sculpture,4
+100511040,4,Elder Spartoi Soldier,5
+100521010,4,Playful Necromancer,5
+100521020,4,Hell's Unleasher,5
+101511130,4,Guilty Courier,5
+101521040,4,Skull Rider,5
+101531010,4,Wight King,5
+101531030,4,Phantom Dragon,5
+102511030,4,Malicious Ghost,5
+103521020,4,Necroassassin,5
+104521020,4,Orthrus,5
+104521030,4,Prince Catacomb,5
+105521020,4,Nightmare Executioner,5
+105521030,4,Caterpillar of Riddles,5
+105541020,4,Corpselord of Woe,5
+106511020,4,Castor,5
+106531010,4,Ceres of the Night,5
+106541010,4,Twilight Queen,5
+107511020,4,Mummy,5
+108521020,4,Mighty Arm Skeleton,5
+109521030,4,Stygian Warden,5
+110511020,4,Sinister Sarcophagus,5
+110521010,4,"Orthrus, Junior Hellhound",5
+110531020,4,Apostle of Silence,5
+110541030,4,Osiris,5
+111511020,4,Zealot of Silence,5
+111541010,4,"Zebet, Lady of the Flies",5
+112511030,4,Bone Drone,5
+112531020,4,Hellfire Hound,5
+112541020,4,"Aenea, Amethyst Rebel",5
+711541010,4,"Aenea, Amethyst Rebel",5
+113541020,4,"Aisha, Underworld Sovereign",5
+706541010,4,"Aisha, Underworld Sovereign",5
+113541030,4,"Lara, Soul Taker",5
+114511010,4,Soul Snatcher,5
+115531020,4,Shuten-Doji,5
+115541020,4,"Shinobu, Mausoleum Medium",5
+116511010,4,Dancing Ghost,5
+117511010,4,Death Fowl,5
+118521020,4,Abysmal Wraith,5
+118531010,4,Greatpick Corpse,5
+713531010,4,Greatpick Corpse,5
+119521020,4,"Zaja, Delirious Berserker",5
+120531010,4,"Chris, Beyond the Patch",5
+121511030,4,Skull Commander,5
+121521020,4,Flame Zombie,5
+122531020,4,"Suzy, Hexcaster",5
+123521010,4,Ghost Ship,5
+124511020,4,Flogging Necromancer,5
+125511010,4,Attendant of the Abyss,5
+126511030,4,Ship of Mourning Souls,5
+100514020,4,Call of the Void,5
+101524010,4,Curse of Rebirth,5
+101534010,4,Phantom Howl,5
+116524010,4,Fatal Order,5
+713524010,4,Fatal Order,5
+118524010,4,Necroimpulse,5
+713524020,4,Necroimpulse,5
+121524010,4,Balance and Obliteration,5
+125534010,4,Deathly Tyrant's Feast,5
+104533010,4,Death's Ledger,5
+107513010,4,Skull Ring,5
+113523010,4,Fatal Fields,5
+100611050,4,Dark General,6
+704611010,4,"Exella, Dark General",6
+100621020,4,Wardrobe Raider,6
+101611080,4,Raging Giant,6
+101611090,4,Barbaric Demon,6
+101621040,4,Geryon,6
+101631040,4,Righteous Devil,6
+101641020,4,Soul Dealer,6
+102621010,4,Labyrinth Devil,6
+103611040,4,Moriana the Bejeweled,6
+104611030,4,Assault Werewolf,6
+104641010,4,Belphegor,6
+703641010,4,Belphegor,6
+106621010,4,Euryale,6
+106641010,4,Venomfang Medusa,6
+706641010,4,Venomfang Medusa,6
+107631020,4,Terror Demon,6
+109611030,4,Devil Hand,6
+109631020,4,"Narmaya, Ephemeral Blade",6
+110611010,4,Swordserpent Guardian,6
+110621010,4,Dark Elemental,6
+110631020,4,Flauros,6
+110631030,4,"Trill, Devilish Idol",6
+111611020,4,Zealot of Lust,6
+111641010,4,Diabolus Agito,6
+111641030,4,"Laura, Enraged Commander",6
+112611020,4,Berserk Demon,6
+113621020,4,Mechaforge Devil,6
+113631010,4,"Azazel, the Depraved",6
+114621010,4,"Yuna, Vampire Seeker",6
+115641010,4,Aragavy the Berserker,6
+116611020,4,Bloodstained Berserker,6
+116641020,4,"Neun, Daybreak Vampire",6
+117611030,4,Curmudgeon Ogre,6
+117641020,4,"Darhold, Abyssal Contract",6
+118631020,4,"Hazhan, Demonblade Knight",6
+119611040,4,Discerning Devil,6
+119631010,4,Gluttonous Demon,6
+119631020,4,Knight of Purgatory,6
+119641030,4,Shemyaza,6
+120641010,4,"Laura, Crimson Strife",6
+716641010,4,"Laura, Crimson Strife",6
+121621020,4,Demonic Hunter,6
+121631010,4,Devilish Diva,6
+122631020,4,Duskshade Bat,6
+123621020,4,Leomalum,6
+124641020,4,"Paracelise, Demon of Greed",6
+125631010,4,"Veight, Twilit Highborn",6
+126621020,4,Malicious Blader,6
+100614030,4,Crimson Purge,6
+101624010,4,Night Horde,6
+120634010,4,Fangborne Revelation,6
+125624010,4,Sanguine Slash,6
+107622010,4,Devil Blade,6
+118633010,4,Bloodtroth Epitaph,6
+100721020,4,Priest of the Cudgel,7
+101711050,4,Guardian Nun,7
+101711100,4,Canoness,7
+101721040,4,Cruel Priestess,7
+102711030,4,Holy Fox Grimaud,7
+103711060,4,Veteran Tamer,7
+104711020,4,Pure Healer,7
+104711040,4,Octobishop,7
+105711010,4,Birdkeeping Disciple,7
+106711020,4,Starchaser Sprite,7
+107711020,4,Oathplume Warrior,7
+107731010,4,Pegasus Dullahan,7
+110731010,4,Apostle of Repose,7
+110741020,4,"Marwynn, Omen of Repose",7
+110741030,4,Holy Lion of Salvation,7
+111711020,4,Zealot of Repose,7
+112731020,4,"Sonia, Protector of Hope",7
+112741020,4,"Limonia, Flawed Saint",7
+113731010,4,"Kel, Holy Marksman",7
+113741010,4,"Imina, Mad Eidolon",7
+114741010,4,"Daffodil, Meus Princess",7
+115721020,4,Golden Eagle,7
+115741020,4,"Saren, Orphanage Matron",7
+116711020,4,Graywing Featherfolk,7
+116721010,4,Holylight Convert,7
+117711010,4,Priestess of Foresight,7
+118741010,4,"Selena, Sugarkiss Assassin",7
+120721020,4,Lunerian Paladin,7
+715721010,4,Lunerian Paladin,7
+120731020,4,Thornclad Arbiter,7
+121741030,4,"Eris, Atoned Priestess",7
+123711030,4,Caladrius,7
+123741020,4,Bellerophon,7
+123741030,4,"Marwynn, Repose of Despair",7
+124721020,4,Pegasus Knight,7
+717721010,4,Mejiro McQueen,7
+125721020,4,"Lucius, Holy Knight",7
+125741010,4,Imperial Saint,7
+101734030,4,Dark Offering,7
+111724010,4,Manifestation of Repose,7
+111734010,4,Vengeful Radiance,7
+708734010,4,Vengeful Radiance,7
+119724010,4,Redeemer's Cudgel,7
+101713040,4,Pious Fox,7
+101723020,4,Death Sentence,7
+103733010,4,Tribunal of Good and Evil,7
+104723010,4,Iron Maiden,7
+107733010,4,Ancient Protector,7
+108723010,4,Opposing Statues,7
+112713010,4,Fiery Paean,7
+117713010,4,Holybright Altar,7
+118732010,4,Holy Sanctuary,7
+124713010,4,White Eagle Baptism,7
+100811040,4,Ironforged Fighter,8
+100821020,4,Roan Winged Nexx,8
+107811010,4,Mechanical Bowman,8
+107811030,4,Gravikinetic Warrior,8
+107831030,4,Silver Cog Spinner,8
+107831050,4,Morton the Manipulator,8
+108811020,4,Cruel Puppetmaster,8
+110831010,4,Apostle of Destruction,8
+110841010,4,"Lishenna, Omen of Destruction",8
+711841010,4,"Lishenna, Omen of Destruction",8
+110841020,4,Enervating Mail,8
+111831010,4,"Liam, Master of Puppets",8
+112821020,4,Displacer Bot,8
+113811020,4,"Hamelin, Fey Flautist",8
+113821020,4,"Icarus, Sunbound Wing",8
+113831020,4,Aerial Craft,8
+114821010,4,Enhanced Tiger,8
+114841020,4,Absolute Modesty,8
+115831020,4,Fearsome Fortress,8
+116831010,4,Ironsting Archaeologist,8
+117821020,4,Powerlifting Puppeteer,8
+117841020,4,Dimension Dominator,8
+118811030,4,Wretch,8
+118831010,4,"Carnelia, Servant of Darkness",8
+118841030,4,"Sylvia, Grand Arbiter",8
+121811030,4,Tiniest Tank,8
+122841010,4,Genesis Artifact,8
+123811030,4,Mechanical Analyzer,8
+123821020,4,Laser Hawk,8
+123831020,4,Jetpack Gunner,8
+123841030,4,"Lishenna, Melodious Destruction",8
+125821030,4,Eccentric Engineer,8
+100824010,4,Puppeteer's Strings,8
+110834010,4,Destructive Refrain,8
+111824010,4,Alterplane Onslaught,8
+112814010,4,Pull the Strings,8
+116824010,4,Puppet Bomb,8
+116834010,4,Rebel Against Fate,8
+126824010,4,A New Discovery,8
+108822010,4,Crystal Cannon,8
+100011050,5,Angelic Sword Maiden,0
+101021040,5,Goblinmount Demon,0
+101031020,5,Wind God,0
+103021020,5,Fortunehunter Feena,0
+103031030,5,"Lucius, Goblin Slayer",0
+104021020,5,Goblin Princess,0
+105011010,5,"Ephemera, Angelic Slacker",0
+105021020,5,Gruff Mountaineer Captain,0
+105031020,5,"Snow, Whitecat Sage",0
+105031030,5,Hector,0
+106031020,5,Helblindi,0
+106031030,5,Qilin,0
+106041010,5,Loki,0
+107021010,5,Holy Angel Altaia,0
+110031020,5,Apostle of Craving,0
+110041010,5,"Mjerrabaine, Omen of One",0
+114021020,5,Giving Gourmet,0
+115021010,5,"Chaht, Ringside Announcer",0
+117031010,5,Starbright Deity,0
+117031020,5,Archangel of Evocation,0
+118021020,5,Supercharged Guitarist,0
+121031010,5,Cosmic Angel,0
+715031020,5,Cosmic Angel,0
+122031010,5,"Fudoh, Seasoned Pyrotech",0
+123021010,5,Messenger of the Skies,0
+124031010,5,Ogre Weaponmaster,0
+126011020,5,Rhino Man,0
+101024030,5,Execution,0
+102014030,5,Dance of Death,0
+103024010,5,Call of Cocytus,0
+108024010,5,Divine Retribution,0
+111034010,5,Slash of the One,0
+119044010,5,On Wings of Tomorrow,0
+121014010,5,Isunia's Revival,0
+121044010,5,Great Mother's Embrace,0
+112032010,5,Heaven's Gate,0
+100111050,5,Treant,1
+101111080,5,Fairy Caster,1
+101121050,5,Elf Prophetess,1
+101131030,5,Noble Fairy,1
+101131050,5,Robin Hood,1
+102111060,5,Verdant Steward,1
+102141010,5,Crystalia Tia,1
+103121020,5,Pegasus Elf,1
+103121040,5,"Lionel, Elf Prince",1
+103131020,5,Elf of the Gemstones,1
+104131030,5,Jungle Warden,1
+106131010,5,Venus,1
+108131020,5,Swiftgait Okami,1
+109121020,5,Witherwood Guardian,1
+109141010,5,"Korwa, Ravishing Designer",1
+109141020,5,Godhunter Selwyn,1
+110121010,5,Hornet Soldier,1
+110131020,5,Apostle of Unkilling,1
+111121010,5,Forest Defender,1
+111131010,5,"Setus, the Beastblade",1
+112121020,5,Nature's Warden,1
+113111020,5,Dryad of the Grove,1
+114141020,5,"Ladica, the Stoneclaw",1
+714141010,5,"Ladica, the Stoneclaw",1
+116111010,5,Fairy Officer,1
+116131010,5,Windfall Fay,1
+117121010,5,Optimistic Beastmaster,1
+118121010,5,"Carmine, Breaker of Smiles",1
+118141020,5,"Loxis, Homestead Pioneer",1
+118141030,5,"Levon, Scentbound Sword",1
+119111020,5,Greenwood Reindeer,1
+120121010,5,Sunbright Elf,1
+122121010,5,Territorial Lunerian,1
+123111010,5,Hermit of Unkilling,1
+123121010,5,Emerald Wildfox,1
+125121030,5,"Alba, Dark Elf Conductor",1
+125141010,5,Shining Valkyrie,1
+126111020,5,Spiritelementalist,1
+101134010,5,Will of the Forest,1
+122114010,5,Fairy's Aroma,1
+101132010,5,Titania's Sanctuary,1
+100211050,5,Ninja Master,2
+101211080,5,Sentry,2
+101221040,5,Percival,2
+101221060,5,Noble Knight,2
+101241020,5,"Aurelia, Regal Saber",2
+102211040,5,Assault Commander,2
+102211050,5,Avant Blader,2
+103221020,5,"Monika, Cloudhall Admiral",2
+103241010,5,"Albert, Levin Saber",2
+703241010,5,"Albert, Levin Saber",2
+704241010,5,"Albert, Levin Saber",2
+104211030,5,Tristan of the Round Table,2
+104221020,5,Luminous Mage,2
+105211010,5,Kunoichi Master,2
+105231020,5,White Ridge Swordsman,2
+106211030,5,Pollux,2
+106241020,5,Barbarossa,2
+107211010,5,Castle Guardian,2
+109231020,5,Sky Gladiator,2
+110231020,5,Apostle of Usurpation,2
+110231030,5,Giantsbane Swordsman,2
+110241030,5,"Magnolia, Battlefield Muse",2
+112241030,5,Swordflash Panther,2
+113241020,5,"Albert, Levin Champion",2
+114211020,5,Levin Scholar,2
+114221010,5,Swift Tigress,2
+115221010,5,Quickdraw Maven,2
+115241030,5,Luxblade Arriet,2
+116241020,5,"Grayson, Rocket Blader",2
+116241030,5,"Amelia, the Silverflash",2
+117211020,5,Strikelance Knight,2
+118221020,5,Stalwart Slinger,2
+118231010,5,"Reinhardt, the Deathless",2
+118241010,5,"Bunny & Baron, Specter Duo",2
+119211010,5,Victorious Grappler,2
+120211030,5,War Boar,2
+120241010,5,"Albert, Thunderous Doom",2
+123221010,5,Sword General,2
+124241020,5,"Jiemon, Thief Lord",2
+125231030,5,Strategic Commander,2
+125241020,5,"Aurelia, Glorious Saber",2
+101214020,5,Onslaught,2
+103224010,5,Cyclone Blade,2
+105234010,5,Council of Card Knights,2
+106214010,5,Unsheathed Blade,2
+106234010,5,Round Table Assembly,2
+109234010,5,Dragon Knights,2
+111224010,5,Dance of Usurpation,2
+112214010,5,Dualblade Flurry,2
+120234010,5,Swordmaster's Sweep,2
+123244010,5,Musketeers' Vow,2
+126234010,5,Heroic Entry,2
+717234010,5,Heroic Entry,2
+101232010,5,Arthurian Light,2
+104232010,5,Support Cannon,2
+111232010,5,Soldier's Vow,2
+100321030,5,Lightning Shooter,3
+101311080,5,Whirlwind Mage,3
+101321060,5,Flame Witch,3
+101331010,5,Ancient Alchemist,3
+102311060,5,Grand Gargoyle,3
+102341010,5,Sun Oracle Pascale,3
+103311050,5,Ogler,3
+104331020,5,Magic Girl Melvie,3
+105321010,5,Illusionist,3
+105331010,5,"Falise, Leonardian Mage",3
+105341010,5,Wizardess of Oz,3
+706341010,5,Wizardess of Oz,3
+106331020,5,Wild Golem,3
+107331010,5,Class President Hanna,3
+107341010,5,"Mysteria, Magic Founder",3
+108341030,5,Truthseeker Faust,3
+109311020,5,Peacemancer,3
+110341030,5,Orichalcum Golem,3
+111321010,5,Centaur Shaman,3
+112321010,5,"Hanna, Mysterian Paragon",3
+113321020,5,Mechabook Sorcerer,3
+114331020,5,Chaos Wielder,3
+114341030,5,"Medea, Ritual Sorceress",3
+115331020,5,Curse Crafter,3
+116311020,5,Frostrune Knight,3
+117321020,5,Sweetspell Sorcerer,3
+118321010,5,Artistic Arcanist,3
+119311020,5,Crystal Witch,3
+119341030,5,"Aleister, Argenteum Astrum",3
+120311010,5,Cat Summoner,3
+120341020,5,"Ghios, Sparkling Prism",3
+121311030,5,Monstrous Grimoire,3
+123311010,5,Hermit of Truth,3
+123311020,5,Iceshard Beast,3
+123341010,5,"Kuon, Wuxing Master",3
+124311020,5,Chakram Wizard,3
+124331010,5,Tempestuous Alchemist,3
+125311020,5,Elegant Witch,3
+125341030,5,"Anne & Grea, Royal Duo",3
+101314020,5,Fate's Hand,3
+109314020,5,Fate's Hand,3
+709314010,5,Fate's Hand,3
+101324010,5,Golem Protection,3
+101334050,5,Winter's Caprice,3
+102334020,5,Rimewind,3
+107314020,5,Chain Lightning,3
+108314010,5,Staff of Whirlwinds,3
+112314010,5,Golem's Rampage,3
+113324010,5,Disintegration,3
+120334010,5,Whims of Chaos,3
+125314010,5,Blazing Bomb,3
+125324010,5,Sorcerer's Standoff,3
+101332010,5,Conjuring Force,3
+100411020,5,Disaster Dragon,4
+101411070,5,Seabrand Dragon,4
+101421050,5,Lightning Behemoth,4
+102411060,5,Queen Serpent,4
+102421010,5,Transmogrified Wyrm,4
+103411030,5,Cunning Wyvern,4
+104411040,5,Hippocampus,4
+104421020,5,Venomous Pucewyrm,4
+104421040,5,Wrath Drake,4
+104441010,5,Sibyl of the Waterwyrm,4
+703441010,5,Sibyl of the Waterwyrm,4
+106421010,5,Beast Rider,4
+106431010,5,Draconic Singer,4
+108411020,5,Drakewing Assassin,4
+108421020,5,Galua of Two Breaths,4
+109431010,5,True Dragon Scathacha,4
+110441010,5,"Galmieux, Omen of Disdain",4
+711441010,5,"Galmieux, Omen of Disdain",4
+111421010,5,Vile Violet Dragon,4
+112431020,5,Ruinous Dragon,4
+113411020,5,"Zell, Wind Whisperer",4
+114411040,5,Dragonewt Needler,4
+115411030,5,Poisonous Dilophosaurus,4
+115431010,5,Phoenix Empress,4
+116421020,5,Petalspine Stegosaurus,4
+119431020,5,Tempest Dragon,4
+120431010,5,"Roy, Dragonreaver",4
+122421020,5,Frostsage Dragon,4
+123441030,5,"Galmieux, Ardent Disdain",4
+715441020,5,"Galmieux, Ardent Disdain",4
+124441030,5,"Noir & Blanc, Brothers",4
+126441010,5,Lævateinn Dragon,4
+126441020,5,Captain Dragewood,4
+103424010,5,Draconic Fervor,4
+109414010,5,Tail Swing,4
+114434010,5,Phoenix Howl,4
+124424010,5,Aquatic Authority,4
+101432020,5,Phoenix Roost,4
+103412020,5,Dragonclaw Pendant,4
+100511050,5,Gravewaker,5
+101511080,5,Soul Eater,5
+101521060,5,Soul Glutton,5
+101521080,5,Soulhungry Wraith,5
+101521100,5,Dullahan,5
+101541010,5,Cerberus,5
+701541010,5,Cerberus,5
+704541010,5,Cerberus,5
+102511040,5,Commander of Destruction,5
+102521010,5,Charon,5
+102531010,5,Ceridwen,5
+104521040,5,Dolorblade Warrior,5
+105531020,5,Ded Moroz,5
+106511010,5,Dark Bladefiend,5
+702511010,5,Saber Alter,5
+106521030,5,Hresvelgr,5
+107541010,5,Underworld Ruler Aisha,5
+108511020,5,Death the Nyctophile,5
+109511010,5,Melancholic Medium,5
+110511010,5,Netherworld Horseman,5
+110531030,5,"Crow, Regent of Darkness",5
+110541010,5,"Cerberus, Hound of Hades",5
+111511030,5,Marian the Mummy,5
+112521020,5,Robozombie,5
+112541010,5,"Ceres, Eternal Bride",5
+114511040,5,Lonesome Specter,5
+114531020,5,Immortal Elephant,5
+114541010,5,"Lubelle, Necrofamily",5
+116511030,5,Whole-Spirited Necromancer,5
+116541030,5,Nightmare Devourer,5
+117511030,5,Soul Box,5
+117541010,5,"VI. Milteo, The Lovers",5
+716541010,5,"VI. Milteo, The Lovers",5
+121531010,5,Roly-Poly Mk II,5
+123511020,5,Hell's Summoner,5
+123541010,5,"Ginsetsu, Terror Banquet",5
+126541010,5,Masquerade Ghost,5
+126541020,5,"Tochella, Noble Necromancer",5
+107534010,5,"Sow Death, Reap Life",5
+113514010,5,Bone Blast,5
+116534010,5,Friends Forever,5
+120524010,5,Parting of the Flesh,5
+122524010,5,Midnight Greeting,5
+122534010,5,Undead Outbreak,5
+101611100,5,Gluttonous Gorger,6
+101621100,5,Vampire Bard,6
+101631030,5,Erinyes,6
+101641030,5,Beast Dominator,6
+102611060,5,Soul Navigator,6
+102641010,5,Bloody Mary,6
+103621030,5,Squall Lancer,6
+103631030,5,Mastema,6
+104621030,5,Vlad ,6
+104621040,5,Dark Airjammer,6
+105611020,5,Big Knuckle Bodyguard,6
+105621010,5,Scarlet Sabreur,6
+105621030,5,Bandersnatch,6
+106631020,5,Fulminous Demon,6
+106641020,5,Jormungand,6
+107641010,5,Nacht,6
+108611030,5,Delirious Demon,6
+108631010,5,Oldblood King,6
+109631010,5,Evil Eye Demon,6
+109641030,5,Thunder Behemoth,6
+110631010,5,Apostle of Lust,6
+110641030,5,"Milnard, Dark Fiend",6
+111621020,5,Salome,6
+112621020,5,Metal-Blade Demon,6
+112641010,5,"Medusa, Evil-Eyed Serpent",6
+114631010,5,"Sharanzaya, Masked Mayhem",6
+114631030,5,"Balto, Malice Deflector",6
+116611030,5,Aloof Archfiend,6
+116621010,5,Moonlight Vampire,6
+119611020,5,Demonic Berserker,6
+120621020,5,Thunderbolt Fiend,6
+121631020,5,Malevolent Wall,6
+122621010,5,Noble Demoness,6
+123611030,5,Paranoia Devil,6
+126641010,5,Howling Demon,6
+101624020,5,Savage Hunt,6
+101634010,5,Diabolic Drain,6
+117624010,5,Burning Constriction,6
+713624010,5,Burning Constriction,6
+100721010,5,Greater Priestess,7
+101711060,5,Healing Priestess,7
+101721030,5,Cleric Lancer,7
+101721100,5,Shrine Knight Maiden,7
+102711050,5,Pinion Prince,7
+102721030,5,Radiance Angel,7
+103721020,5,Ancient Lion Spirit,7
+103741010,5,Eidolon of Madness,7
+104721020,5,Gravekeeper Sonia,7
+105721010,5,Tenko,7
+106721030,5,Temple Ogre,7
+702721010,5,Berserker,7
+108711030,5,Lycaon,7
+108741020,5,Ceryneian Hind,7
+109711030,5,Angelic Idol,7
+110731020,5,Assault Priest,7
+112711020,5,Featherfolk Gardener,7
+112741030,5,The Untrue God,7
+113711020,5,Steelwing,7
+114711010,5,Greatsword Sister,7
+114731010,5,Master Adjudicator,7
+115711020,5,Calm Featherfolk,7
+115721010,5,Holy Lancer,7
+116741010,5,"Justine, Holy Al-mi'raj",7
+116741030,5,"Garuda, Wings of Paradise",7
+117731010,5,Reverend Adjudicator,7
+117741010,5,"VIII. Sofina, Strength",7
+117741030,5,"Ra, Radiance Incarnate",7
+118721010,5,Shady Priest,7
+118741030,5,Lethal Al-mi'raj,7
+119711030,5,Sword Al-mi'raj,7
+119731020,5,Smilecure Priest,7
+119741020,5,Xeno Vohu Manah,7
+120711030,5,Sacred Groundskeeper,7
+121721020,5,Eschamali Constable,7
+121731010,5,Holy Crystal Archpriest,7
+122711030,5,Saint Flamingo,7
+123731020,5,Unicorn Warrior,7
+124731010,5,Boomerang Sister,7
+717731010,5,Gold Ship,7
+125731020,5,Guide of the Virtuous,7
+126711020,5,Meus Jester,7
+100714030,5,Acolyte's Light,7
+107724010,5,Pure Annihilation,7
+115734010,5,Manifest Devotion,7
+118714010,5,Benevolent Blight,7
+100723010,5,Dual Flames,7
+105723010,5,March Hare's Teatime,7
+108732010,5,Tenko's Shrine,7
+111713010,5,Forgotten Sanctuary,7
+120733010,5,Westmuenster Abbey,7
+107811040,5,Mana Pistol Merc,8
+107811120,5,Masked Puppet,8
+107821090,5,Unidentified Subject,8
+107821100,5,Automaton Soldier,8
+107831020,5,Hakrabi,8
+107841020,5,"Spinaria, Keeper of Enigmas",8
+704841010,5,"Spinaria, Keeper of Enigmas",8
+107841030,5,Deus Ex Machina,8
+108821020,5,"Dirk, Steelarm Battler",8
+109811030,5,Enkidu,8
+109821020,5,"Nicholas, Stalwart Inventor",8
+111811020,5,Zealot of Destruction,8
+111841010,5,"Dyne, Master Swordsman",8
+113841020,5,"Zwei, Resonant Heart",8
+116831020,5,Lasershell Tortoise,8
+117831010,5,Mind Splitter,8
+117841030,5,"Lucille, Keeper of Relics",8
+716841030,5,"Lucille, Keeper of Relics",8
+119831030,5,Mountainous Marionette,8
+120811020,5,Mecha Arm Mechanic,8
+121831020,5,Automachina Maiden,8
+122841020,5,Monolith Creator,8
+123811010,5,Hermit of Destruction,8
+124841010,5,Magna Saber,8
+125831020,5,"Norn, Arbiter of Worlds",8
+126811030,5,Rusted Giant,8
+126821020,5,Alterplane Lifeform,8
+107834010,5,Otherworld Rift,8
+108834010,5,Heartless Battle,8
+109824010,5,Captivating Conductor,8
+109834010,5,Artifact Spark,8
+117814010,5,Pop Goes the Poppet,8
+101031030,6,Angel Crusher,0
+101031040,6,Athena,0
+102011020,6,Raging Ettin,0
+105021030,6,Lion Champion,0
+106011020,6,Mr. Full Moon,0
+108031010,6,Suttungr,0
+109021010,6,"Katalina, Sky Guardian",0
+110011010,6,Sgathaich,0
+112021010,6,"Catherine, Epicurean Angel",0
+113031010,6,"Urd, Goddess of Restoration",0
+114041010,6,Viridia Magna,0
+114041020,6,Shiva,0
+115031010,6,"Mithra, Daybreak Deity",0
+117041010,6,"XXI. Zelgenea, The World",0
+120031010,6,"Grimnir, Voidwrought Wind",0
+121041010,6,"Odin, Twilight's Bane",0
+122041010,6,Jupiter,0
+123041010,6,"Mjerrabaine, Great One",0
+124041020,6,Satanael,0
+125031010,6,Giant Happy Pig,0
+102014040,6,Spellbook Decryption,0
+116014010,6,We've Got a Case!,0
+116033010,6,Mythcleaver,0
+117023010,6,Titanic Showdown,0
+100111070,6,Elf Tracker,1
+100121010,6,Magna Botanist,1
+101121060,6,Elder Treant,1
+101121070,6,Fairy Beast,1
+101141010,6,Fairy Princess,1
+102121030,6,Master of the Canopies,1
+102131010,6,Elf Knight Cynthia,1
+102131020,6,Grand Archer Selwyn,1
+103131030,6,Maahes,1
+104131020,6,Crystalia Aerin,1
+105121030,6,Sylvan Elder,1
+105141010,6,Beauty and the Beast,1
+106111030,6,Ipiria,1
+106121030,6,Dolorblade Demon,1
+106141010,6,Cassiopeia,1
+706141010,6,Cassiopeia,1
+107131020,6,Fairy Saber,1
+108141010,6,Yggdrasil,1
+108141020,6,White Vanara,1
+108141030,6,Greenglen Axeman,1
+111141020,6,Forest Oracle Pascale,1
+112141010,6,"Cynthia, the Queen's Blade",1
+114111020,6,Elven Sentry,1
+116121020,6,Forest Hatcheteer,1
+116141020,6,"Damian, Drillarm Brawler",1
+117141020,6,Terrorformer,1
+118131010,6,Giant Pastures,1
+119141020,6,Xeno Sagittarius,1
+120111030,6,Tower Root Giant,1
+120131020,6,Wildwood Warrior,1
+120141030,6,Gigantic Blossom,1
+121141010,6,"Setus, Sunlit Hero",1
+122111020,6,Whirlwind Lancer,1
+124121020,6,Woodland Pest Control,1
+717121010,6,Silence Suzuka,1
+126141010,6,Cosmos Fang,1
+119124010,6,Nature Consumed,1
+100221020,6,Sage Commander,2
+101211130,6,Warbound Cavalier,2
+101211140,6,Admiral,2
+101241010,6,Sea Queen Otohime,2
+701241010,6,Sea Queen Otohime,2
+101241030,6,Tsubaki,2
+103211040,6,Swordwhip Maid,2
+104221030,6,Jolly Rogers,2
+105211020,6,Axe Destroyer,2
+107241010,6,Darksaber Melissa,2
+706241010,6,Darksaber Melissa,2
+108241030,6,Spartacus,2
+109241010,6,"Zeta, Crimson Lancer",2
+109241030,6,Ironfist Beast Warrior,2
+114231010,6,"Mistolina, Forest Princess",2
+115211010,6,Petalwink Paladin,2
+117241020,6,Diamond Paladin,2
+121231010,6,Frenzied Corpsmaster,2
+122211030,6,Tactical Dog,2
+718211010,6,Tactical Dog,2
+123221020,6,War Hero,2
+125241030,6,Royal Fortress,2
+126211040,6,Calculating Captain,2
+101234020,6,Alwida's Command,2
+101311070,6,Master Alchemist,3
+101311090,6,Spurned Witch,3
+101321010,6,Gem Golem,3
+101321030,6,Witchcrafter Magisa,3
+102321020,6,Shadow Witch,3
+103311060,6,Blade Mage,3
+103321020,6,Disaster Witch,3
+103331030,6,Professor of Taboos,3
+104341020,6,Hulking Giant,3
+703341010,6,Hulking Giant,3
+105321020,6,"Mr. Heinlein, Shadow Mage",3
+105331020,6,Master Mage Levi,3
+106311020,6,Astrologist of the Mist,3
+109341010,6,"Arulumaya, Mystic Seer",3
+109341020,6,Despondent Chimera,3
+111341020,6,Sweet-Tooth Medusa,3
+113341020,6,"Erasmus, Master Summoner",3
+115341020,6,"Karyl, Catty Sorceress",3
+117341020,6,Adamantine Golem,3
+119341020,6,Xeno Ifrit,3
+122331020,6,Great Magician,3
+124341020,6,Arctic Chimera,3
+126321010,6,Magical Knight,3
+101334010,6,Arcane Enlightenment,3
+102334030,6,Calamitous Curse,3
+104334010,6,Mutagenic Bolt,3
+107334020,6,Grand Summoning,3
+110324010,6,Truth's Adjudication,3
+115324010,6,Crimson Meteor Storm,3
+123334010,6,Elimination Unleashed,3
+100411040,6,Dragonguard,4
+101421060,6,Dragonrider Devil,4
+101421100,6,Mist Dragon,4
+101431030,6,Wyvern Cavalier,4
+702431010,6,Chaos Dragonrider AGRS,4
+101441020,6,Dark Dragoon Forte,4
+701441010,6,Dark Dragoon Forte,4
+102411050,6,Island Whale,4
+103421040,6,Owl Guardian,4
+104431020,6,Phoenix Rider Aina,4
+105421010,6,Hippogryph Rider,4
+106411020,6,Scaled Berserker,4
+108411010,6,Twilight Dragoon Coda,4
+109441030,6,Warbreaker Dragoon,4
+113441030,6,"Aiela, Devoted Knight",4
+714441030,6,"Aiela, Devoted Knight",4
+114431010,6,Hoarfrost Triceratops,4
+115421010,6,Jadelong Tactician,4
+116411020,6,Tonfa Dragonewt,4
+116441020,6,Shipsbane Plesiosaurus,4
+116441030,6,"Jerva, Wyrm Transcendent",4
+117431020,6,Eternal Whale,4
+119421010,6,"Ladiva, Champion of Love",4
+120411030,6,Draconic Healer,4
+120431020,6,Empyreal Dragon,4
+120441020,6,"Drache, Fiery Dragonlord",4
+121421020,6,Rock Whale,4
+121441010,6,"Valdain, Forest Shadow",4
+123441020,6,Prosperous Treasure Dragon,4
+124441020,6,Sacred Springs Dragon,4
+125441020,6,"Forte, Darkwing Ruler",4
+104424010,6,Lightning Blast,4
+105424010,6,Draconic Lance,4
+101432010,6,Wyrm Spire,4
+100511060,6,Ghostly Rider,5
+101521070,6,Necropolis Queen,5
+101531040,6,Deathly Tyrant,5
+102541010,6,Lord of the Flies,5
+103531020,6,Balor,5
+104511030,6,Ebon Reaper,5
+105531010,6,"Odile, Black Swan",5
+107531020,6,Skeleton Prince,5
+108541010,6,"Ceridwen, Eternity Hunter",5
+110531010,6,"Charon, Stygian Ferrywoman",5
+117521010,6,Cloistered Sacristan,5
+117541030,6,"Nephthys, Goddess of Amenta",5
+118521010,6,Gold Mine Necromancer,5
+118541030,6,Isis,5
+119511010,6,Lonesome Necromancer,5
+119541030,6,Celeste Omega,5
+120511020,6,Bandage Connoisseur,5
+120541030,6,Ominous Tyrant,5
+122521010,6,Grudge Collector,5
+123521030,6,Adherent of Screams,5
+123541020,6,Chaotic Doom,5
+124521020,6,Skull Centaur,5
+124531010,6,Frigid Necromancer,5
+125531010,6,"Charon, Stygian Demise",5
+717531010,6,"Charon, Stygian Demise",5
+101534030,6,Death's Breath,5
+100611040,6,Imp Lancer,6
+101611120,6,Rampaging Giant,6
+101631060,6,Medusa,6
+101641010,6,Queen Vampire,6
+701641010,6,Queen Vampire,6
+102611030,6,Demonic Thrall,6
+103611060,6,Brazen Demoness,6
+103621040,6,Flood Behemoth,6
+105631020,6,Phantom Cat,6
+105641010,6,"Carabosse, Wicked Fairy",6
+106621020,6,Fenrir,6
+108641010,6,"Vania, Nightshade Vampire",6
+109621020,6,"Pommern, Erste's Pride",6
+111621010,6,Pactbound Demon,6
+112641030,6,"Slayn, Steelwrought Vampire",6
+113631020,6,Heartsick Demon,6
+113631030,6,"Moriana, Shadow Devil",6
+114631020,6,Nightprowl Vampire,6
+114641010,6,"Yuzuki, Righteous Demon",6
+714641010,6,"Yuzuki, Righteous Demon",6
+115611030,6,Giant Cobra,6
+116641010,6,"Nerea, Beast Empress",6
+118611030,6,Roulette Vampire,6
+119641010,6,"Seox, Heavenly Howl",6
+121611030,6,Trampling Terror,6
+122631010,6,Scarlet Vampire,6
+123611020,6,Devilarmed Bladesman,6
+123641020,6,Pain Immortal,6
+124621010,6,Room Service Demon,6
+124631020,6,Demon Bodyguard,6
+125611030,6,Frenzied Demon,6
+125641030,6,"Waltz, Moonlight Wolf-King",6
+126621030,6,Furious Wolf,6
+100624010,6,Demonic Storm,6
+104614010,6,Stolen Life,6
+107634010,6,Reach of the Archdemon,6
+101711070,6,Divine Armor,7
+101721090,6,Angelic Noble,7
+101731020,6,Arch Priestess Laelia,7
+101741020,6,Moon Al-mi'raj,7
+704741010,6,"Ramina, Moon Al-mi'raj",7
+102731010,6,Kaguya,7
+102731030,6,Winged Sentinel Garuda,7
+103731030,6,Valhallan General,7
+104721040,6,Calydonian Boar,7
+104731030,6,Judge of Retribution,7
+104741010,6,Dark Jeanne,7
+105711020,6,Monk of Purification,7
+105721020,6,Eagle Man,7
+105721030,6,Hati,7
+105731010,6,"Odette, White Swan",7
+106721010,6,Star Priestess,7
+106741010,6,Aether of the White Wing,7
+107721010,6,Arch Priestess Cattleya,7
+108741030,6,Tutankhamun,7
+109741010,6,"De La Fille, Gem Princess",7
+111741010,6,"Laina, Sister of Judgment",7
+113721020,6,Heretic Priest,7
+114711020,6,Priest of Excess,7
+115741010,6,"Wilbert, Grand Knight",7
+115741030,6,Goddess of the West Wind,7
+116741020,6,"Vice, Death Grip",7
+117721020,6,Puresong Priest,7
+119741030,6,Frigg,7
+121711030,6,Panda Paladin,7
+121721010,6,Radiant Featherfolk,7
+122741010,6,God of Curses,7
+122741030,6,Sacred Lion,7
+124711020,6,Al-mi'raj Defender,7
+124731020,6,Impious Bishop,7
+124741010,6,All-Feeling Divine,7
+126711010,6,Emerald Maiden,7
+126721020,6,Meus Chef,7
+126741020,6,Holy Lightning Bird,7
+101734010,6,Themis's Decree,7
+112734010,6,Purging Light,7
+101733030,6,Chorus of Prayer,7
+100811050,6,Black Iron Soldier,8
+107811080,6,Captain Meteo,8
+107831010,6,"Safira, Synthetic Beast",8
+109821010,6,"Basileus, Outworld Invader",8
+110841030,6,New Order,8
+112841030,6,"Belphomet, Lord of Aiolon",8
+113811030,6,Mechanical Mammoth,8
+113841030,6,"Orchis, Linked Heart",8
+114831010,6,Cannon Hermit Crab,8
+116841030,6,Bearminator,8
+119811030,6,Toy Mender,8
+120831010,6,"Miriam, Mutinous Being",8
+120841010,6,"Spinaria, Keeper of the End",8
+124841030,6,"Shion, Immortal Aegis",8
+125841010,6,"Orchis, the Limitless",8
+126831010,6,"Zerk, Artifact Dominator",8
+124834010,6,Magna Transformation,8
+101041010,7,Gabriel,0
+102011010,7,Imperial Mammoth,0
+103041020,7,Sahaquiel,0
+104031010,7,"Arriet, Soothing Harpist",0
+106021030,7,Gigas,0
+106041020,7,Zodiac Demon,0
+108041010,7,Marduk,0
+110021010,7,Armored Troll,0
+110041020,7,"Gilnelise, Omen of Craving",0
+111021010,7,"Reina, Evolution's Herald",0
+111031020,7,Steelclad Minotaur,0
+111041020,7,Alterplane Arbiter,0
+112041020,7,"Odin, Wargod Ascendant",0
+115041010,7,"Athena, Divine Shield",0
+116031020,7,Boom Devil,0
+116041020,7,Natur Al'machinus,0
+120011010,7,Herald of the Horn,0
+123011020,7,Mountain Gigas,0
+123031020,7,Thunder God of the Tempest,0
+105014010,7,Eggsplosion,0
+125032010,7,Terra Finis,0
+101121110,7,Forest Archelon,1
+102121040,7,"Baalt, King of the Elves",1
+103111060,7,Forest Gigas,1
+104121040,7,Mighty Dwarf,1
+104141010,7,Elf Queen,1
+110131010,7,Luxglaive Bayle,1
+112131010,7,Mechalance Elf,1
+113141010,7,"Omnis, Prime Okami",1
+714141020,7,"Omnis, Prime Okami",1
+117111030,7,Deepwood Wolf,1
+117131020,7,"Lionel, Woodland Shadow",1
+119131010,7,Primordial Colossus,1
+125141030,7,"Carbuncle, Sacred Emerald",1
+101134030,7,Homecoming,1
+101231040,7,Frontguard General,2
+102221040,7,Koga Kunoichi,2
+104241010,7,Roland the Incorruptible,2
+107241020,7,"Arthur, Knight King",2
+111221010,7,Madlance Centaur,2
+111231020,7,"Alyaska, Master Dealer",2
+111241010,7,Blazing Lion Admiral,2
+112231030,7,"Azord, Duke of the Mists",2
+112241020,7,"Johann, Ironforged Hero",2
+113231020,7,Honored Frontguard General,2
+113241010,7,"Alwida, Pirate Queen",2
+114241010,7,Regal Wildcat,2
+116241010,7,"Patrick, Rhiceros Knight",2
+119231020,7,Average Axeman,2
+119241030,7,Luminiera Omega,2
+121241010,7,Mistolina & Bayleon,2
+122241010,7,Victorious Blader,2
+123231010,7,Claymore Master,2
+717231010,7,Tokai Teio,2
+124211030,7,Hasty Axeman,2
+124231020,7,Noble Shieldmaiden,2
+122234010,7,Coronation,2
+101331020,7,Dragonbond Mage,3
+108331010,7,Snowman King,3
+108331020,7,"Bergent, Onion Patchmaster",3
+109331010,7,"Ms. Miranda, Light Mage",3
+110311020,7,Servant of Truth,3
+110341020,7,"Raio, Omen of Truth",3
+114341010,7,Apex Elemental,3
+115321010,7,Traditional Sorcerer,3
+118321020,7,Golem Marshal,3
+119331010,7,"Pholia, Retired Sovereign",3
+120321020,7,Hurricane Golem,3
+124321020,7,Ruler of Rubble,3
+101314040,7,Twin Guardians,3
+101324020,7,Alchemical Lore,3
+102324030,7,Multipart Experiment,3
+104324010,7,Enchanted Sword,3
+107314010,7,Expel Soul,3
+111334010,7,Edict of Truth,3
+121314010,7,Glimpse Beyond,3
+122334010,7,Imagination Realized,3
+717334010,7,Imagination Realized,3
+101333010,7,Juno's Secret Laboratory,3
+114332010,7,Arcane Item Shop,3
+100421020,7,Dread Dragon,4
+101411080,7,Skull Dragon,4
+101411130,7,Glacial Dragon,4
+101421070,7,Shenlong,4
+101431060,7,Hydra,4
+102431010,7,Neptune,4
+105411030,7,Ebon Beast Warrior,4
+107441010,7,"Zirnitra, Dragon's Flame",4
+109411020,7,Albacore,4
+109441020,7,Adramelech,4
+110441020,7,"Jabberwock, Nightmare Spawn",4
+111441020,7,Dragon Empress Otohime,4
+112421020,7,Wyrmcannon Dragonewt,4
+112441010,7,"Forte, Ruler of the Skies",4
+113421030,7,Helix Mushussu,4
+115411020,7,Trident Merman,4
+115441020,7,"Kaya, Draconine Brawler",4
+118421010,7,Azureflame Dragonewt,4
+119431030,7,Gargouille,4
+122431020,7,Twinfang Dragonewt,4
+122441010,7,Ignis Dragon,4
+715441010,7,Ignis Dragon,4
+123431010,7,Mermaid of Punishment,4
+125411030,7,Hailwyrm,4
+100424010,7,Conflagration,4
+122424010,7,Dragoon's Incitement,4
+105432010,7,Tilting at Windmills,4
+106423010,7,Canyon of the Dragons,4
+100521030,7,Undead King,5
+101511070,7,Cursed Soldier,5
+101511100,7,Orcus,5
+103521040,7,Underworld Watchman Khawy,5
+104541020,7,Demonlord Eachtar ,5
+105511020,7,Mad Hatter,5
+105541010,7,Dark Alice,5
+106541020,7,Mail of Obliteration,5
+107521020,7,Anubis,5
+108531010,7,Fickle Resurrector,5
+108541020,7,Hinterland Ghoul,5
+108541030,7,"Arcus, Ghostly Manager",5
+111531020,7,Gluttonous Empress,5
+112541030,7,Colossal Skull Lord,5
+113521010,7,"Tithi, Underworld Shaman",5
+115541030,7,"Arcus, Soulful Manager",5
+118541020,7,Invincible Monster Trio,5
+119531010,7,"Vaseraga, Shadowed Scythe",5
+121531020,7,Grim Desecrator,5
+124541020,7,"Lakandula, Purgatory Inn",5
+126521030,7,Hydra of Decay,5
+106534010,7,Mist of Extinction,5
+113534010,7,Spectral Cascade,5
+109533010,7,Plagued City,5
+115523010,7,Path to Perdition,5
+100621010,7,Abyss Beast,6
+101621050,7,Alucard,6
+102621020,7,Frenzied Juggernaut,6
+103631020,7,Ice Blade Warfiend,6
+103641010,7,Bloodhungry Matriarch,6
+104631020,7,Soul Dominator,6
+105631010,7,"Emeralda, Demonic Officer",6
+106611010,7,Gunnlod,6
+106631010,7,Stheno,6
+108641020,7,Darkfeast Bat,6
+110641020,7,Calamity Bringer,6
+114641020,7,Cradle of Dark Divinity,6
+117631010,7,Vampire of Calamity,6
+118641010,7,"Volteo, Hedonistic Dealer",6
+119641020,7,Xeno Diablo,6
+120611020,7,Two-Headed Scorpion,6
+120631020,7,Ark Daemon,6
+121641020,7,Omnifaced Archdemon,6
+122621020,7,Arcane Wolf,6
+122641010,7,Dark Emperor,6
+715641010,7,Dark Emperor,6
+122641030,7,Bloodlust Demon,6
+126611010,7,Fashionable Fiend,6
+100711020,7,Curate,7
+101721050,7,White Knight,7
+103711040,7,Soul Collector,7
+103731020,7,Luxhorn Sarissa,7
+105741020,7,Lion of the Golden City,7
+106741020,7,Heresy's Avatar,7
+107741020,7,Heavenly Knight,7
+108741010,7,Godsworn Alexiel,7
+706741010,7,Godsworn Alexiel,7
+110711020,7,Sanctum Keepers,7
+111741020,7,Holylord Eachtar,7
+112731010,7,Father Refinement,7
+114741030,7,"Charaton, Iceflame Priest",7
+118721020,7,Set,7
+118741020,7,"Anvelt, Judgment's Cannon",7
+119711020,7,Sacred Tiger,7
+119721020,7,"Noa, Primal Shipwright",7
+120741020,7,"Jatelant, God of Prosperity",7
+122711020,7,Featherfolk Windcaller,7
+124741030,7,Vajra Champion,7
+125741030,7,"Skullfane, the Defiled",7
+103714010,7,Manifestation of Faith,7
+107821050,7,Colossal Construct,8
+107831060,7,God Bullet Golem,8
+108831010,7,"Zwei, Murderous Puppet",8
+108841020,7,That Which Erases,8
+108841030,7,Electromagical Rhino,8
+109841010,7,"Silva, Ardent Sniper",8
+110811020,7,Silver Automaton,8
+112841010,7,"Gullias, Silverbeast Lord",8
+113831010,7,Artifact Duplicator,8
+113841010,7,Magna Giant,8
+114811010,7,Dazzling Archer,8
+118841020,7,"Iceschillendrig, Gilded Autocrat",8
+716841010,7,"Iceschillendrig, Gilded Autocrat",8
+119841030,7,Colossus Omega,8
+120841020,7,Magna Zero,8
+716841020,7,Magna Zero,8
+121811020,7,Plucky Coil Wrangler,8
+124811030,7,Clown Doll,8
+125841020,7,"Gullias, King of Beasts",8
+126811020,7,Dandy Marionette,8
+101021030,8,Gilgamesh,0
+101041020,8,Lucifer,0
+102031020,8,Archangel Reina,0
+102041020,8,Odin,0
+104031030,8,Earthshock Ogre,0
+106011030,8,Rampaging Mammoth,0
+107041010,8,Chronos,0
+112031010,8,Mechawing Angel,0
+710031010,8,Mechawing Angel,0
+112041010,8,Technolord,0
+113041010,8,"Olivia, Blackened Wing",0
+117011010,8,Pureshot Angel,0
+120041010,8,Sahaquiel & Israfil,0
+124041010,8,"Flame and Glass, Duality",0
+101121100,8,Forest Giant,1
+101131040,8,Ancient Forest Dragon,1
+101141030,8,Rose Queen,1
+103141010,8,White Wolf of Eldwood,1
+104141020,8,Deepwood Anomaly,1
+703141010,8,Deepwood Anomaly,1
+109121030,8,Owlbear,1
+111141030,8,"Bab'zz, Hornet Queen",1
+112141030,8,Lord of the Vajano Marsh,1
+115141010,8,"Lymaga, Forest Champion",1
+122141030,8,King of Vines,1
+101221110,8,Enraged General,2
+101231020,8,Dragonewt Charlotte,2
+102241010,8,Alexander,2
+103231030,8,Fangblade Slayer,2
+104231030,8,Captain Walfrid,2
+105241020,8,Hero of Antiquity,2
+106211020,8,King of the Horned Crown,2
+108241020,8,Sky Fortress,2
+109241020,8,"Latham, Honorable Knight",2
+116211030,8,Impact Soldier,2
+119211030,8,Rampaging Rhino,2
+119241010,8,"Eahta, God of the Blade",2
+120241030,8,"Garven, Iron Dreadnought",2
+125241010,8,Legendary Sword Commander,2
+101341030,8,Arch Summoner Erasmus,3
+103331020,8,"Anne, Belle of Mysteria",3
+104331030,8,Elder Mage of Dragonlore,3
+107341020,8,Silver Blade Golem,3
+109321010,8,Abyss Summoner,3
+112311010,8,Magiblade Witch,3
+113311020,8,Twinblade Mage,3
+115321020,8,Demoncaller,3
+115341030,8,Forbidden Darkmage,3
+116341010,8,"Daria, Infinity Witch",3
+117331020,8,Alchemical Craftschief,3
+119311030,8,Raging Golem,3
+125341010,8,Sorcerer of Seven Forces,3
+100314070,8,Fiery Embrace,3
+713314010,8,Fiery Embrace,3
+123314020,8,Ice Storm,3
+101411090,8,Inferno Dragon,4
+101441030,8,Zirnitra,4
+103431020,8,Grea the Dragonborn,4
+104441020,8,Ouroboros,4
+105441020,8,Jabberwock,4
+107411030,8,Frostfire Dragon,4
+108431020,8,Dragonplate Warrior,4
+109431030,8,Poseidon,4
+111421020,8,"Elios, Loyal Dragoon",4
+111431010,8,Wildflame Dragon,4
+113441020,8,Hulking Dragonewt,4
+114411010,8,Dragonblader,4
+114441010,8,"Neptune, Tidemistress",4
+118411030,8,Pumpkin Dragon,4
+121431020,8,Prophetic Dragon,4
+124431010,8,Frostbite Dragon,4
+112433010,8,Dragon Ranch,4
+101521090,8,Soul Grinder,5
+101531050,8,Mordecai the Duelist,5
+101541030,8,Pluto,5
+103541010,8,Nephthys,5
+703541010,8,Nephthys,5
+104531030,8,Immortal Thane,5
+106521020,8,"Lute, Leonard Necromancer",5
+107531010,8,Death Dragon Caller,5
+107541020,8,Abyss Straddler,5
+111521030,8,Death's Mistress,5
+112531010,8,Baleful Necromancer,5
+114521010,8,"Guilt, Existential Blader",5
+117541020,8,Conquering Dreadlord,5
+119531030,8,Bone Maven,5
+122541010,8,Skeleton Raider,5
+123511030,8,Krampus,5
+110524010,8,Vile Torrent,5
+101631010,8,Furiae,6
+102631010,8,Azazel,6
+104641020,8,Maelstrom Serpent,6
+105641020,8,Spawn of the Abyss,6
+111611030,8,Arion,6
+111641020,8,Crimson Rose Queen,6
+113641010,8,Seductress Vampire,6
+113641030,8,Spawn of Exile,6
+122611030,8,Ball-and-Chain Ogre,6
+101634020,8,Revelation,6
+101711080,8,Masked Giant,7
+101741030,8,Jeanne d'Arc,7
+701741010,8,Jeanne d'Arc,7
+106731020,8,Taurus the Great,7
+110741010,8,"Lapis, Glorious Seraph",7
+711741010,8,"Lapis, Glorious Seraph",7
+114731020,8,"Agnes, Hollow Feather",7
+114741020,8,Iridescent Sphinx,7
+123721020,8,Sacred Ice-Crusher,7
+123731010,8,"Shiro, Cursed Wings",7
+109734010,8,Themis's Purge,7
+102743010,8,Enstatued Seraph,7
+104733010,8,Tarnished Grail,7
+107811110,8,Airship Whale,8
+107831040,8,Empyreal Swordsman,8
+107841010,8,Magna Legacy,8
+108841010,8,"Orchis, Puppet Girl",8
+706841010,8,"Orchis, Puppet Girl",8
+111811010,8,Draco Marionette,8
+112841020,8,"Shion, Mercurial Aegis",8
+114841010,8,Dreadnought Gorilla,8
+116821010,8,Vibrochakram Thrower,8
+116841020,8,"Belphomet, Worldreaver",8
+118831020,8,Committed Conductor,8
+120831020,8,Artifact Carrier,8
+124831020,8,Celestial Artifact,8
+102041010,9,Dark Angel Olivia,0
+104041020,9,Israfil,0
+109041010,9,Proto Bahamut,0
+111041010,9,Prince of Cocytus,0
+115041020,9,Mammoth God's Colosseum,0
+125041010,9,Ultimate Bahamut,0
+109141030,9,Sky Devouring Horror,1
+114141030,9,Primal Giant,1
+119111040,9,Wind Fairy,1
+123131020,9,Whorltusk Mammoth,1
+101134020,9,Silver Bolt,1
+102231030,9,Leonidas,2
+110241020,9,Jiraiya,2
+117211010,9,Selfless Noble,2
+124211020,9,Violent Soldier,2
+101341010,9,Mythril Golem,3
+103341010,9,"Daria, Dimensional Witch",3
+704341010,9,"Daria, Dimensional Witch",3
+104321040,9,Chimera,3
+104341010,9,Wordwielder Ginger,3
+106341020,9,Giant Chimera,3
+108341020,9,Unbodied Witch,3
+110331010,9,"Anne, Mysterian Prodigy",3
+111311020,9,Zealot of Truth,3
+113341010,9,"Ginger, Accursed Word",3
+114331010,9,"Riley, Hydroshaman",3
+116311030,9,Aethereal Golem,3
+120321010,9,Grimoire Sorcerer,3
+122341020,9,Pursuer Golem,3
+123341030,9,"Raio, Truthful Elimination",3
+124324010,9,Dream Come True,3
+717324020,9,Dream Come True,3
+125334010,9,It's Raining Blades!,3
+101431050,9,Orb Dragon,4
+101441010,9,Fafnir,4
+103441010,9,Imperial Dragoon,4
+704441010,9,"Aldos, Imperial Dragoon",4
+105421030,9,Fortress Crab,4
+105441010,9,Wyrm God of the Skies,4
+106421030,9,Cetus,4
+107431020,9,Frenzied Drake,4
+108441010,9,Jerva of Draconic Mail,4
+114441030,9,Wildfire Tyrannosaur,4
+119421020,9,"Ghandagoza, Fist of Rage",4
+120441010,9,"Forte, Sovereign Supreme",4
+123431020,9,Draconic Mercenary,4
+126411030,9,Augite Wyrm,4
+102432020,9,Polyphonic Roar,4
+101541020,9,Lord Atomy,5
+102521020,9,Andras,5
+111541020,9,Corpsewyrm Fafnir,5
+115541010,9,"Ginsetsu, Great Fox",5
+714541010,9,"Ginsetsu, Great Fox",5
+117531010,9,Deathbringer,5
+118531020,9,Philosopher of Death,5
+123531020,9,Spirit Eater,5
+125541010,9,Departed Soultaker,5
+101631050,9,Temptress Vampire,6
+107641020,9,Diabolus Psema,6
+108611020,9,Calamity's Archdemon,6
+115641030,9,Permafrost Behemoth,6
+117641010,9,"XIV. Luzen, Temperance",6
+118611020,9,Fulminating Berserker,6
+125641010,9,Doomlord of the Abyss,6
+101731010,9,Incandescent Dragon,7
+104741020,9,Heavenly Aegis,7
+703741010,9,Heavenly Aegis,7
+109741020,9,"Garuda, Ruler of Storms",7
+109741030,9,"Tzekibaba, Forsaken God",7
+111721010,9,Battlefield Inquisitor,7
+118711030,9,Revolver Eagle,7
+122721010,9,Agent of the Gods,7
+107821060,9,Vengeful Puppeteer Noah,8
+107821080,9,Amethyst Giant,8
+111831020,9,"Tylle, the Worldgate",8
+111841020,9,"Sylvia, the Condemner",8
+115841030,9,Vertex Colony,8
+121841020,9,"Belphomet, Ultimate Creator",8
+714841020,9,"Belphomet, Ultimate Creator",8
+122811030,9,Megastone Guardian,8
+101041030,10,Prince of Darkness,0
+103041010,10,Bahamut,0
+104041010,10,Zeus,0
+105041020,10,Queen of the Dread Sea,0
+113041020,10,"Zeus, the Supreme",0
+118041010,10,"Lucifer, Fallen Angel",0
+119041010,10,"Bahamut, Primeval Dragon",0
+120031020,10,Goddess of Rebirth,0
+106141020,10,King Elephant,1
+110141010,10,"Izudia, Omen of Unkilling",1
+111241030,10,"Dionne, Dancing Blade",2
+711241010,10,"Dionne, Dancing Blade",2
+100321010,10,Flame Destroyer,3
+112331020,10,"Clarke, Knowledge Seeker",3
+122321020,10,Frost Golem,3
+125331020,10,"Craig, Mysterian Chanter",3
+101431020,10,Genesis Dragon,4
+106441020,10,Python,4
+107441020,10,Azi Dahaka,4
+108441020,10,Lindworm,4
+112441030,10,"Dagon, Lord of the Seas",4
+113441010,10,Genesis Dragon of Disaster,4
+117441010,10,"XI. Erntz, Justice",4
+118441010,10,Dragon-Devouring Dread,4
+122411030,10,Orbed Cancer,4
+125441010,10,Infiniflame Dragon,4
+109541020,10,"Mordecai, Eternal Duelist",5
+116541020,10,He Who Once Rocked,5
+119541020,10,Ruinblade Reaper,5
+124531020,10,Ghost Town Apparition,5
+125541030,10,"Mordecai, Unending Duelist",5
+109641020,10,Purson,6
+112631010,10,Destructive Succubus,6
+116641030,10,Ruinweb Spider,6
+123631020,10,Eccentric Archdemon,6
+124641030,10,Lord of Devastation,6
+101741010,10,Skullfane,7
+115841020,10,Omniscient Kaiser,8
+119831020,10,Mobilized Factory,8
+126841020,10,Absolute Chastity,8
+109441010,11,"Zooey, Arbiter of the Skies",4
+118641030,11,Bloodsoaked Archdemon,6
+116141010,12,Awakened Gaia,1
+111541030,12,"Tartarus, the Tormentor",5
+113541010,12,"Hades, Father of Purgatory",5
+122341010,13,Chrono Witch,3
+115341010,15,"Kuon, Founder of Onmyodo",3
+714341010,15,"Kuon, Founder of Onmyodo",3
+126341010,16,Mystic King,3
+119441020,17,"Disrestan, Ocean Harbinger",4
+116341020,18,"Regalore, Steel Chimera",3
+110341010,20,Prophetess of Creation,3
+711341010,20,"Teo, Prophetess of Creation",3
+101334020,20,Dimension Shift,3
+120841030,30,Absolute Tolerance,8
