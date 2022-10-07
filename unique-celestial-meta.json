@@ -190,8 +190,6 @@
                 "Draconic Armor",
                 "Lance Lizard",
                 "Filene, Blizzardous Heart",
-                "Guiding Bellringer Angel",
-                "L\u00e6vateinn Dragon",
                 "Ethica, Firebrand Claw",
                 "Augite Wyrm",
                 "Badb Catha, Trine Goddess"
@@ -331,8 +329,8 @@
                 "Teena, Sacred Sister"
             ]
         },
-        "crystalize_haven": {
-            "name": "crystalize haven",
+        "amulet_haven": {
+            "name": "amulet haven",
             "craft": "haven",
             "feature_cards": [
                 "Holy Lightning Bird",

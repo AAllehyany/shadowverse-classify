@@ -51,13 +51,14 @@ result = requests.get(api, {"format": "json", "lang": "en"})
 json_result = result.json()
 
 cards_list = json_result["data"]["cards"]
+
 cards = [map_card_fields(card) for card in cards_list if card["card_set_id"] < 90000]
 csv_cards = [map_to_db(card) for card in cards_list if card["card_set_id"] < 90000]
 
 
 
-# with open('cards_data.json', 'w') as f:
-#     json.dump(cards, f, indent=4)
+with open('./db/db_data.json', 'w') as f:
+    json.dump(cards_list, f, indent=4)
 
 df = pd.DataFrame(csv_cards, columns=['id', 'cost', 'card_name', 'craft_id'])
 

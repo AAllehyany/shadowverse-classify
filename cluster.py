@@ -20,7 +20,7 @@ cards_data = json.load(f)
 
 def most_common_cards(_deck, k):
     _deck.sort(key=lambda _deck: _deck["copies"], reverse=True)
-    return [f'{card["card_name"]}' for card in _deck[:NUM_TOP_VERS]]
+    return [f'{card["base_id"]}' for card in _deck[:NUM_TOP_VERS]]
 
 
 def decks_by_label(a_label, _labeled):
@@ -78,27 +78,19 @@ def start_cluster(format_name="", num_clusters=4, target_craft="all"):
         km_labels = km.labels_
         labeled_decks = list(zip(vectorizer.decks, km_labels))
 
-        # km = OPTICS(min_samples=12)
-        # km.fit(vectorizer.vectorized)
-        # km_labels = km.labels_
-        # labeled_decks = list(zip(vectorizer.decks, km_labels))
-        # num_clusters = len(set(km_labels)) - (1 if -1 in km_labels else 0)
-        # noise = list(km_labels).count(-1)
-
-        # print(f'We got {num_clusters} clusters. And {noise} noisy samples')
-
         for cluster_id in range(num_clusters):
             cluster_decks = decks_by_label(cluster_id, labeled_decks)
             
             # Get feature cards for this group
             first_deck = cluster_decks[0][0] 
+            
             feature_cards = set(most_common_cards(first_deck, 15))
 
             for deck, _ in decks_by_label(cluster_id, labeled_decks):
                 new_features = set(most_common_cards(deck, 15))
                 feature_cards = feature_cards.intersection(new_features)
 
-            print('\n--- Up to three (3) sample decks from group.')
+            print('\n--- Up to four (4) sample decks from group.')
             three = random.choices(cluster_decks, k=4)
 
             for d in three:
@@ -106,7 +98,7 @@ def start_cluster(format_name="", num_clusters=4, target_craft="all"):
                 [print(f'{card["copies"]}x {card["card_name"]}') for card in sorted_deck]
                 print('---')
             
-            print(f'Most common cards: {feature_cards}')
+            print(f'Most common cards: {id_to_names(list(feature_cards))}')
             name = input(f'[{len(cluster_decks)}] Similar decks. Archetype name: ')
 
 
@@ -146,7 +138,9 @@ def get_list_with_hashes(common_cards):
     return result
 
     
-    
+def id_to_names(cards):
+    print(cards)
+    return [c["card_name"] for c in cards_data if str(c["base_id"]) in cards]
 
     
 if __name__ =="__main__":

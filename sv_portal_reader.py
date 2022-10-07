@@ -90,7 +90,7 @@ class SVPortalParser:
         craft = self.parse_craft(deck_link)
         hash_list = self.prase_hashes(deck_link)
         hash_count = dict(Counter(hash_list))
-        cards_list = [c["card_name"] for c in hashes if c["card_hash"] in hash_list]
+        cards_list = [c["base_id"] for c in hashes if c["card_hash"] in hash_list]
         deck_list = [{
             "card_name": c["card_name"],
             "copies": hash_count[c["card_hash"]],
