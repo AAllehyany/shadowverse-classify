@@ -7,10 +7,10 @@ import random
 import sys
 import pandas as pd
 import numpy as np
-from sklearn.cluster import KMeans, DBSCAN, OPTICS
+from sklearn.cluster import KMeans, DBSCAN, OPTICS, AgglomerativeClustering
 import matplotlib.pyplot as plt
 import argparse
-
+import pandas as pd
 from vectorizer import Vectorizer
 
 NUM_TOP_VERS = 40
@@ -20,7 +20,7 @@ cards_data = json.load(f)
 
 def most_common_cards(_deck, k):
     _deck.sort(key=lambda _deck: _deck["copies"], reverse=True)
-    return [f'{card["base_id"]}' for card in _deck[:NUM_TOP_VERS]]
+    return [f'{card["card_name"]}' for card in _deck[:NUM_TOP_VERS]]
 
 
 def decks_by_label(a_label, _labeled):
@@ -73,19 +73,22 @@ def start_cluster(format_name="", num_clusters=4, target_craft="all"):
             archetypes = output[craft]
 
 
-        km = KMeans(n_clusters=num_clusters)
+        # km = KMeans(n_clusters=num_clusters)
+        # km.fit(vectorizer.vectorized)
+        # km_labels = km.labels_
+        # labeled_decks = list(zip(vectorizer.decks, km_labels))
+
+        km = AgglomerativeClustering(n_clusters=num_clusters, linkage="complete")
         km.fit(vectorizer.vectorized)
         km_labels = km.labels_
         labeled_decks = list(zip(vectorizer.decks, km_labels))
 
         for cluster_id in range(num_clusters):
             cluster_decks = decks_by_label(cluster_id, labeled_decks)
-            
             # Get feature cards for this group
             first_deck = cluster_decks[0][0] 
             
             feature_cards = set(most_common_cards(first_deck, 15))
-
             for deck, _ in decks_by_label(cluster_id, labeled_decks):
                 new_features = set(most_common_cards(deck, 15))
                 feature_cards = feature_cards.intersection(new_features)
@@ -98,7 +101,7 @@ def start_cluster(format_name="", num_clusters=4, target_craft="all"):
                 [print(f'{card["copies"]}x {card["card_name"]}') for card in sorted_deck]
                 print('---')
             
-            print(f'Most common cards: {id_to_names(list(feature_cards))}')
+            print(f'Most common cards: {(list(feature_cards))}')
             name = input(f'[{len(cluster_decks)}] Similar decks. Archetype name: ')
 
 
