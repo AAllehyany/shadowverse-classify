@@ -47,7 +47,7 @@ def analyzer(argv):
             }
 
             for (idx, deck) in enumerate(data["decks"]):
-                result = (deck["craft"], deck["archetype"], deck["link"], data["top"])
+                result = (deck["craft"], deck["archetype"], deck["link"], data["top"], data["name"], data["id"])
                 player[f'deck_{idx+1}'] = deck["archetype"]
                 player[f'link_{idx+1}'] = deck["link"]
                 jcg_decks_data.append(result)
@@ -60,7 +60,9 @@ def analyzer(argv):
                 "craft",
                 "archetype",
                 "deck_link",
-                "score"
+                "score",
+                "player_name",
+                "player_id"
             ]
         )
         outdir = './jcg-data'
