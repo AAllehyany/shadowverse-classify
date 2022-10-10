@@ -31,6 +31,17 @@ def process_samples(sample_file):
     s = open(sample_file)
     return json.load(s)
 
+def cards_frequency(cluster_decks):
+    max_copies = len(cluster_decks) * 3
+    flat = [card for deck in cluster_decks for card in deck]
+    df = pd.DataFrame(flat)
+    grouped = df.groupby('base_id', as_index=False).sum('copies')
+    grouped['weight'] = round(grouped['copies']/max_copies, 2)
+    
+    sorted = grouped.sort_values(by='weight', ascending=False)
+    sorted = sorted[sorted['weight'] > 0.1]
+    # print(f'total decks {len(cluster_decks)} and max is {max_copies}')
+    return sorted[['base_id', 'weight']]
 
 def start_cluster(format_name="", num_clusters=4, target_craft="all"):
     """Clusters each craft into 4 different decks to identify archetypes.
@@ -47,6 +58,8 @@ def start_cluster(format_name="", num_clusters=4, target_craft="all"):
     #     print('Unable to locate samples folder')
     #     sys.exit(2)
     output = {}
+
+    weight_output = {}
 
     decks_csv = glob("samples/*.csv")
     
@@ -67,7 +80,7 @@ def start_cluster(format_name="", num_clusters=4, target_craft="all"):
             continue
         
         archetypes = {}
-        generics = set()
+        archetype_decks = {}
 
         if(craft in output):
             archetypes = output[craft]
@@ -78,17 +91,20 @@ def start_cluster(format_name="", num_clusters=4, target_craft="all"):
         # km_labels = km.labels_
         # labeled_decks = list(zip(vectorizer.decks, km_labels))
 
-        km = AgglomerativeClustering(n_clusters=num_clusters, linkage="complete")
+        km = AgglomerativeClustering(n_clusters=num_clusters, linkage="ward")
         km.fit(vectorizer.vectorized)
         km_labels = km.labels_
         labeled_decks = list(zip(vectorizer.decks, km_labels))
 
         for cluster_id in range(num_clusters):
             cluster_decks = decks_by_label(cluster_id, labeled_decks)
+            cluster_deck_cards = [x for (x, _) in decks_by_label(cluster_id, labeled_decks)]
+            
             # Get feature cards for this group
             first_deck = cluster_decks[0][0] 
             
             feature_cards = set(most_common_cards(first_deck, 15))
+            
             for deck, _ in decks_by_label(cluster_id, labeled_decks):
                 new_features = set(most_common_cards(deck, 15))
                 feature_cards = feature_cards.intersection(new_features)
@@ -115,15 +131,35 @@ def start_cluster(format_name="", num_clusters=4, target_craft="all"):
                 "feature_cards": featured_list
             }
 
-            if a_id in archetypes:
-                cards1 = archetypes[a_id]["feature_cards"]
-                featured_list.extend(cards1)
-                cards2 = set(featured_list)
-                archetypes[a_id]["feature_cards"] = list(cards2)
+            if a_id in archetype_decks: 
+                archetype_decks[a_id].extend(cluster_deck_cards)
             else:
-                archetypes[a_id] = archetype
+                archetype_decks[a_id] = cluster_deck_cards
 
-        output[craft] = archetypes
+            # if a_id in archetypes:
+            #     cards1 = archetypes[a_id]["feature_cards"]
+            #     featured_list.extend(cards1)
+            #     cards2 = set(featured_list)
+            #     archetypes[a_id]["feature_cards"] = list(cards2)
+            # else:
+            #     archetypes[a_id] = archetype
+
+            # cards_frequency(archetype_decks[a_id])
+
+        # output[craft] = archetypes
+
+        for (archetype, decks) in archetype_decks.items():
+            if(archetype in output):
+                prev_weights = pd.DataFrame(output[archetype])
+                new_weights = cards_frequency(decks)
+                result = pd.concat([prev_weights, new_weights]).groupby('base_id', as_index=False).agg({'weight': 'mean'})
+                output[archetype] = result.to_dict('records')
+            else:
+                result = cards_frequency(decks)
+                output[archetype] = result.to_dict('records')
+
+        # weight_output[craft] = archetypes
+
 
 
     #out put details into a file
