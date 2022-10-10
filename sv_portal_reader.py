@@ -65,7 +65,7 @@ class SVPortalParser:
         craft = self.parse_craft(deck_link)
         hash_list = self.prase_hashes(deck_link)
         hash_count = dict(Counter(hash_list))
-        cards_list = [c["card_name"] for c in hashes if c["card_hash"] in hash_list]
+        cards_list = [int(c["base_id"]) for c in hashes if c["card_hash"] in hash_list]
         deck_list = [(c["card_name"], hash_count[c["card_hash"]], c["card_hash"]) for c in hashes if c["card_hash"] in hash_list]
 
         archetype = self.find_archetype(cards_list, craft)
@@ -90,7 +90,7 @@ class SVPortalParser:
         craft = self.parse_craft(deck_link)
         hash_list = self.prase_hashes(deck_link)
         hash_count = dict(Counter(hash_list))
-        cards_list = [c["card_name"] for c in hashes if c["card_hash"] in hash_list]
+        cards_list = [int(c["base_id"]) for c in hashes if c["card_hash"] in hash_list]
         deck_list = [{
             "card_name": c["card_name"],
             "copies": hash_count[c["card_hash"]],
@@ -121,25 +121,26 @@ class SVPortalParser:
         craft : str
             the craft the deck belongs to
         """
-
-        if craft not in self.archetypes:
-            return ""
         
-        craft_archetypes = self.archetypes[craft]
+        archetypes = self.archetypes
         current_score = 0
         current_archetype = ""
 
-        for (name, details) in craft_archetypes.items():
-            archetype_score = 0
-            for card in details["feature_cards"]:
-                _card = card
-                for hash in cards:
-                    if hash == _card:
-                        archetype_score += 1
+        for (name, details) in archetypes.items():
 
-            if archetype_score > current_score:
-                current_score = archetype_score
-                current_archetype = name  
+            if craft in name: 
+                archetype_score = 0
+                
+                for card in details:
+                    _card = card["base_id"]
+                    for hash in cards:
+                        if hash == _card:
+                            archetype_score += 1*card["weight"]
+
+                print(f'Score for {name} is {archetype_score}')
+                if archetype_score > current_score:
+                    current_score = archetype_score
+                    current_archetype = name  
 
         
         return current_archetype
