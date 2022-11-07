@@ -1,0 +1,5 @@
+app: 1024134572675444736
+pub: 92f72acaa6aa0306cba6c310d0eb27eb642fefd0d3bfec16ebe18e75a62f8419
+tok: MTAyNDEzNDU3MjY3NTQ0NDczNg.GlWHjI.WCTMcq4gsvCsw_QmpYoYOR-wwA0ICimMOQG8w0
+
+url : https://discord.com/api/oauth2/authorize?client_id=1024134572675444736&permissions=2147485696&scope=bot%20applications.commands

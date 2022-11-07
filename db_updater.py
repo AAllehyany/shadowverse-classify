@@ -60,7 +60,7 @@ csv_cards = [map_to_db(card) for card in cards_list if card["card_set_id"] < 900
 with open('./db/db_data.json', 'w') as f:
     json.dump(cards_list, f, indent=4)
 
-df = pd.DataFrame(csv_cards, columns=['id', 'cost', 'card_name', 'craft_id'])
+# df = pd.DataFrame(csv_cards, columns=['id', 'cost', 'card_name', 'craft_id'])
 
-df.to_csv('./db/cards-master.csv', index=False)
+# df.to_csv('./db/cards-master.csv', index=False)
 

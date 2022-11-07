@@ -66,20 +66,19 @@ class SVPortalParser:
         hash_list = self.prase_hashes(deck_link)
         hash_count = dict(Counter(hash_list))
         cards_list = [int(c["base_id"]) for c in hashes if c["card_hash"] in hash_list]
-        deck_list = [(c["card_name"], hash_count[c["card_hash"]], c["card_hash"]) for c in hashes if c["card_hash"] in hash_list]
-
-        archetype = self.find_archetype(cards_list, craft)
+        deck_list = [(c["card_name"], hash_count[c["card_hash"]], c["base_id"], c["card_hash"]) for c in hashes if c["card_hash"] in hash_list]
+        archetype = self.find_archetype(cards_list, craft) if self.archetypes else "unknown"
 
         deck_data = {
             "link": deck_link,
             "archetype": archetype,
             "craft": craft,
-            "cards_df": deck_list
+            "deck_list": deck_list
         }
 
         return deck_data
 
-    def parse_deck_json(self, deck_link):
+    def parse_deck_json(self, deck_link, player_id):
         """Returns info about the parsed deck
 
         Parameters
@@ -91,14 +90,10 @@ class SVPortalParser:
         hash_list = self.prase_hashes(deck_link)
         hash_count = dict(Counter(hash_list))
         cards_list = [int(c["base_id"]) for c in hashes if c["card_hash"] in hash_list]
-        deck_list = [{
-            "card_name": c["card_name"],
-            "copies": hash_count[c["card_hash"]],
-            "base_id": c["base_id"],
-            "hash": c["card_hash"]
-        } for c in hashes if c["card_hash"] in hash_list]
+        deck_list = [(c["card_name"], hash_count[c["card_hash"]], c["base_id"],c["card_hash"]) 
+        for c in hashes if c["card_hash"] in hash_list]
 
-        self.decks.append({"craft": craft, "deck_list":deck_list})
+        self.decks.append({"craft": craft, "deck_list":deck_list, "player_id": player_id})
 
         archetype = self.find_archetype(cards_list, craft)
 

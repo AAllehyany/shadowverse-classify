@@ -57,13 +57,7 @@ class JCGScraper:
             parsed_decks = []
             for deck in decks:
                 parsed = self.sv_portal_praser.parse_deck(deck)
-
-                deck_data = {
-                    "link": parsed["link"],
-                    "archetype": parsed["archetype"],
-                    "craft": parsed["craft"],
-                }
-                parsed_decks.append(deck_data)
+                parsed_decks.append(parsed)
             
             player_dict = {
                 "name": name,
@@ -106,7 +100,7 @@ class JCGScraper:
 
             parsed_decks = []
             for deck in decks:
-                parsed = self.sv_portal_praser.parse_deck_json(deck)
+                parsed = self.sv_portal_praser.parse_deck_json(deck, id)
 
                 deck_data = {
                     "link": parsed["link"],
@@ -158,7 +152,7 @@ class JCGScraper:
         
         
 
-    def scrape_results(self):
+    def scrape_results(self, rest=False):
         self.driver.get(self.results_link)
         time.sleep(2)  # Allow 2 seconds for the web page to open
         entries = self.driver.find_elements(By.CSS_SELECTOR, '.result-1')
@@ -171,17 +165,18 @@ class JCGScraper:
             if id in self.entry_decks:
                 self.entry_decks[id]["top"] += 2
 
-        for entry in second_places:
-            user = entry.find_element(By.CLASS_NAME, 'result-name')
-            id = user.find_element(By.TAG_NAME, 'a').get_attribute('href').split('/')[-1]
-            if id in self.entry_decks:
-                self.entry_decks[id]["top"] += 1
+        if rest:
+            for entry in second_places:
+                user = entry.find_element(By.CLASS_NAME, 'result-name')
+                id = user.find_element(By.TAG_NAME, 'a').get_attribute('href').split('/')[-1]
+                if id in self.entry_decks:
+                    self.entry_decks[id]["top"] += 1
 
-        for entry in third_fourth:
-            user = entry.find_element(By.CLASS_NAME, 'result-name')
-            id = user.find_element(By.TAG_NAME, 'a').get_attribute('href').split('/')[-1]
-            if id in self.entry_decks:
-                self.entry_decks[id]["top"] += 0.5
+            for entry in third_fourth:
+                user = entry.find_element(By.CLASS_NAME, 'result-name')
+                id = user.find_element(By.TAG_NAME, 'a').get_attribute('href').split('/')[-1]
+                if id in self.entry_decks:
+                    self.entry_decks[id]["top"] += 0.5
         
             
         
