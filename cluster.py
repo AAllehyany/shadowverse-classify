@@ -19,8 +19,8 @@ f = open('db/cards_data.json')
 cards_data = json.load(f)
 
 def most_common_cards(_deck, k):
-    _deck.sort(key=lambda _deck: _deck["copies"], reverse=True)
-    return [f'{card["card_name"]}' for card in _deck[:NUM_TOP_VERS]]
+    _deck.sort(key=lambda _deck: _deck[1], reverse=True)
+    return [f'{card[0]}' for card in _deck[:NUM_TOP_VERS]]
 
 
 def decks_by_label(a_label, _labeled):
@@ -33,11 +33,10 @@ def process_samples(sample_file):
 
 def cards_frequency(cluster_decks):
     max_copies = len(cluster_decks) * 3
-    flat = [card for deck in cluster_decks for card in deck]
-    df = pd.DataFrame(flat)
+    flat = [[card[0], int(card[1]), card[2], card[3]] for deck in cluster_decks for card in deck]
+    df = pd.DataFrame(flat, columns=['card_name', 'copies', 'base_id', 'hash'])
     grouped = df.groupby('base_id', as_index=False).sum('copies')
     grouped['weight'] = round(grouped['copies']/max_copies, 2)
-    
     sorted = grouped.sort_values(by='weight', ascending=False)
     sorted = sorted[sorted['weight'] > 0.1]
     # print(f'total decks {len(cluster_decks)} and max is {max_copies}')
@@ -61,12 +60,12 @@ def start_cluster(format_name="", num_clusters=4, target_craft="all"):
 
     weight_output = {}
 
-    decks_csv = glob("samples/*.csv")
+    decks_csv = glob("deck-samples/*.csv")
     
     decks_vectorizer = Vectorizer(cards_data)
     decks_vectorizer.initialize()
-    # decks_vectorizer.vectorize_from_sample(decks_csv)
-    decks_vectorizer.vectorize_from_json(process_samples('./deck-samples/samples.json'))
+    decks_vectorizer.vectorize_from_sample(decks_csv)
+    # decks_vectorizer.vectorize_from_json(process_samples('./deck-samples/samples.json'))
     vectorizers = decks_vectorizer.vectorizers
 
     
@@ -113,8 +112,8 @@ def start_cluster(format_name="", num_clusters=4, target_craft="all"):
             three = random.choices(cluster_decks, k=4)
 
             for d in three:
-                sorted_deck = sorted(d[0], key=lambda i: i["card_name"])
-                [print(f'{card["copies"]}x {card["card_name"]}') for card in sorted_deck]
+                sorted_deck = sorted(d[0], key=lambda i: i[0])
+                [print(f'{card[1]}x {card[0]}') for card in sorted_deck]
                 print('---')
             
             print(f'Most common cards: {(list(feature_cards))}')

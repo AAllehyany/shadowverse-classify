@@ -71,7 +71,7 @@ class Vectorizer:
     def vectorize_from_sample(self, sample_folder):
         for n in sample_folder:
             craft = n.split(os.sep)[1]
-            craft = craft.split('-')[0]
+            craft = craft.split('-')[2]
             df = pd.read_csv(n, header=None)
             df_list = df.values.tolist()
             df_list = df_list[1:]
@@ -94,7 +94,7 @@ class ClassVectorizer:
         vector = [0]*len(self.card_pool)
 
         for (idx, name) in enumerate(self.card_pool):
-            for [card, copies, _] in deck:
+            for [card, copies, _base_id, _hash] in deck:
                 if card == name:
                     vector[idx] += int(copies)
 
